@@ -1,0 +1,29 @@
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 4077086
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) 133169152
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4077086
+virtual memory          (kbytes, -v) 127000000
+file locks                      (-x) unlimited
+Options for the verification:
+  Generating some trace
+  Search order is random depth first
+  Using conservative space optimisation
+  Seed is 1557182637
+  State space representation uses minimal constraint systems
+  Using HashMap + Compress integers for discrete state storage
+
+Verifying formula 1 at ../queries/SP_300_83_4.q:1
+Out of memory. See 
+http://bugsy.grid.aau.dk/bugzilla3/show_bug.cgi?id=63
+for more information.
+executionTime: 6006

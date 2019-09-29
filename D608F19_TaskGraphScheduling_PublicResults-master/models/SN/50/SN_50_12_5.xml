@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/researchgroup/darts/uppaal/flat-1_2.dtd'>
+<nta>
+<declaration>//Variables
+const int numberOfChains = 19;
+const int numberOfTasks = 50;
+const int numberOfMachines = 5;
+const int maxDependencies = 10;
+const int longestChain = 7;
+const int globalChainSize[numberOfChains] = {6,7,4,2,3,3,2,4,2,1,3,3,3,1,2,1,1,1,1};
+const int globalChains[numberOfChains][longestChain] = {
+{0,3,4,31,38,49,-1},
+{1,5,21,24,26,43,44},
+{2,42,46,48,-1,-1,-1},
+{6,29,-1,-1,-1,-1,-1},
+{7,8,28,-1,-1,-1,-1},
+{9,32,37,-1,-1,-1,-1},
+{10,45,-1,-1,-1,-1,-1},
+{11,20,34,41,-1,-1,-1},
+{12,22,-1,-1,-1,-1,-1},
+{13,-1,-1,-1,-1,-1,-1},
+{14,25,47,-1,-1,-1,-1},
+{15,30,36,-1,-1,-1,-1},
+{16,17,39,-1,-1,-1,-1},
+{18,-1,-1,-1,-1,-1,-1},
+{19,35,-1,-1,-1,-1,-1},
+{23,-1,-1,-1,-1,-1,-1},
+{27,-1,-1,-1,-1,-1,-1},
+{33,-1,-1,-1,-1,-1,-1},
+{40,-1,-1,-1,-1,-1,-1}};
+int chainDuration[numberOfChains] = {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};
+int durations[numberOfTasks] = {1,3,7,3,6,5,1,1,4,6,13,5,4,2,1,4,4,1,9,4,15,5,1,1,1,9,2,4,6,19,6,4,13,6,7,1,2,8,4,2,4,1,10,12,3,2,3,2,4,12};
+const int dependencies[numberOfTasks][maxDependencies] = {
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{0,2,-1,-1,-1,-1,-1,-1,-1,-1},
+{0,3,-1,-1,-1,-1,-1,-1,-1,-1},
+{1,4,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{1,4,7,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{2,3,-1,-1,-1,-1,-1,-1,-1,-1},
+{5,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{8,10,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{10,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{7,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{6,16,-1,-1,-1,-1,-1,-1,-1,-1},
+{5,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{11,12,-1,-1,-1,-1,-1,-1,-1,-1},
+{3,5,7,14,-1,-1,-1,-1,-1,-1},
+{6,12,-1,-1,-1,-1,-1,-1,-1,-1},
+{2,3,-1,-1,-1,-1,-1,-1,-1,-1},
+{0,1,21,-1,-1,-1,-1,-1,-1,-1},
+{10,14,24,-1,-1,-1,-1,-1,-1,-1},
+{4,6,14,23,24,-1,-1,-1,-1,-1},
+{21,26,-1,-1,-1,-1,-1,-1,-1,-1},
+{6,8,14,20,21,-1,-1,-1,-1,-1},
+{6,21,24,-1,-1,-1,-1,-1,-1,-1},
+{3,15,19,-1,-1,-1,-1,-1,-1,-1},
+{0,2,3,4,15,-1,-1,-1,-1,-1},
+{9,17,-1,-1,-1,-1,-1,-1,-1,-1},
+{17,26,32,-1,-1,-1,-1,-1,-1,-1},
+{15,20,21,32,-1,-1,-1,-1,-1,-1},
+{6,10,17,19,-1,-1,-1,-1,-1,-1},
+{11,30,33,-1,-1,-1,-1,-1,-1,-1},
+{2,8,10,26,27,30,32,-1,-1,-1},
+{11,15,28,31,33,37,-1,-1,-1,-1},
+{3,17,19,24,32,-1,-1,-1,-1,-1},
+{6,31,34,-1,-1,-1,-1,-1,-1,-1},
+{8,21,30,32,33,34,38,-1,-1,-1},
+{1,2,17,18,23,28,33,34,38,41},
+{0,8,20,24,26,27,32,37,40,-1},
+{6,15,23,29,34,35,38,42,43,-1},
+{1,10,16,20,27,31,32,36,-1,-1},
+{11,14,18,19,26,28,31,39,42,-1},
+{12,15,20,23,25,-1,-1,-1,-1,-1},
+{32,41,46,47,-1,-1,-1,-1,-1,-1},
+{0,4,5,17,24,38,39,42,43,47}};
+
+
+int availableMachines = numberOfMachines;
+
+// Typedefs
+typedef int[0, numberOfChains - 1] chainId_t;
+
+// Ints and Arrays
+int numberOfChainsDone = 0;
+int tasksDone[numberOfTasks];
+bool runnableChains[numberOfChains];
+bool assignmentChoice[numberOfChains];
+
+// Channels
+broadcast chan startMachines;
+broadcast chan chainMachineChan[numberOfChains];
+broadcast chan activateChains;</declaration>
+	<template>
+		<name x="5" y="5">Composer</name>
+		<declaration>// Place local declarations here.
+clock time;</declaration>
+		<location id="id0" x="-102" y="-255">
+			<name x="-112" y="-289">Init</name>
+			<label kind="invariant" x="-246" y="-238">numberOfChainsDone &lt;= numberOfChains</label> 
+ <label kind="exponentialrate" x="-112" y="-221">0</label>
+		</location>
+		<location id="id1" x="331" y="-255">
+			<name x="321" y="-289">Done</name>
+		</location>
+		<init ref="id0"/>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id1"/>
+			<label kind="guard" x="-17" y="-289">numberOfChainsDone &gt;= numberOfChains</label>
+		</transition>
+	</template>
+	<template>
+		<name>Chain</name>
+		<parameter>const chainId_t cid</parameter>
+		<declaration>clock x;
+const int chainSize = globalChainSize[cid];
+int index = 0;
+
+bool AllDependenciesDone()
+{
+    bool dependenciesDone = 1;
+    int i;
+    for (i = 0; i &lt; maxDependencies; i++)
+    {
+        int value = dependencies[globalChains[cid][index]][i];
+        if (value == -1)
+            return dependenciesDone;
+
+        dependenciesDone &amp;= tasksDone[value];
+    }
+    return dependenciesDone;
+}</declaration>
+		<location id="id2" x="-68" y="-238">
+			<name x="-78" y="-272">Idle</name>
+			<label kind="exponentialrate" x="-51" y="-255">3</label>
+		</location>
+		<location id="id3" x="-76" y="51">
+			<name x="-102" y="68">Running</name>
+			<label kind="invariant" x="-178" y="85">x &lt;= durations[globalChains[cid][index]]</label>
+		</location>
+		<location id="id4" x="-450" y="-238">
+			<name x="-460" y="-272">Done</name>
+		</location>
+		<init ref="id2"/>
+		<transition controllable="false">
+			<source ref="id2"/>
+			<target ref="id4"/>
+			<label kind="guard" x="-399" y="-280">index &gt;= chainSize &amp;&amp;
+x &gt;= durations[globalChains[cid][index - 1]]</label>
+			<label kind="assignment" x="-399" y="-238">numberOfChainsDone++</label>
+		</transition>
+		<transition controllable="false">
+			<source ref="id3"/>
+			<target ref="id2"/>
+			<label kind="guard" x="-450" y="-127">x &gt;= durations[globalChains[cid][index]]</label>
+			<label kind="assignment" x="-450" y="-110">availableMachines++,
+tasksDone[globalChains[cid][index]] = 1,
+index++</label>
+			<nail x="-161" y="-85"/>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id3"/>
+			<label kind="guard" x="34" y="-127">index &lt; chainSize &amp;&amp;
+availableMachines &gt; 0 &amp;&amp; AllDependenciesDone()</label>
+			<label kind="assignment" x="34" y="-85">availableMachines--,
+x = 0</label>
+			<nail x="17" y="-85"/>
+		</transition>
+	</template>
+	<system>// Place template instantiations here.
+
+// List one or more processes to be composed into a system.
+system Composer, Chain;
+    </system>
+	<queries>
+		<query>
+			<formula>strategy TimeSchedule = minE (Composer.time) [&lt;=57] : &lt;&gt;Composer.Done</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>inf{Composer.Done} : Composer.time</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>A&lt;&gt; Composer.Done</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>E&lt;&gt; Composer.Done</formula>
+			<comment></comment>
+		</query>
+	</queries>
+</nta>

@@ -1,0 +1,28 @@
+500_140, optimal,CP_min,CP_q1,CP_q2,CP_q3,CP_max,CP_time,CN_min,CN_q1,CN_q2,CN_q3,CN_max,CN_time,SP_min,SP_q1,SP_q2,SP_q3,SP_max,SP_time,SN_min,SN_q1,SN_q2,SN_q3,SN_max,SN_time
+2,2016,2016,2018,2021,2025,2037,1,2016,2018,2020,2025,2039,1,,,,,,,,,,,,
+4,1008,1011,1028,1036,1045,1091,1,1011,1018,1022,1028,1047,1,,,,,,,,,,,,
+8,512,590,609,615,625,655,1,571,586,594,600,631,1,,,,,,,,,,,,
+16,512,512,515,521,531,583,1,512,512,512,512,515,1,,,,,,,,,,,,
+# Standard Task Graph Set Project
+# Random Task Graph 500//tmp/500/rand0140.stg
+# Precedence constraints generator : layrprob
+#   Random Seed       : 2652
+#   Tasks             : 500 (+dummy tasks : 2)
+#   Layers            : 50
+#   Max. Layer Width  : 21
+#   Min. Layer Width  : 4
+#   Ave. Layer Width  : 10.000000
+#   Edges             : 11157 / 122212 (+dummy edges : 27)
+#   Max. Predecessors : 55
+#   Min. Predecessors : 0
+#   Ave. Predecessors : 22.314000
+#   Probability       : 0.091478 (Real : 0.091292)
+# Task processing time generator : expo2pks
+#   Random Seed       : 2651
+#   Max. Proc. Time   : 44
+#   Min. Proc. Time   : 1
+#   Ave. Proc. Time(1): 5.000000
+#   Ave. Proc. Time(2): 10.000000 (Real : 8.064000)
+#   Probability of Av1: 0.500000
+# CP Length           : 512
+# Parallelism         : 7.875000
