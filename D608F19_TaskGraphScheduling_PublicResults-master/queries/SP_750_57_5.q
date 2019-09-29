@@ -1,0 +1,2 @@
+strategy TimeSchedule = minE (Composer.time) [<=2195] : <>Composer.Done
+simulate 2000 [<=1882] {Composer.Done} under TimeSchedule

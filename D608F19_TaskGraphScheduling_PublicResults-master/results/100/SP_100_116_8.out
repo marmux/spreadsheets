@@ -1,0 +1,2029 @@
+Options for the verification:
+  Generating some trace
+  Search order is random depth first
+  Using conservative space optimisation
+  Seed is 1556188163
+  State space representation uses minimal constraint systems
+  Using HashMap + Compress integers for discrete state storage
+[2K
+Verifying formula 1 at ../queries/SP_100_116_8.q:1
+ -- Throughput: 6036 states/sec, Load: 4 runs[K -- Throughput: 6029 states/sec, Load: 8 runs[K -- Throughput: 6124 states/sec, Load: 12 runs[K -- Throughput: 6100 states/sec, Load: 16 runs[K -- Throughput: 6024 states/sec, Load: 20 runs[K -- Throughput: 5891 states/sec, Load: 24 runs[K -- Throughput: 6059 states/sec, Load: 28 runs[K -- Throughput: 6035 states/sec, Load: 32 runs[K -- Throughput: 5965 states/sec, Load: 36 runs[K -- Throughput: 6072 states/sec, Load: 40 runs[K -- Throughput: 5997 states/sec, Load: 44 runs[K -- Throughput: 5814 states/sec, Load: 48 runs[K -- Throughput: 6066 states/sec, Load: 52 runs[K -- Throughput: 5968 states/sec, Load: 56 runs[K -- Throughput: 5970 states/sec, Load: 60 runs[K -- Throughput: 6032 states/sec, Load: 64 runs[K -- Throughput: 6061 states/sec, Load: 68 runs[K -- Throughput: 6058 states/sec, Load: 72 runs[K -- Throughput: 6064 states/sec, Load: 76 runs[K -- Throughput: 6081 states/sec, Load: 80 runs[K -- Throughput: 6085 states/sec, Load: 84 runs[K -- Throughput: 6020 states/sec, Load: 88 runs[K -- Throughput: 6057 states/sec, Load: 92 runs[K -- Throughput: 5767 states/sec, Load: 96 runs[K -- Throughput: 6089 states/sec, Load: 100 runs[K -- Throughput: 6066 states/sec, Load: 104 runs[K -- Throughput: 6015 states/sec, Load: 108 runs[K -- Throughput: 6088 states/sec, Load: 112 runs[K -- Throughput: 6058 states/sec, Load: 116 runs[K -- Throughput: 6070 states/sec, Load: 120 runs[K -- Throughput: 6135 states/sec, Load: 124 runs[K -- Throughput: 6031 states/sec, Load: 128 runs[K -- Throughput: 6062 states/sec, Load: 132 runs[K -- Throughput: 6091 states/sec, Load: 136 runs[K -- Throughput: 5987 states/sec, Load: 140 runs[K -- Throughput: 6079 states/sec, Load: 144 runs[K -- Throughput: 6039 states/sec, Load: 148 runs[K -- Throughput: 6081 states/sec, Load: 152 runs[K -- Throughput: 6025 states/sec, Load: 156 runs[K -- Throughput: 6098 states/sec, Load: 160 runs[K -- Throughput: 6011 states/sec, Load: 164 runs[K -- Throughput: 6146 states/sec, Load: 168 runs[K -- Throughput: 6075 states/sec, Load: 172 runs[K -- Throughput: 6050 states/sec, Load: 176 runs[K -- Throughput: 6152 states/sec, Load: 180 runs[K -- Throughput: 6051 states/sec, Load: 185 runs[K -- Throughput: 6106 states/sec, Load: 189 runs[K -- Throughput: 6049 states/sec, Load: 193 runs[K -- Throughput: 5449 states/sec, Load: 197 runs[K -- Throughput: 5683 states/sec, Load: 199 runs[K -- Throughput: 8125 states/sec, Load: 199 runs[K -- Throughput: 7691 states/sec, Load: 199 runs[K -- Throughput: 7856 states/sec, Load: 199 runs[K -- Throughput: 7884 states/sec, Load: 199 runs[K -- Throughput: 7971 states/sec, Load: 199 runs[K -- Throughput: 7785 states/sec, Load: 199 runs[K -- Throughput: 7797 states/sec, Load: 199 runs[K -- Throughput: 7533 states/sec, Load: 199 runs[K -- Throughput: 7800 states/sec, Load: 199 runs[K -- Throughput: 7754 states/sec, Load: 199 runs[K -- Throughput: 7798 states/sec, Load: 199 runs[K -- Throughput: 7803 states/sec, Load: 199 runs[K -- Throughput: 7767 states/sec, Load: 199 runs[K -- Throughput: 7650 states/sec, Load: 199 runs[K -- Throughput: 7911 states/sec, Load: 199 runs[K -- Throughput: 7662 states/sec, Load: 199 runs[K -- Throughput: 7872 states/sec, Load: 199 runs[K -- Throughput: 7762 states/sec, Load: 199 runs[K -- Throughput: 7859 states/sec, Load: 199 runs[K -- Throughput: 4415 states/sec, Load: 3 runs[K -- Throughput: 5947 states/sec, Load: 5 runs[K -- Throughput: 5943 states/sec, Load: 9 runs[K -- Throughput: 6040 states/sec, Load: 13 runs[K -- Throughput: 5994 states/sec, Load: 17 runs[K -- Throughput: 6053 states/sec, Load: 21 runs[K -- Throughput: 6035 states/sec, Load: 25 runs[K -- Throughput: 5994 states/sec, Load: 29 runs[K -- Throughput: 6073 states/sec, Load: 33 runs[K -- Throughput: 5972 states/sec, Load: 37 runs[K -- Throughput: 6032 states/sec, Load: 41 runs[K -- Throughput: 6027 states/sec, Load: 45 runs[K -- Throughput: 6059 states/sec, Load: 49 runs[K -- Throughput: 6102 states/sec, Load: 53 runs[K -- Throughput: 6086 states/sec, Load: 57 runs[K -- Throughput: 5969 states/sec, Load: 61 runs[K -- Throughput: 5944 states/sec, Load: 65 runs[K -- Throughput: 6049 states/sec, Load: 69 runs[K -- Throughput: 5958 states/sec, Load: 73 runs[K -- Throughput: 5981 states/sec, Load: 77 runs[K -- Throughput: 5957 states/sec, Load: 81 runs[K -- Throughput: 6043 states/sec, Load: 85 runs[K -- Throughput: 6034 states/sec, Load: 89 runs[K -- Throughput: 6014 states/sec, Load: 93 runs[K -- Throughput: 6001 states/sec, Load: 97 runs[K -- Throughput: 6042 states/sec, Load: 101 runs[K -- Throughput: 6077 states/sec, Load: 105 runs[K -- Throughput: 6048 states/sec, Load: 109 runs[K -- Throughput: 6009 states/sec, Load: 113 runs[K -- Throughput: 6075 states/sec, Load: 117 runs[K -- Throughput: 6008 states/sec, Load: 121 runs[K -- Throughput: 6175 states/sec, Load: 125 runs[K -- Throughput: 6049 states/sec, Load: 129 runs[K -- Throughput: 6048 states/sec, Load: 133 runs[K -- Throughput: 6070 states/sec, Load: 137 runs[K -- Throughput: 6068 states/sec, Load: 142 runs[K -- Throughput: 5995 states/sec, Load: 146 runs[K -- Throughput: 5999 states/sec, Load: 149 runs[K -- Throughput: 5939 states/sec, Load: 153 runs[K -- Throughput: 6011 states/sec, Load: 157 runs[K -- Throughput: 6055 states/sec, Load: 161 runs[K -- Throughput: 6021 states/sec, Load: 165 runs[K -- Throughput: 6083 states/sec, Load: 169 runs[K -- Throughput: 6100 states/sec, Load: 173 runs[K -- Throughput: 6019 states/sec, Load: 177 runs[K -- Throughput: 6011 states/sec, Load: 181 runs[K -- Throughput: 6012 states/sec, Load: 185 runs[K -- Throughput: 6024 states/sec, Load: 189 runs[K -- Throughput: 5976 states/sec, Load: 193 runs[K -- Throughput: 5326 states/sec, Load: 197 runs[K -- Throughput: 6177 states/sec, Load: 199 runs[K -- Throughput: 7719 states/sec, Load: 199 runs[K -- Throughput: 7614 states/sec, Load: 199 runs[K -- Throughput: 7744 states/sec, Load: 199 runs[K -- Throughput: 7878 states/sec, Load: 199 runs[K -- Throughput: 7647 states/sec, Load: 199 runs[K -- Throughput: 7756 states/sec, Load: 199 runs[K -- Throughput: 7724 states/sec, Load: 199 runs[K -- Throughput: 7818 states/sec, Load: 199 runs[K -- Throughput: 7795 states/sec, Load: 199 runs[K -- Throughput: 7865 states/sec, Load: 199 runs[K -- Throughput: 7731 states/sec, Load: 199 runs[K -- Throughput: 7819 states/sec, Load: 199 runs[K -- Throughput: 7806 states/sec, Load: 199 runs[K -- Throughput: 7683 states/sec, Load: 199 runs[K -- Throughput: 7887 states/sec, Load: 199 runs[K -- Throughput: 7670 states/sec, Load: 199 runs[K -- Throughput: 7718 states/sec, Load: 199 runs[K -- Throughput: 7746 states/sec, Load: 199 runs[K -- Throughput: 7921 states/sec, Load: 199 runs[K -- Throughput: 7149 states/sec, Load: 3 runs[K -- Throughput: 6166 states/sec, Load: 7 runs[K -- Throughput: 6190 states/sec, Load: 12 runs[K -- Throughput: 6090 states/sec, Load: 16 runs[K -- Throughput: 6095 states/sec, Load: 20 runs[K -- Throughput: 6109 states/sec, Load: 24 runs[K -- Throughput: 6106 states/sec, Load: 28 runs[K -- Throughput: 6062 states/sec, Load: 32 runs[K -- Throughput: 6185 states/sec, Load: 36 runs[K -- Throughput: 6044 states/sec, Load: 40 runs[K -- Throughput: 6113 states/sec, Load: 44 runs[K -- Throughput: 6162 states/sec, Load: 48 runs[K -- Throughput: 6128 states/sec, Load: 52 runs[K -- Throughput: 6173 states/sec, Load: 57 runs[K -- Throughput: 6111 states/sec, Load: 61 runs[K -- Throughput: 6010 states/sec, Load: 65 runs[K -- Throughput: 6082 states/sec, Load: 69 runs[K -- Throughput: 5903 states/sec, Load: 73 runs[K -- Throughput: 6062 states/sec, Load: 77 runs[K -- Throughput: 6068 states/sec, Load: 81 runs[K -- Throughput: 6081 states/sec, Load: 85 runs[K -- Throughput: 6005 states/sec, Load: 89 runs[K -- Throughput: 6075 states/sec, Load: 93 runs[K -- Throughput: 6090 states/sec, Load: 97 runs[K -- Throughput: 5998 states/sec, Load: 101 runs[K -- Throughput: 6039 states/sec, Load: 105 runs[K -- Throughput: 6005 states/sec, Load: 109 runs[K -- Throughput: 6129 states/sec, Load: 113 runs[K -- Throughput: 6058 states/sec, Load: 117 runs[K -- Throughput: 6020 states/sec, Load: 121 runs[K -- Throughput: 5983 states/sec, Load: 125 runs[K -- Throughput: 6079 states/sec, Load: 129 runs[K -- Throughput: 6059 states/sec, Load: 133 runs[K -- Throughput: 6061 states/sec, Load: 137 runs[K -- Throughput: 6005 states/sec, Load: 141 runs[K -- Throughput: 6028 states/sec, Load: 145 runs[K -- Throughput: 6095 states/sec, Load: 149 runs[K -- Throughput: 6017 states/sec, Load: 153 runs[K -- Throughput: 6099 states/sec, Load: 157 runs[K -- Throughput: 6031 states/sec, Load: 161 runs[K -- Throughput: 6072 states/sec, Load: 165 runs[K -- Throughput: 6098 states/sec, Load: 169 runs[K -- Throughput: 6111 states/sec, Load: 173 runs[K -- Throughput: 6039 states/sec, Load: 177 runs[K -- Throughput: 5997 states/sec, Load: 181 runs[K -- Throughput: 6145 states/sec, Load: 185 runs[K -- Throughput: 6073 states/sec, Load: 189 runs[K -- Throughput: 6076 states/sec, Load: 193 runs[K -- Throughput: 6041 states/sec, Load: 197 runs[K -- Throughput: 6280 states/sec, Load: 199 runs[K -- Throughput: 7568 states/sec, Load: 199 runs[K -- Throughput: 7737 states/sec, Load: 199 runs[K -- Throughput: 7785 states/sec, Load: 199 runs[K -- Throughput: 7750 states/sec, Load: 199 runs[K -- Throughput: 7771 states/sec, Load: 199 runs[K -- Throughput: 7595 states/sec, Load: 199 runs[K -- Throughput: 7740 states/sec, Load: 199 runs[K -- Throughput: 7674 states/sec, Load: 199 runs[K -- Throughput: 7726 states/sec, Load: 199 runs[K -- Throughput: 7545 states/sec, Load: 199 runs[K -- Throughput: 7749 states/sec, Load: 199 runs[K -- Throughput: 7864 states/sec, Load: 199 runs[K -- Throughput: 7764 states/sec, Load: 199 runs[K -- Throughput: 7858 states/sec, Load: 199 runs[K -- Throughput: 7861 states/sec, Load: 199 runs[K -- Throughput: 7765 states/sec, Load: 199 runs[K -- Throughput: 7621 states/sec, Load: 199 runs[K -- Throughput: 7656 states/sec, Load: 199 runs[K -- Throughput: 7717 states/sec, Load: 199 runs[K -- Throughput: 6792 states/sec, Load: 3 runs[K -- Throughput: 6197 states/sec, Load: 8 runs[K -- Throughput: 6088 states/sec, Load: 12 runs[K -- Throughput: 6100 states/sec, Load: 16 runs[K -- Throughput: 6110 states/sec, Load: 20 runs[K -- Throughput: 6169 states/sec, Load: 24 runs[K -- Throughput: 6052 states/sec, Load: 28 runs[K -- Throughput: 6064 states/sec, Load: 32 runs[K -- Throughput: 6121 states/sec, Load: 36 runs[K -- Throughput: 6116 states/sec, Load: 40 runs[K -- Throughput: 6041 states/sec, Load: 44 runs[K -- Throughput: 6125 states/sec, Load: 48 runs[K -- Throughput: 6091 states/sec, Load: 52 runs[K -- Throughput: 6113 states/sec, Load: 56 runs[K -- Throughput: 6165 states/sec, Load: 60 runs[K -- Throughput: 6155 states/sec, Load: 65 runs[K -- Throughput: 6088 states/sec, Load: 69 runs[K -- Throughput: 6085 states/sec, Load: 73 runs[K -- Throughput: 6034 states/sec, Load: 77 runs[K -- Throughput: 6084 states/sec, Load: 81 runs[K -- Throughput: 6099 states/sec, Load: 85 runs[K -- Throughput: 6070 states/sec, Load: 89 runs[K -- Throughput: 6076 states/sec, Load: 93 runs[K -- Throughput: 6103 states/sec, Load: 97 runs[K -- Throughput: 6069 states/sec, Load: 101 runs[K -- Throughput: 6076 states/sec, Load: 105 runs[K -- Throughput: 6028 states/sec, Load: 109 runs[K -- Throughput: 6017 states/sec, Load: 113 runs[K -- Throughput: 6050 states/sec, Load: 117 runs[K -- Throughput: 5993 states/sec, Load: 121 runs[K -- Throughput: 6080 states/sec, Load: 125 runs[K -- Throughput: 6034 states/sec, Load: 129 runs[K -- Throughput: 6035 states/sec, Load: 133 runs[K -- Throughput: 6124 states/sec, Load: 137 runs[K -- Throughput: 6050 states/sec, Load: 141 runs[K -- Throughput: 6106 states/sec, Load: 145 runs[K -- Throughput: 6077 states/sec, Load: 149 runs[K -- Throughput: 6110 states/sec, Load: 153 runs[K -- Throughput: 6075 states/sec, Load: 157 runs[K -- Throughput: 6126 states/sec, Load: 161 runs[K -- Throughput: 6137 states/sec, Load: 165 runs[K -- Throughput: 6027 states/sec, Load: 169 runs[K -- Throughput: 6110 states/sec, Load: 174 runs[K -- Throughput: 6129 states/sec, Load: 178 runs[K -- Throughput: 5981 states/sec, Load: 182 runs[K -- Throughput: 6077 states/sec, Load: 186 runs[K -- Throughput: 5997 states/sec, Load: 190 runs[K -- Throughput: 6083 states/sec, Load: 194 runs[K -- Throughput: 6032 states/sec, Load: 198 runs[K -- Throughput: 6442 states/sec, Load: 199 runs[K -- Throughput: 7524 states/sec, Load: 199 runs[K -- Throughput: 7772 states/sec, Load: 199 runs[K -- Throughput: 7806 states/sec, Load: 199 runs[K -- Throughput: 7843 states/sec, Load: 199 runs[K -- Throughput: 7783 states/sec, Load: 199 runs[K -- Throughput: 7592 states/sec, Load: 199 runs[K -- Throughput: 7700 states/sec, Load: 199 runs[K -- Throughput: 7760 states/sec, Load: 199 runs[K -- Throughput: 7743 states/sec, Load: 199 runs[K -- Throughput: 7798 states/sec, Load: 199 runs[K -- Throughput: 7853 states/sec, Load: 199 runs[K -- Throughput: 7842 states/sec, Load: 199 runs[K -- Throughput: 7777 states/sec, Load: 199 runs[K -- Throughput: 7750 states/sec, Load: 199 runs[K -- Throughput: 7635 states/sec, Load: 199 runs[K -- Throughput: 7804 states/sec, Load: 199 runs[K -- Throughput: 7553 states/sec, Load: 199 runs[K -- Throughput: 7752 states/sec, Load: 199 runs[K -- Throughput: 7793 states/sec, Load: 199 runs[K -- Throughput: 4999 states/sec, Load: 5 runs[K -- Throughput: 6030 states/sec, Load: 8 runs[K -- Throughput: 6084 states/sec, Load: 12 runs[K -- Throughput: 6104 states/sec, Load: 16 runs[K -- Throughput: 6077 states/sec, Load: 20 runs[K -- Throughput: 6111 states/sec, Load: 24 runs[K -- Throughput: 6058 states/sec, Load: 28 runs[K -- Throughput: 6114 states/sec, Load: 32 runs[K -- Throughput: 6099 states/sec, Load: 36 runs[K -- Throughput: 6097 states/sec, Load: 40 runs[K -- Throughput: 6021 states/sec, Load: 44 runs[K -- Throughput: 6113 states/sec, Load: 48 runs[K -- Throughput: 6084 states/sec, Load: 52 runs[K -- Throughput: 6153 states/sec, Load: 56 runs[K -- Throughput: 6160 states/sec, Load: 61 runs[K -- Throughput: 6144 states/sec, Load: 65 runs[K -- Throughput: 6087 states/sec, Load: 69 runs[K -- Throughput: 6035 states/sec, Load: 73 runs[K -- Throughput: 6017 states/sec, Load: 77 runs[K -- Throughput: 6082 states/sec, Load: 81 runs[K -- Throughput: 6009 states/sec, Load: 85 runs[K -- Throughput: 6060 states/sec, Load: 89 runs[K -- Throughput: 6049 states/sec, Load: 93 runs[K -- Throughput: 6088 states/sec, Load: 97 runs[K -- Throughput: 6073 states/sec, Load: 101 runs[K -- Throughput: 6093 states/sec, Load: 105 runs[K -- Throughput: 6011 states/sec, Load: 109 runs[K -- Throughput: 6090 states/sec, Load: 113 runs[K -- Throughput: 6081 states/sec, Load: 117 runs[K -- Throughput: 6037 states/sec, Load: 121 runs[K -- Throughput: 6039 states/sec, Load: 125 runs[K -- Throughput: 6020 states/sec, Load: 129 runs[K -- Throughput: 6047 states/sec, Load: 133 runs[K -- Throughput: 6086 states/sec, Load: 137 runs[K -- Throughput: 6071 states/sec, Load: 141 runs[K -- Throughput: 6095 states/sec, Load: 145 runs[K -- Throughput: 5992 states/sec, Load: 149 runs[K -- Throughput: 6039 states/sec, Load: 153 runs[K -- Throughput: 6099 states/sec, Load: 158 runs[K -- Throughput: 6041 states/sec, Load: 161 runs[K -- Throughput: 6140 states/sec, Load: 165 runs[K -- Throughput: 6093 states/sec, Load: 170 runs[K -- Throughput: 6082 states/sec, Load: 174 runs[K -- Throughput: 6075 states/sec, Load: 178 runs[K -- Throughput: 6056 states/sec, Load: 182 runs[K -- Throughput: 6063 states/sec, Load: 186 runs[K -- Throughput: 6004 states/sec, Load: 190 runs[K -- Throughput: 6033 states/sec, Load: 194 runs[K -- Throughput: 6067 states/sec, Load: 198 runs[K -- Throughput: 6372 states/sec, Load: 199 runs[K -- Throughput: 7752 states/sec, Load: 199 runs[K -- Throughput: 7649 states/sec, Load: 199 runs[K -- Throughput: 7739 states/sec, Load: 199 runs[K -- Throughput: 7661 states/sec, Load: 199 runs[K -- Throughput: 7695 states/sec, Load: 199 runs[K -- Throughput: 7733 states/sec, Load: 199 runs[K -- Throughput: 7815 states/sec, Load: 199 runs[K -- Throughput: 7679 states/sec, Load: 199 runs[K -- Throughput: 7790 states/sec, Load: 199 runs[K -- Throughput: 7729 states/sec, Load: 199 runs[K -- Throughput: 7825 states/sec, Load: 199 runs[K -- Throughput: 7691 states/sec, Load: 199 runs[K -- Throughput: 7764 states/sec, Load: 199 runs[K -- Throughput: 7741 states/sec, Load: 199 runs[K -- Throughput: 7785 states/sec, Load: 199 runs[K -- Throughput: 7641 states/sec, Load: 199 runs[K -- Throughput: 7822 states/sec, Load: 199 runs[K -- Throughput: 7845 states/sec, Load: 199 runs[K -- Throughput: 7833 states/sec, Load: 199 runs[K -- Throughput: 6839 states/sec, Load: 4 runs[K -- Throughput: 5996 states/sec, Load: 8 runs[K -- Throughput: 6177 states/sec, Load: 12 runs[K -- Throughput: 6132 states/sec, Load: 16 runs[K -- Throughput: 6173 states/sec, Load: 20 runs[K -- Throughput: 6147 states/sec, Load: 24 runs[K -- Throughput: 6163 states/sec, Load: 28 runs[K -- Throughput: 6197 states/sec, Load: 33 runs[K -- Throughput: 6097 states/sec, Load: 37 runs[K -- Throughput: 6142 states/sec, Load: 41 runs[K -- Throughput: 6082 states/sec, Load: 45 runs[K -- Throughput: 6074 states/sec, Load: 49 runs[K -- Throughput: 6008 states/sec, Load: 53 runs[K -- Throughput: 6066 states/sec, Load: 57 runs[K -- Throughput: 6095 states/sec, Load: 61 runs[K -- Throughput: 6072 states/sec, Load: 65 runs[K -- Throughput: 6093 states/sec, Load: 69 runs[K -- Throughput: 6066 states/sec, Load: 73 runs[K -- Throughput: 6011 states/sec, Load: 77 runs[K -- Throughput: 6050 states/sec, Load: 81 runs[K -- Throughput: 6070 states/sec, Load: 85 runs[K -- Throughput: 5996 states/sec, Load: 89 runs[K -- Throughput: 6045 states/sec, Load: 93 runs[K -- Throughput: 6086 states/sec, Load: 97 runs[K -- Throughput: 6011 states/sec, Load: 101 runs[K -- Throughput: 6112 states/sec, Load: 105 runs[K -- Throughput: 6017 states/sec, Load: 109 runs[K -- Throughput: 6046 states/sec, Load: 113 runs[K -- Throughput: 6073 states/sec, Load: 117 runs[K -- Throughput: 6096 states/sec, Load: 121 runs[K -- Throughput: 6053 states/sec, Load: 125 runs[K -- Throughput: 6094 states/sec, Load: 129 runs[K -- Throughput: 6000 states/sec, Load: 133 runs[K -- Throughput: 6055 states/sec, Load: 137 runs[K -- Throughput: 6052 states/sec, Load: 141 runs[K -- Throughput: 6089 states/sec, Load: 145 runs[K -- Throughput: 6032 states/sec, Load: 149 runs[K -- Throughput: 6037 states/sec, Load: 153 runs[K -- Throughput: 5993 states/sec, Load: 157 runs[K -- Throughput: 6057 states/sec, Load: 161 runs[K -- Throughput: 6016 states/sec, Load: 165 runs[K -- Throughput: 6104 states/sec, Load: 169 runs[K -- Throughput: 6065 states/sec, Load: 173 runs[K -- Throughput: 6043 states/sec, Load: 177 runs[K -- Throughput: 6028 states/sec, Load: 181 runs[K -- Throughput: 6125 states/sec, Load: 185 runs[K -- Throughput: 6022 states/sec, Load: 189 runs[K -- Throughput: 6038 states/sec, Load: 193 runs[K -- Throughput: 6089 states/sec, Load: 197 runs[K -- Throughput: 6165 states/sec, Load: 199 runs[K -- Throughput: 7801 states/sec, Load: 199 runs[K -- Throughput: 7693 states/sec, Load: 199 runs[K -- Throughput: 7787 states/sec, Load: 199 runs[K -- Throughput: 7780 states/sec, Load: 199 runs[K -- Throughput: 7770 states/sec, Load: 199 runs[K -- Throughput: 7843 states/sec, Load: 199 runs[K -- Throughput: 7769 states/sec, Load: 199 runs[K -- Throughput: 7821 states/sec, Load: 199 runs[K -- Throughput: 7820 states/sec, Load: 199 runs[K -- Throughput: 7672 states/sec, Load: 199 runs[K -- Throughput: 7699 states/sec, Load: 199 runs[K -- Throughput: 7776 states/sec, Load: 199 runs[K -- Throughput: 7678 states/sec, Load: 199 runs[K -- Throughput: 7802 states/sec, Load: 199 runs[K -- Throughput: 7819 states/sec, Load: 199 runs[K -- Throughput: 7759 states/sec, Load: 199 runs[K -- Throughput: 7839 states/sec, Load: 199 runs[K -- Throughput: 7805 states/sec, Load: 199 runs[K -- Throughput: 7835 states/sec, Load: 199 runs[K -- Throughput: 6799 states/sec, Load: 3 runs[K -- Throughput: 6100 states/sec, Load: 7 runs[K -- Throughput: 6152 states/sec, Load: 11 runs[K -- Throughput: 6138 states/sec, Load: 16 runs[K -- Throughput: 6076 states/sec, Load: 20 runs[K -- Throughput: 6065 states/sec, Load: 24 runs[K -- Throughput: 6044 states/sec, Load: 28 runs[K -- Throughput: 6064 states/sec, Load: 32 runs[K -- Throughput: 6047 states/sec, Load: 36 runs[K -- Throughput: 6096 states/sec, Load: 40 runs[K -- Throughput: 6094 states/sec, Load: 44 runs[K -- Throughput: 6137 states/sec, Load: 48 runs[K -- Throughput: 6014 states/sec, Load: 52 runs[K -- Throughput: 6073 states/sec, Load: 56 runs[K -- Throughput: 6114 states/sec, Load: 60 runs[K -- Throughput: 6046 states/sec, Load: 64 runs[K -- Throughput: 6112 states/sec, Load: 68 runs[K -- Throughput: 6098 states/sec, Load: 72 runs[K -- Throughput: 6078 states/sec, Load: 76 runs[K -- Throughput: 6011 states/sec, Load: 80 runs[K -- Throughput: 6086 states/sec, Load: 84 runs[K -- Throughput: 5980 states/sec, Load: 88 runs[K -- Throughput: 6096 states/sec, Load: 92 runs[K -- Throughput: 6010 states/sec, Load: 96 runs[K -- Throughput: 5940 states/sec, Load: 100 runs[K -- Throughput: 6060 states/sec, Load: 104 runs[K -- Throughput: 6058 states/sec, Load: 108 runs[K -- Throughput: 6053 states/sec, Load: 112 runs[K -- Throughput: 6068 states/sec, Load: 116 runs[K -- Throughput: 6104 states/sec, Load: 120 runs[K -- Throughput: 6032 states/sec, Load: 124 runs[K -- Throughput: 6087 states/sec, Load: 128 runs[K -- Throughput: 6086 states/sec, Load: 132 runs[K -- Throughput: 6062 states/sec, Load: 136 runs[K -- Throughput: 6036 states/sec, Load: 140 runs[K -- Throughput: 6020 states/sec, Load: 144 runs[K -- Throughput: 6014 states/sec, Load: 148 runs[K -- Throughput: 6121 states/sec, Load: 152 runs[K -- Throughput: 6043 states/sec, Load: 156 runs[K -- Throughput: 6051 states/sec, Load: 160 runs[K -- Throughput: 6086 states/sec, Load: 164 runs[K -- Throughput: 6058 states/sec, Load: 168 runs[K -- Throughput: 6062 states/sec, Load: 172 runs[K -- Throughput: 6104 states/sec, Load: 176 runs[K -- Throughput: 6090 states/sec, Load: 180 runs[K -- Throughput: 6126 states/sec, Load: 184 runs[K -- Throughput: 6075 states/sec, Load: 188 runs[K -- Throughput: 6037 states/sec, Load: 192 runs[K -- Throughput: 6075 states/sec, Load: 196 runs[K -- Throughput: 5886 states/sec, Load: 199 runs[K -- Throughput: 7878 states/sec, Load: 199 runs[K -- Throughput: 7723 states/sec, Load: 199 runs[K -- Throughput: 7725 states/sec, Load: 199 runs[K -- Throughput: 7834 states/sec, Load: 199 runs[K -- Throughput: 7787 states/sec, Load: 199 runs[K -- Throughput: 7817 states/sec, Load: 199 runs[K -- Throughput: 7882 states/sec, Load: 199 runs[K -- Throughput: 7788 states/sec, Load: 199 runs[K -- Throughput: 7856 states/sec, Load: 199 runs[K -- Throughput: 7949 states/sec, Load: 199 runs[K -- Throughput: 7680 states/sec, Load: 199 runs[K -- Throughput: 7710 states/sec, Load: 199 runs[K -- Throughput: 7723 states/sec, Load: 199 runs[K -- Throughput: 7724 states/sec, Load: 199 runs[K -- Throughput: 7676 states/sec, Load: 199 runs[K -- Throughput: 7782 states/sec, Load: 199 runs[K -- Throughput: 7757 states/sec, Load: 199 runs[K -- Throughput: 7815 states/sec, Load: 199 runs[K -- Throughput: 7646 states/sec, Load: 199 runs[K -- Throughput: 7171 states/sec, Load: 2 runs[K -- Throughput: 6086 states/sec, Load: 7 runs[K -- Throughput: 6092 states/sec, Load: 11 runs[K -- Throughput: 6093 states/sec, Load: 15 runs[K -- Throughput: 6045 states/sec, Load: 19 runs[K -- Throughput: 5997 states/sec, Load: 23 runs[K -- Throughput: 6085 states/sec, Load: 27 runs[K -- Throughput: 6138 states/sec, Load: 31 runs[K -- Throughput: 5977 states/sec, Load: 35 runs[K -- Throughput: 6113 states/sec, Load: 39 runs[K -- Throughput: 6039 states/sec, Load: 43 runs[K -- Throughput: 6127 states/sec, Load: 47 runs[K -- Throughput: 6179 states/sec, Load: 51 runs[K -- Throughput: 6081 states/sec, Load: 55 runs[K -- Throughput: 6081 states/sec, Load: 59 runs[K -- Throughput: 6098 states/sec, Load: 63 runs[K -- Throughput: 6205 states/sec, Load: 67 runs[K -- Throughput: 6091 states/sec, Load: 71 runs[K -- Throughput: 6006 states/sec, Load: 75 runs[K -- Throughput: 6083 states/sec, Load: 79 runs[K -- Throughput: 6024 states/sec, Load: 83 runs[K -- Throughput: 6096 states/sec, Load: 87 runs[K -- Throughput: 6126 states/sec, Load: 91 runs[K -- Throughput: 6060 states/sec, Load: 95 runs[K -- Throughput: 6109 states/sec, Load: 99 runs[K -- Throughput: 6157 states/sec, Load: 103 runs[K -- Throughput: 6105 states/sec, Load: 107 runs[K -- Throughput: 6074 states/sec, Load: 111 runs[K -- Throughput: 6156 states/sec, Load: 115 runs[K -- Throughput: 6052 states/sec, Load: 119 runs[K -- Throughput: 6056 states/sec, Load: 123 runs[K -- Throughput: 6106 states/sec, Load: 127 runs[K -- Throughput: 6078 states/sec, Load: 131 runs[K -- Throughput: 6115 states/sec, Load: 135 runs[K -- Throughput: 6096 states/sec, Load: 139 runs[K -- Throughput: 6095 states/sec, Load: 143 runs[K -- Throughput: 6090 states/sec, Load: 147 runs[K -- Throughput: 6084 states/sec, Load: 151 runs[K -- Throughput: 6109 states/sec, Load: 155 runs[K -- Throughput: 6029 states/sec, Load: 159 runs[K -- Throughput: 6075 states/sec, Load: 163 runs[K -- Throughput: 6104 states/sec, Load: 167 runs[K -- Throughput: 6046 states/sec, Load: 171 runs[K -- Throughput: 6098 states/sec, Load: 175 runs[K -- Throughput: 6105 states/sec, Load: 179 runs[K -- Throughput: 6056 states/sec, Load: 183 runs[K -- Throughput: 6132 states/sec, Load: 187 runs[K -- Throughput: 6068 states/sec, Load: 191 runs[K -- Throughput: 6134 states/sec, Load: 195 runs[K -- Throughput: 6073 states/sec, Load: 199 runs[K -- Throughput: 6854 states/sec, Load: 199 runs[K -- Throughput: 7612 states/sec, Load: 199 runs[K -- Throughput: 7804 states/sec, Load: 199 runs[K -- Throughput: 8030 states/sec, Load: 199 runs[K -- Throughput: 7853 states/sec, Load: 199 runs[K -- Throughput: 7762 states/sec, Load: 199 runs[K -- Throughput: 8020 states/sec, Load: 199 runs[K -- Throughput: 7676 states/sec, Load: 199 runs[K -- Throughput: 7913 states/sec, Load: 199 runs[K -- Throughput: 7839 states/sec, Load: 199 runs[K -- Throughput: 7815 states/sec, Load: 199 runs[K -- Throughput: 7849 states/sec, Load: 199 runs[K -- Throughput: 7908 states/sec, Load: 199 runs[K -- Throughput: 7977 states/sec, Load: 199 runs[K -- Throughput: 7844 states/sec, Load: 199 runs[K -- Throughput: 7778 states/sec, Load: 199 runs[K -- Throughput: 8038 states/sec, Load: 199 runs[K -- Throughput: 7661 states/sec, Load: 199 runs[K -- Throughput: 7801 states/sec, Load: 199 runs[K -- Throughput: 7866 states/sec, Load: 199 runs[K -- Throughput: 6219 states/sec, Load: 5 runs[K -- Throughput: 6240 states/sec, Load: 9 runs[K -- Throughput: 6108 states/sec, Load: 14 runs[K -- Throughput: 6097 states/sec, Load: 18 runs[K -- Throughput: 6114 states/sec, Load: 21 runs[K -- Throughput: 6113 states/sec, Load: 25 runs[K -- Throughput: 6155 states/sec, Load: 29 runs[K -- Throughput: 6148 states/sec, Load: 34 runs[K -- Throughput: 6106 states/sec, Load: 38 runs[K -- Throughput: 6112 states/sec, Load: 42 runs[K -- Throughput: 6124 states/sec, Load: 46 runs[K -- Throughput: 3298 states/sec, Load: 50 runs[K -- Throughput: 6037 states/sec, Load: 52 runs[K -- Throughput: 6084 states/sec, Load: 56 runs[K -- Throughput: 6118 states/sec, Load: 60 runs[K -- Throughput: 6102 states/sec, Load: 64 runs[K -- Throughput: 6141 states/sec, Load: 68 runs[K -- Throughput: 6129 states/sec, Load: 72 runs[K -- Throughput: 6060 states/sec, Load: 76 runs[K -- Throughput: 6083 states/sec, Load: 80 runs[K -- Throughput: 6059 states/sec, Load: 84 runs[K -- Throughput: 6209 states/sec, Load: 88 runs[K -- Throughput: 6072 states/sec, Load: 92 runs[K -- Throughput: 6057 states/sec, Load: 96 runs[K -- Throughput: 6098 states/sec, Load: 100 runs[K -- Throughput: 6138 states/sec, Load: 104 runs[K -- Throughput: 6037 states/sec, Load: 108 runs[K -- Throughput: 6141 states/sec, Load: 112 runs[K -- Throughput: 6135 states/sec, Load: 116 runs[K -- Throughput: 6100 states/sec, Load: 120 runs[K -- Throughput: 6140 states/sec, Load: 124 runs[K -- Throughput: 6117 states/sec, Load: 128 runs[K -- Throughput: 6068 states/sec, Load: 132 runs[K -- Throughput: 6152 states/sec, Load: 136 runs[K -- Throughput: 6058 states/sec, Load: 140 runs[K -- Throughput: 6107 states/sec, Load: 144 runs[K -- Throughput: 6100 states/sec, Load: 148 runs[K -- Throughput: 6137 states/sec, Load: 152 runs[K -- Throughput: 6097 states/sec, Load: 156 runs[K -- Throughput: 6088 states/sec, Load: 160 runs[K -- Throughput: 6092 states/sec, Load: 164 runs[K -- Throughput: 6171 states/sec, Load: 168 runs[K -- Throughput: 6132 states/sec, Load: 172 runs[K -- Throughput: 6124 states/sec, Load: 176 runs[K -- Throughput: 6095 states/sec, Load: 180 runs[K -- Throughput: 6113 states/sec, Load: 184 runs[K -- Throughput: 6102 states/sec, Load: 188 runs[K -- Throughput: 6140 states/sec, Load: 192 runs[K -- Throughput: 6093 states/sec, Load: 196 runs[K -- Throughput: 5766 states/sec, Load: 199 runs[K -- Throughput: 7970 states/sec, Load: 199 runs[K -- Throughput: 7883 states/sec, Load: 199 runs[K -- Throughput: 7842 states/sec, Load: 199 runs[K -- Throughput: 7861 states/sec, Load: 199 runs[K -- Throughput: 7773 states/sec, Load: 199 runs[K -- Throughput: 7989 states/sec, Load: 199 runs[K -- Throughput: 7779 states/sec, Load: 199 runs[K -- Throughput: 7841 states/sec, Load: 199 runs[K -- Throughput: 7891 states/sec, Load: 199 runs[K -- Throughput: 7961 states/sec, Load: 199 runs[K -- Throughput: 7979 states/sec, Load: 199 runs[K -- Throughput: 7843 states/sec, Load: 199 runs[K -- Throughput: 7774 states/sec, Load: 199 runs[K -- Throughput: 7771 states/sec, Load: 199 runs[K -- Throughput: 7793 states/sec, Load: 199 runs[K -- Throughput: 7955 states/sec, Load: 199 runs[K -- Throughput: 7687 states/sec, Load: 199 runs[K -- Throughput: 7724 states/sec, Load: 199 runs[K -- Throughput: 7891 states/sec, Load: 199 runs[K -- Throughput: 7476 states/sec, Load: 1 runs[K -- Throughput: 6154 states/sec, Load: 6 runs[K -- Throughput: 6176 states/sec, Load: 10 runs[K -- Throughput: 6164 states/sec, Load: 14 runs[K -- Throughput: 6113 states/sec, Load: 18 runs[K -- Throughput: 6153 states/sec, Load: 22 runs[K -- Throughput: 6058 states/sec, Load: 26 runs[K -- Throughput: 6113 states/sec, Load: 30 runs[K -- Throughput: 6081 states/sec, Load: 34 runs[K -- Throughput: 6124 states/sec, Load: 38 runs[K -- Throughput: 6062 states/sec, Load: 42 runs[K -- Throughput: 6228 states/sec, Load: 46 runs[K -- Throughput: 6032 states/sec, Load: 50 runs[K -- Throughput: 6107 states/sec, Load: 54 runs[K -- Throughput: 6170 states/sec, Load: 58 runs[K -- Throughput: 6106 states/sec, Load: 62 runs[K -- Throughput: 6165 states/sec, Load: 66 runs[K -- Throughput: 6114 states/sec, Load: 70 runs[K -- Throughput: 6083 states/sec, Load: 74 runs[K -- Throughput: 6119 states/sec, Load: 78 runs[K -- Throughput: 6124 states/sec, Load: 82 runs[K -- Throughput: 6028 states/sec, Load: 86 runs[K -- Throughput: 6168 states/sec, Load: 90 runs[K -- Throughput: 6112 states/sec, Load: 94 runs[K -- Throughput: 6141 states/sec, Load: 98 runs[K -- Throughput: 6042 states/sec, Load: 102 runs[K -- Throughput: 6090 states/sec, Load: 106 runs[K -- Throughput: 6087 states/sec, Load: 110 runs[K -- Throughput: 6115 states/sec, Load: 114 runs[K -- Throughput: 6097 states/sec, Load: 118 runs[K -- Throughput: 6148 states/sec, Load: 122 runs[K -- Throughput: 6097 states/sec, Load: 126 runs[K -- Throughput: 6048 states/sec, Load: 130 runs[K -- Throughput: 6071 states/sec, Load: 134 runs[K -- Throughput: 6130 states/sec, Load: 138 runs[K -- Throughput: 6102 states/sec, Load: 142 runs[K -- Throughput: 5857 states/sec, Load: 146 runs[K -- Throughput: 6076 states/sec, Load: 149 runs[K -- Throughput: 6078 states/sec, Load: 153 runs[K -- Throughput: 6037 states/sec, Load: 157 runs[K -- Throughput: 6111 states/sec, Load: 161 runs[K -- Throughput: 6117 states/sec, Load: 165 runs[K -- Throughput: 6096 states/sec, Load: 169 runs[K -- Throughput: 6113 states/sec, Load: 173 runs[K -- Throughput: 6153 states/sec, Load: 177 runs[K -- Throughput: 6125 states/sec, Load: 181 runs[K -- Throughput: 6144 states/sec, Load: 186 runs[K -- Throughput: 6105 states/sec, Load: 190 runs[K -- Throughput: 6093 states/sec, Load: 194 runs[K -- Throughput: 5987 states/sec, Load: 197 runs[K -- Throughput: 5967 states/sec, Load: 199 runs[K -- Throughput: 7793 states/sec, Load: 199 runs[K -- Throughput: 7837 states/sec, Load: 199 runs[K -- Throughput: 7767 states/sec, Load: 199 runs[K -- Throughput: 7914 states/sec, Load: 199 runs[K -- Throughput: 7969 states/sec, Load: 199 runs[K -- Throughput: 7856 states/sec, Load: 199 runs[K -- Throughput: 7963 states/sec, Load: 199 runs[K -- Throughput: 7775 states/sec, Load: 199 runs[K -- Throughput: 7775 states/sec, Load: 199 runs[K -- Throughput: 7805 states/sec, Load: 199 runs[K -- Throughput: 7737 states/sec, Load: 199 runs[K -- Throughput: 7801 states/sec, Load: 199 runs[K -- Throughput: 7844 states/sec, Load: 199 runs[K -- Throughput: 7776 states/sec, Load: 199 runs[K -- Throughput: 7946 states/sec, Load: 199 runs[K -- Throughput: 7829 states/sec, Load: 199 runs[K -- Throughput: 7962 states/sec, Load: 199 runs[K -- Throughput: 7820 states/sec, Load: 199 runs[K -- Throughput: 7874 states/sec, Load: 199 runs[K -- Throughput: 6804 states/sec, Load: 3 runs[K -- Throughput: 6057 states/sec, Load: 7 runs[K -- Throughput: 6163 states/sec, Load: 11 runs[K -- Throughput: 6232 states/sec, Load: 15 runs[K -- Throughput: 6205 states/sec, Load: 19 runs[K -- Throughput: 6226 states/sec, Load: 23 runs[K -- Throughput: 6290 states/sec, Load: 27 runs[K -- Throughput: 6321 states/sec, Load: 31 runs[K -- Throughput: 6201 states/sec, Load: 36 runs[K -- Throughput: 6254 states/sec, Load: 40 runs[K -- Throughput: 6232 states/sec, Load: 44 runs[K -- Throughput: 6290 states/sec, Load: 48 runs[K -- Throughput: 6189 states/sec, Load: 52 runs[K -- Throughput: 6234 states/sec, Load: 56 runs[K -- Throughput: 6245 states/sec, Load: 60 runs[K -- Throughput: 6162 states/sec, Load: 64 runs[K -- Throughput: 6194 states/sec, Load: 68 runs[K -- Throughput: 6200 states/sec, Load: 72 runs[K -- Throughput: 6173 states/sec, Load: 76 runs[K -- Throughput: 6068 states/sec, Load: 80 runs[K -- Throughput: 6097 states/sec, Load: 84 runs[K -- Throughput: 6056 states/sec, Load: 88 runs[K -- Throughput: 6170 states/sec, Load: 92 runs[K -- Throughput: 6238 states/sec, Load: 96 runs[K -- Throughput: 6114 states/sec, Load: 100 runs[K -- Throughput: 6038 states/sec, Load: 104 runs[K -- Throughput: 6053 states/sec, Load: 108 runs[K -- Throughput: 6036 states/sec, Load: 112 runs[K -- Throughput: 5992 states/sec, Load: 115 runs[K -- Throughput: 6065 states/sec, Load: 119 runs[K -- Throughput: 6051 states/sec, Load: 123 runs[K -- Throughput: 6035 states/sec, Load: 127 runs[K -- Throughput: 6076 states/sec, Load: 131 runs[K -- Throughput: 6062 states/sec, Load: 135 runs[K -- Throughput: 6101 states/sec, Load: 139 runs[K -- Throughput: 6106 states/sec, Load: 143 runs[K -- Throughput: 6151 states/sec, Load: 147 runs[K -- Throughput: 6078 states/sec, Load: 151 runs[K -- Throughput: 6060 states/sec, Load: 155 runs[K -- Throughput: 6004 states/sec, Load: 159 runs[K -- Throughput: 6037 states/sec, Load: 163 runs[K -- Throughput: 6002 states/sec, Load: 167 runs[K -- Throughput: 6011 states/sec, Load: 170 runs[K -- Throughput: 6037 states/sec, Load: 174 runs[K -- Throughput: 6001 states/sec, Load: 178 runs[K -- Throughput: 6078 states/sec, Load: 182 runs[K -- Throughput: 6091 states/sec, Load: 186 runs[K -- Throughput: 6089 states/sec, Load: 190 runs[K -- Throughput: 6116 states/sec, Load: 194 runs[K -- Throughput: 6084 states/sec, Load: 198 runs[K -- Throughput: 6316 states/sec, Load: 199 runs[K -- Throughput: 7698 states/sec, Load: 199 runs[K -- Throughput: 7774 states/sec, Load: 199 runs[K -- Throughput: 7748 states/sec, Load: 199 runs[K -- Throughput: 7815 states/sec, Load: 199 runs[K -- Throughput: 7680 states/sec, Load: 199 runs[K -- Throughput: 7627 states/sec, Load: 199 runs[K -- Throughput: 7825 states/sec, Load: 199 runs[K -- Throughput: 7827 states/sec, Load: 199 runs[K -- Throughput: 7743 states/sec, Load: 199 runs[K -- Throughput: 7758 states/sec, Load: 199 runs[K -- Throughput: 7708 states/sec, Load: 199 runs[K -- Throughput: 7860 states/sec, Load: 199 runs[K -- Throughput: 7630 states/sec, Load: 199 runs[K -- Throughput: 7749 states/sec, Load: 199 runs[K -- Throughput: 7775 states/sec, Load: 199 runs[K -- Throughput: 7808 states/sec, Load: 199 runs[K -- Throughput: 7795 states/sec, Load: 199 runs[K -- Throughput: 7899 states/sec, Load: 199 runs[K -- Throughput: 7914 states/sec, Load: 199 runs[K -- Throughput: 1716 states/sec, Load: 3 runs[K -- Throughput: 5970 states/sec, Load: 6 runs[K -- Throughput: 6134 states/sec, Load: 10 runs[K -- Throughput: 6147 states/sec, Load: 14 runs[K -- Throughput: 6057 states/sec, Load: 18 runs[K -- Throughput: 6172 states/sec, Load: 22 runs[K -- Throughput: 6188 states/sec, Load: 26 runs[K -- Throughput: 6164 states/sec, Load: 30 runs[K -- Throughput: 6208 states/sec, Load: 34 runs[K -- Throughput: 6100 states/sec, Load: 39 runs[K -- Throughput: 6172 states/sec, Load: 43 runs[K -- Throughput: 6044 states/sec, Load: 47 runs[K -- Throughput: 6140 states/sec, Load: 51 runs[K -- Throughput: 6090 states/sec, Load: 55 runs[K -- Throughput: 6113 states/sec, Load: 59 runs[K -- Throughput: 6193 states/sec, Load: 63 runs[K -- Throughput: 6141 states/sec, Load: 67 runs[K -- Throughput: 6066 states/sec, Load: 71 runs[K -- Throughput: 6089 states/sec, Load: 75 runs[K -- Throughput: 6092 states/sec, Load: 79 runs[K -- Throughput: 6060 states/sec, Load: 83 runs[K -- Throughput: 6107 states/sec, Load: 87 runs[K -- Throughput: 6124 states/sec, Load: 91 runs[K -- Throughput: 6152 states/sec, Load: 95 runs[K -- Throughput: 6122 states/sec, Load: 100 runs[K -- Throughput: 6092 states/sec, Load: 104 runs[K -- Throughput: 6065 states/sec, Load: 108 runs[K -- Throughput: 6110 states/sec, Load: 112 runs[K -- Throughput: 6101 states/sec, Load: 116 runs[K -- Throughput: 6113 states/sec, Load: 120 runs[K -- Throughput: 6142 states/sec, Load: 124 runs[K -- Throughput: 6113 states/sec, Load: 128 runs[K -- Throughput: 6226 states/sec, Load: 132 runs[K -- Throughput: 6139 states/sec, Load: 137 runs[K -- Throughput: 6108 states/sec, Load: 141 runs[K -- Throughput: 6135 states/sec, Load: 145 runs[K -- Throughput: 6180 states/sec, Load: 149 runs[K -- Throughput: 6107 states/sec, Load: 153 runs[K -- Throughput: 6100 states/sec, Load: 157 runs[K -- Throughput: 6103 states/sec, Load: 161 runs[K -- Throughput: 6114 states/sec, Load: 165 runs[K -- Throughput: 6014 states/sec, Load: 169 runs[K -- Throughput: 6079 states/sec, Load: 173 runs[K -- Throughput: 6002 states/sec, Load: 177 runs[K -- Throughput: 6126 states/sec, Load: 181 runs[K -- Throughput: 6111 states/sec, Load: 185 runs[K -- Throughput: 6121 states/sec, Load: 189 runs[K -- Throughput: 6108 states/sec, Load: 193 runs[K -- Throughput: 6084 states/sec, Load: 197 runs[K -- Throughput: 6349 states/sec, Load: 199 runs[K -- Throughput: 7878 states/sec, Load: 199 runs[K -- Throughput: 7846 states/sec, Load: 199 runs[K -- Throughput: 7679 states/sec, Load: 199 runs[K -- Throughput: 7700 states/sec, Load: 199 runs[K -- Throughput: 7840 states/sec, Load: 199 runs[K -- Throughput: 7704 states/sec, Load: 199 runs[K -- Throughput: 7695 states/sec, Load: 199 runs[K -- Throughput: 7770 states/sec, Load: 199 runs[K -- Throughput: 7720 states/sec, Load: 199 runs[K -- Throughput: 7872 states/sec, Load: 199 runs[K -- Throughput: 7728 states/sec, Load: 199 runs[K -- Throughput: 7874 states/sec, Load: 199 runs[K -- Throughput: 8006 states/sec, Load: 199 runs[K -- Throughput: 7735 states/sec, Load: 199 runs[K -- Throughput: 7768 states/sec, Load: 199 runs[K -- Throughput: 7751 states/sec, Load: 199 runs[K -- Throughput: 7775 states/sec, Load: 199 runs[K -- Throughput: 7777 states/sec, Load: 199 runs[K -- Throughput: 7747 states/sec, Load: 199 runs[K -- Throughput: 6709 states/sec, Load: 3 runs[K -- Throughput: 6111 states/sec, Load: 8 runs[K -- Throughput: 6045 states/sec, Load: 12 runs[K -- Throughput: 6174 states/sec, Load: 16 runs[K -- Throughput: 6035 states/sec, Load: 20 runs[K -- Throughput: 6032 states/sec, Load: 24 runs[K -- Throughput: 6090 states/sec, Load: 28 runs[K -- Throughput: 6048 states/sec, Load: 32 runs[K -- Throughput: 6042 states/sec, Load: 36 runs[K -- Throughput: 6074 states/sec, Load: 40 runs[K -- Throughput: 6085 states/sec, Load: 44 runs[K -- Throughput: 6240 states/sec, Load: 48 runs[K -- Throughput: 6203 states/sec, Load: 52 runs[K -- Throughput: 6200 states/sec, Load: 57 runs[K -- Throughput: 6111 states/sec, Load: 61 runs[K -- Throughput: 6085 states/sec, Load: 65 runs[K -- Throughput: 6035 states/sec, Load: 69 runs[K -- Throughput: 6081 states/sec, Load: 73 runs[K -- Throughput: 6058 states/sec, Load: 77 runs[K -- Throughput: 6063 states/sec, Load: 81 runs[K -- Throughput: 6088 states/sec, Load: 85 runs[K -- Throughput: 6055 states/sec, Load: 89 runs[K -- Throughput: 6035 states/sec, Load: 93 runs[K -- Throughput: 5993 states/sec, Load: 97 runs[K -- Throughput: 6103 states/sec, Load: 101 runs[K -- Throughput: 6104 states/sec, Load: 105 runs[K -- Throughput: 6119 states/sec, Load: 109 runs[K -- Throughput: 6035 states/sec, Load: 113 runs[K -- Throughput: 6109 states/sec, Load: 117 runs[K -- Throughput: 5953 states/sec, Load: 121 runs[K -- Throughput: 6078 states/sec, Load: 125 runs[K -- Throughput: 6068 states/sec, Load: 129 runs[K -- Throughput: 6096 states/sec, Load: 133 runs[K -- Throughput: 6130 states/sec, Load: 137 runs[K -- Throughput: 6230 states/sec, Load: 141 runs[K -- Throughput: 6093 states/sec, Load: 146 runs[K -- Throughput: 6158 states/sec, Load: 150 runs[K -- Throughput: 6121 states/sec, Load: 154 runs[K -- Throughput: 6113 states/sec, Load: 158 runs[K -- Throughput: 6230 states/sec, Load: 162 runs[K -- Throughput: 6025 states/sec, Load: 166 runs[K -- Throughput: 6029 states/sec, Load: 170 runs[K -- Throughput: 6073 states/sec, Load: 174 runs[K -- Throughput: 6095 states/sec, Load: 178 runs[K -- Throughput: 6061 states/sec, Load: 182 runs[K -- Throughput: 6100 states/sec, Load: 186 runs[K -- Throughput: 6109 states/sec, Load: 190 runs[K -- Throughput: 6107 states/sec, Load: 194 runs[K -- Throughput: 6130 states/sec, Load: 199 runs[K -- Throughput: 6635 states/sec, Load: 199 runs[K -- Throughput: 7791 states/sec, Load: 199 runs[K -- Throughput: 7787 states/sec, Load: 199 runs[K -- Throughput: 7708 states/sec, Load: 199 runs[K -- Throughput: 7814 states/sec, Load: 199 runs[K -- Throughput: 7843 states/sec, Load: 199 runs[K -- Throughput: 7973 states/sec, Load: 199 runs[K -- Throughput: 7830 states/sec, Load: 199 runs[K -- Throughput: 7716 states/sec, Load: 199 runs[K -- Throughput: 7761 states/sec, Load: 199 runs[K -- Throughput: 7755 states/sec, Load: 199 runs[K -- Throughput: 7894 states/sec, Load: 199 runs[K -- Throughput: 7863 states/sec, Load: 199 runs[K -- Throughput: 7875 states/sec, Load: 199 runs[K -- Throughput: 7789 states/sec, Load: 199 runs[K -- Throughput: 7917 states/sec, Load: 199 runs[K -- Throughput: 8010 states/sec, Load: 199 runs[K -- Throughput: 7712 states/sec, Load: 199 runs[K -- Throughput: 7795 states/sec, Load: 199 runs[K -- Throughput: 7832 states/sec, Load: 199 runs[K -- Throughput: 6289 states/sec, Load: 5 runs[K -- Throughput: 6192 states/sec, Load: 9 runs[K -- Throughput: 6111 states/sec, Load: 13 runs[K -- Throughput: 6234 states/sec, Load: 18 runs[K -- Throughput: 6115 states/sec, Load: 22 runs[K -- Throughput: 6163 states/sec, Load: 26 runs[K -- Throughput: 6088 states/sec, Load: 30 runs[K -- Throughput: 6147 states/sec, Load: 34 runs[K -- Throughput: 6130 states/sec, Load: 38 runs[K -- Throughput: 6165 states/sec, Load: 42 runs[K -- Throughput: 6196 states/sec, Load: 46 runs[K -- Throughput: 6162 states/sec, Load: 50 runs[K -- Throughput: 6117 states/sec, Load: 54 runs[K -- Throughput: 6132 states/sec, Load: 59 runs[K -- Throughput: 6039 states/sec, Load: 63 runs[K -- Throughput: 6154 states/sec, Load: 67 runs[K -- Throughput: 6098 states/sec, Load: 71 runs[K -- Throughput: 6087 states/sec, Load: 75 runs[K -- Throughput: 6170 states/sec, Load: 79 runs[K -- Throughput: 6112 states/sec, Load: 83 runs[K -- Throughput: 6095 states/sec, Load: 87 runs[K -- Throughput: 6027 states/sec, Load: 91 runs[K -- Throughput: 6069 states/sec, Load: 95 runs[K -- Throughput: 6013 states/sec, Load: 99 runs[K -- Throughput: 6136 states/sec, Load: 103 runs[K -- Throughput: 6079 states/sec, Load: 107 runs[K -- Throughput: 6048 states/sec, Load: 111 runs[K -- Throughput: 6126 states/sec, Load: 115 runs[K -- Throughput: 6052 states/sec, Load: 119 runs[K -- Throughput: 6109 states/sec, Load: 123 runs[K -- Throughput: 6041 states/sec, Load: 127 runs[K -- Throughput: 6084 states/sec, Load: 131 runs[K -- Throughput: 6040 states/sec, Load: 135 runs[K -- Throughput: 6052 states/sec, Load: 139 runs[K -- Throughput: 6139 states/sec, Load: 143 runs[K -- Throughput: 6083 states/sec, Load: 147 runs[K -- Throughput: 6060 states/sec, Load: 152 runs[K -- Throughput: 6158 states/sec, Load: 156 runs[K -- Throughput: 6100 states/sec, Load: 160 runs[K -- Throughput: 6187 states/sec, Load: 164 runs[K -- Throughput: 6054 states/sec, Load: 168 runs[K -- Throughput: 6162 states/sec, Load: 172 runs[K -- Throughput: 6114 states/sec, Load: 176 runs[K -- Throughput: 6098 states/sec, Load: 180 runs[K -- Throughput: 6058 states/sec, Load: 184 runs[K -- Throughput: 5984 states/sec, Load: 188 runs[K -- Throughput: 6070 states/sec, Load: 192 runs[K -- Throughput: 6084 states/sec, Load: 196 runs[K -- Throughput: 5677 states/sec, Load: 199 runs[K -- Throughput: 7834 states/sec, Load: 199 runs[K -- Throughput: 7727 states/sec, Load: 199 runs[K -- Throughput: 7766 states/sec, Load: 199 runs[K -- Throughput: 7817 states/sec, Load: 199 runs[K -- Throughput: 7932 states/sec, Load: 199 runs[K -- Throughput: 7839 states/sec, Load: 199 runs[K -- Throughput: 7918 states/sec, Load: 199 runs[K -- Throughput: 7768 states/sec, Load: 199 runs[K -- Throughput: 7771 states/sec, Load: 199 runs[K -- Throughput: 7734 states/sec, Load: 199 runs[K -- Throughput: 7685 states/sec, Load: 199 runs[K -- Throughput: 7882 states/sec, Load: 199 runs[K -- Throughput: 7760 states/sec, Load: 199 runs[K -- Throughput: 8087 states/sec, Load: 199 runs[K -- Throughput: 7893 states/sec, Load: 199 runs[K -- Throughput: 7848 states/sec, Load: 199 runs[K -- Throughput: 7806 states/sec, Load: 199 runs[K -- Throughput: 7750 states/sec, Load: 199 runs[K -- Throughput: 7889 states/sec, Load: 199 runs[K -- Throughput: 7176 states/sec, Load: 2 runs[K -- Throughput: 6057 states/sec, Load: 7 runs[K -- Throughput: 6019 states/sec, Load: 11 runs[K -- Throughput: 5993 states/sec, Load: 15 runs[K -- Throughput: 6111 states/sec, Load: 19 runs[K -- Throughput: 6042 states/sec, Load: 23 runs[K -- Throughput: 6070 states/sec, Load: 27 runs[K -- Throughput: 6045 states/sec, Load: 31 runs[K -- Throughput: 6070 states/sec, Load: 35 runs[K -- Throughput: 6088 states/sec, Load: 39 runs[K -- Throughput: 6014 states/sec, Load: 43 runs[K -- Throughput: 6083 states/sec, Load: 47 runs[K -- Throughput: 6133 states/sec, Load: 51 runs[K -- Throughput: 6073 states/sec, Load: 56 runs[K -- Throughput: 6129 states/sec, Load: 60 runs[K -- Throughput: 5974 states/sec, Load: 64 runs[K -- Throughput: 6034 states/sec, Load: 68 runs[K -- Throughput: 6024 states/sec, Load: 72 runs[K -- Throughput: 6139 states/sec, Load: 76 runs[K -- Throughput: 6105 states/sec, Load: 80 runs[K -- Throughput: 5989 states/sec, Load: 84 runs[K -- Throughput: 6165 states/sec, Load: 88 runs[K -- Throughput: 5997 states/sec, Load: 92 runs[K -- Throughput: 6145 states/sec, Load: 96 runs[K -- Throughput: 6052 states/sec, Load: 100 runs[K -- Throughput: 6041 states/sec, Load: 104 runs[K -- Throughput: 6112 states/sec, Load: 108 runs[K -- Throughput: 6037 states/sec, Load: 112 runs[K -- Throughput: 6070 states/sec, Load: 116 runs[K -- Throughput: 6171 states/sec, Load: 120 runs[K -- Throughput: 6139 states/sec, Load: 124 runs[K -- Throughput: 6208 states/sec, Load: 128 runs[K -- Throughput: 6145 states/sec, Load: 133 runs[K -- Throughput: 6175 states/sec, Load: 137 runs[K -- Throughput: 6061 states/sec, Load: 141 runs[K -- Throughput: 6036 states/sec, Load: 145 runs[K -- Throughput: 6138 states/sec, Load: 149 runs[K -- Throughput: 6072 states/sec, Load: 153 runs[K -- Throughput: 6149 states/sec, Load: 157 runs[K -- Throughput: 6148 states/sec, Load: 161 runs[K -- Throughput: 6094 states/sec, Load: 165 runs[K -- Throughput: 6094 states/sec, Load: 169 runs[K -- Throughput: 6084 states/sec, Load: 173 runs[K -- Throughput: 6059 states/sec, Load: 177 runs[K -- Throughput: 6095 states/sec, Load: 181 runs[K -- Throughput: 6155 states/sec, Load: 185 runs[K -- Throughput: 6173 states/sec, Load: 190 runs[K -- Throughput: 6053 states/sec, Load: 194 runs[K -- Throughput: 6013 states/sec, Load: 198 runs[K -- Throughput: 6179 states/sec, Load: 199 runs[K -- Throughput: 7802 states/sec, Load: 199 runs[K -- Throughput: 7816 states/sec, Load: 199 runs[K -- Throughput: 7718 states/sec, Load: 199 runs[K -- Throughput: 7781 states/sec, Load: 199 runs[K -- Throughput: 7895 states/sec, Load: 199 runs[K -- Throughput: 7792 states/sec, Load: 199 runs[K -- Throughput: 7818 states/sec, Load: 199 runs[K -- Throughput: 7790 states/sec, Load: 199 runs[K -- Throughput: 7814 states/sec, Load: 199 runs[K -- Throughput: 7923 states/sec, Load: 199 runs[K -- Throughput: 8001 states/sec, Load: 199 runs[K -- Throughput: 7817 states/sec, Load: 199 runs[K -- Throughput: 7781 states/sec, Load: 199 runs[K -- Throughput: 7795 states/sec, Load: 199 runs[K -- Throughput: 7832 states/sec, Load: 199 runs[K -- Throughput: 7900 states/sec, Load: 199 runs[K -- Throughput: 7871 states/sec, Load: 199 runs[K -- Throughput: 7929 states/sec, Load: 199 runs[K -- Throughput: 7738 states/sec, Load: 199 runs[K -- Throughput: 6470 states/sec, Load: 4 runs[K -- Throughput: 6027 states/sec, Load: 8 runs[K -- Throughput: 6117 states/sec, Load: 12 runs[K -- Throughput: 6035 states/sec, Load: 16 runs[K -- Throughput: 6096 states/sec, Load: 20 runs[K -- Throughput: 6079 states/sec, Load: 25 runs[K -- Throughput: 6057 states/sec, Load: 29 runs[K -- Throughput: 6001 states/sec, Load: 33 runs[K -- Throughput: 5997 states/sec, Load: 37 runs[K -- Throughput: 6046 states/sec, Load: 41 runs[K -- Throughput: 5966 states/sec, Load: 45 runs[K -- Throughput: 6032 states/sec, Load: 49 runs[K -- Throughput: 5997 states/sec, Load: 53 runs[K -- Throughput: 5984 states/sec, Load: 57 runs[K -- Throughput: 5973 states/sec, Load: 61 runs[K -- Throughput: 5869 states/sec, Load: 64 runs[K -- Throughput: 5975 states/sec, Load: 68 runs[K -- Throughput: 5969 states/sec, Load: 72 runs[K -- Throughput: 6066 states/sec, Load: 76 runs[K -- Throughput: 6179 states/sec, Load: 80 runs[K -- Throughput: 6018 states/sec, Load: 85 runs[K -- Throughput: 6035 states/sec, Load: 89 runs[K -- Throughput: 5978 states/sec, Load: 93 runs[K -- Throughput: 5976 states/sec, Load: 97 runs[K -- Throughput: 6047 states/sec, Load: 101 runs[K -- Throughput: 6016 states/sec, Load: 105 runs[K -- Throughput: 6045 states/sec, Load: 109 runs[K -- Throughput: 6069 states/sec, Load: 113 runs[K -- Throughput: 6007 states/sec, Load: 117 runs[K -- Throughput: 6021 states/sec, Load: 121 runs[K -- Throughput: 5987 states/sec, Load: 125 runs[K -- Throughput: 6020 states/sec, Load: 129 runs[K -- Throughput: 6030 states/sec, Load: 133 runs[K -- Throughput: 6033 states/sec, Load: 137 runs[K -- Throughput: 6018 states/sec, Load: 141 runs[K -- Throughput: 6010 states/sec, Load: 145 runs[K -- Throughput: 5994 states/sec, Load: 149 runs[K -- Throughput: 6082 states/sec, Load: 153 runs[K -- Throughput: 6008 states/sec, Load: 157 runs[K -- Throughput: 6073 states/sec, Load: 161 runs[K -- Throughput: 6048 states/sec, Load: 165 runs[K -- Throughput: 6006 states/sec, Load: 169 runs[K -- Throughput: 6116 states/sec, Load: 173 runs[K -- Throughput: 6057 states/sec, Load: 177 runs[K -- Throughput: 5969 states/sec, Load: 181 runs[K -- Throughput: 5939 states/sec, Load: 185 runs[K -- Throughput: 5932 states/sec, Load: 189 runs[K -- Throughput: 5987 states/sec, Load: 193 runs[K -- Throughput: 6079 states/sec, Load: 197 runs[K -- Throughput: 5812 states/sec, Load: 199 runs[K -- Throughput: 7753 states/sec, Load: 199 runs[K -- Throughput: 7666 states/sec, Load: 199 runs[K -- Throughput: 7708 states/sec, Load: 199 runs[K -- Throughput: 7596 states/sec, Load: 199 runs[K -- Throughput: 7662 states/sec, Load: 199 runs[K -- Throughput: 7638 states/sec, Load: 199 runs[K -- Throughput: 7732 states/sec, Load: 199 runs[K -- Throughput: 7654 states/sec, Load: 199 runs[K -- Throughput: 7746 states/sec, Load: 199 runs[K -- Throughput: 7632 states/sec, Load: 199 runs[K -- Throughput: 7735 states/sec, Load: 199 runs[K -- Throughput: 7715 states/sec, Load: 199 runs[K -- Throughput: 7656 states/sec, Load: 199 runs[K -- Throughput: 7761 states/sec, Load: 199 runs[K -- Throughput: 7789 states/sec, Load: 199 runs[K -- Throughput: 7802 states/sec, Load: 199 runs[K -- Throughput: 7794 states/sec, Load: 199 runs[K -- Throughput: 7726 states/sec, Load: 199 runs[K -- Throughput: 7606 states/sec, Load: 199 runs[K -- Throughput: 7323 states/sec, Load: 1 runs[K -- Throughput: 5992 states/sec, Load: 6 runs[K -- Throughput: 5933 states/sec, Load: 10 runs[K -- Throughput: 6076 states/sec, Load: 14 runs[K -- Throughput: 6079 states/sec, Load: 18 runs[K -- Throughput: 5943 states/sec, Load: 22 runs[K -- Throughput: 6060 states/sec, Load: 26 runs[K -- Throughput: 6034 states/sec, Load: 30 runs[K -- Throughput: 6108 states/sec, Load: 34 runs[K -- Throughput: 6035 states/sec, Load: 38 runs[K -- Throughput: 6056 states/sec, Load: 42 runs[K -- Throughput: 6009 states/sec, Load: 46 runs[K -- Throughput: 6016 states/sec, Load: 50 runs[K -- Throughput: 6053 states/sec, Load: 54 runs[K -- Throughput: 6036 states/sec, Load: 58 runs[K -- Throughput: 6032 states/sec, Load: 62 runs[K -- Throughput: 5956 states/sec, Load: 66 runs[K -- Throughput: 5949 states/sec, Load: 70 runs[K -- Throughput: 5980 states/sec, Load: 74 runs[K -- Throughput: 6027 states/sec, Load: 78 runs[K -- Throughput: 6085 states/sec, Load: 82 runs[K -- Throughput: 6031 states/sec, Load: 86 runs[K -- Throughput: 5963 states/sec, Load: 90 runs[K -- Throughput: 6004 states/sec, Load: 94 runs[K -- Throughput: 5946 states/sec, Load: 98 runs[K -- Throughput: 5995 states/sec, Load: 102 runs[K -- Throughput: 6075 states/sec, Load: 106 runs[K -- Throughput: 6080 states/sec, Load: 110 runs[K -- Throughput: 5972 states/sec, Load: 114 runs[K -- Throughput: 5979 states/sec, Load: 118 runs[K -- Throughput: 5979 states/sec, Load: 122 runs[K -- Throughput: 5951 states/sec, Load: 126 runs[K -- Throughput: 5962 states/sec, Load: 130 runs[K -- Throughput: 6045 states/sec, Load: 134 runs[K -- Throughput: 6014 states/sec, Load: 138 runs[K -- Throughput: 5962 states/sec, Load: 142 runs[K -- Throughput: 6038 states/sec, Load: 146 runs[K -- Throughput: 6090 states/sec, Load: 150 runs[K -- Throughput: 6001 states/sec, Load: 154 runs[K -- Throughput: 5966 states/sec, Load: 158 runs[K -- Throughput: 6022 states/sec, Load: 162 runs[K -- Throughput: 6027 states/sec, Load: 166 runs[K -- Throughput: 5978 states/sec, Load: 170 runs[K -- Throughput: 5976 states/sec, Load: 174 runs[K -- Throughput: 5967 states/sec, Load: 178 runs[K -- Throughput: 5994 states/sec, Load: 182 runs[K -- Throughput: 5932 states/sec, Load: 186 runs[K -- Throughput: 5941 states/sec, Load: 190 runs[K -- Throughput: 6030 states/sec, Load: 194 runs[K -- Throughput: 5991 states/sec, Load: 198 runs[K -- Throughput: 6186 states/sec, Load: 199 runs[K -- Throughput: 7801 states/sec, Load: 199 runs[K -- Throughput: 7552 states/sec, Load: 199 runs[K -- Throughput: 7736 states/sec, Load: 199 runs[K -- Throughput: 7697 states/sec, Load: 199 runs[K -- Throughput: 7655 states/sec, Load: 199 runs[K -- Throughput: 7793 states/sec, Load: 199 runs[K -- Throughput: 7604 states/sec, Load: 199 runs[K -- Throughput: 7757 states/sec, Load: 199 runs[K -- Throughput: 7683 states/sec, Load: 199 runs[K -- Throughput: 7707 states/sec, Load: 199 runs[K -- Throughput: 7724 states/sec, Load: 199 runs[K -- Throughput: 7674 states/sec, Load: 199 runs[K -- Throughput: 7750 states/sec, Load: 199 runs[K -- Throughput: 7666 states/sec, Load: 199 runs[K -- Throughput: 7688 states/sec, Load: 199 runs[K -- Throughput: 7789 states/sec, Load: 199 runs[K -- Throughput: 7721 states/sec, Load: 199 runs[K -- Throughput: 7734 states/sec, Load: 199 runs[K -- Throughput: 7773 states/sec, Load: 199 runs[K -- Throughput: 6955 states/sec, Load: 3 runs[K -- Throughput: 5894 states/sec, Load: 7 runs[K -- Throughput: 6030 states/sec, Load: 11 runs[K -- Throughput: 6069 states/sec, Load: 15 runs[K -- Throughput: 6061 states/sec, Load: 19 runs[K -- Throughput: 6061 states/sec, Load: 23 runs[K -- Throughput: 6029 states/sec, Load: 27 runs[K -- Throughput: 6091 states/sec, Load: 31 runs[K -- Throughput: 6030 states/sec, Load: 35 runs[K -- Throughput: 6116 states/sec, Load: 39 runs[K -- Throughput: 6045 states/sec, Load: 43 runs[K -- Throughput: 6071 states/sec, Load: 47 runs[K -- Throughput: 6003 states/sec, Load: 51 runs[K -- Throughput: 6054 states/sec, Load: 55 runs[K -- Throughput: 5960 states/sec, Load: 59 runs[K -- Throughput: 5985 states/sec, Load: 63 runs[K -- Throughput: 6048 states/sec, Load: 67 runs[K -- Throughput: 6039 states/sec, Load: 71 runs[K -- Throughput: 6154 states/sec, Load: 75 runs[K -- Throughput: 5971 states/sec, Load: 79 runs[K -- Throughput: 6022 states/sec, Load: 83 runs[K -- Throughput: 6053 states/sec, Load: 87 runs[K -- Throughput: 5968 states/sec, Load: 91 runs[K -- Throughput: 5999 states/sec, Load: 95 runs[K -- Throughput: 5992 states/sec, Load: 99 runs[K -- Throughput: 6117 states/sec, Load: 103 runs[K -- Throughput: 6049 states/sec, Load: 107 runs[K -- Throughput: 5900 states/sec, Load: 111 runs[K -- Throughput: 5959 states/sec, Load: 114 runs[K -- Throughput: 6008 states/sec, Load: 118 runs[K -- Throughput: 5992 states/sec, Load: 122 runs[K -- Throughput: 5977 states/sec, Load: 126 runs[K -- Throughput: 6023 states/sec, Load: 130 runs[K -- Throughput: 6063 states/sec, Load: 134 runs[K -- Throughput: 6012 states/sec, Load: 138 runs[K -- Throughput: 5948 states/sec, Load: 142 runs[K -- Throughput: 6043 states/sec, Load: 146 runs[K -- Throughput: 5985 states/sec, Load: 150 runs[K -- Throughput: 5965 states/sec, Load: 154 runs[K -- Throughput: 5932 states/sec, Load: 158 runs[K -- Throughput: 5979 states/sec, Load: 162 runs[K -- Throughput: 5977 states/sec, Load: 165 runs[K -- Throughput: 6040 states/sec, Load: 169 runs[K -- Throughput: 5983 states/sec, Load: 173 runs[K -- Throughput: 5947 states/sec, Load: 177 runs[K -- Throughput: 5954 states/sec, Load: 181 runs[K -- Throughput: 5989 states/sec, Load: 185 runs[K -- Throughput: 5922 states/sec, Load: 189 runs[K -- Throughput: 5978 states/sec, Load: 193 runs[K -- Throughput: 6013 states/sec, Load: 197 runs[K -- Throughput: 5939 states/sec, Load: 199 runs[K -- Throughput: 7672 states/sec, Load: 199 runs[K -- Throughput: 7525 states/sec, Load: 199 runs[K -- Throughput: 7753 states/sec, Load: 199 runs[K -- Throughput: 7654 states/sec, Load: 199 runs[K -- Throughput: 7776 states/sec, Load: 199 runs[K -- Throughput: 7723 states/sec, Load: 199 runs[K -- Throughput: 7755 states/sec, Load: 199 runs[K -- Throughput: 7657 states/sec, Load: 199 runs[K -- Throughput: 7521 states/sec, Load: 199 runs[K -- Throughput: 7730 states/sec, Load: 199 runs[K -- Throughput: 7626 states/sec, Load: 199 runs[K -- Throughput: 7739 states/sec, Load: 199 runs[K -- Throughput: 7796 states/sec, Load: 199 runs[K -- Throughput: 7747 states/sec, Load: 199 runs[K -- Throughput: 7832 states/sec, Load: 199 runs[K -- Throughput: 7708 states/sec, Load: 199 runs[K -- Throughput: 7882 states/sec, Load: 199 runs[K -- Throughput: 7667 states/sec, Load: 199 runs[K -- Throughput: 7645 states/sec, Load: 199 runs[K -- Throughput: 7173 states/sec, Load: 2 runs[K -- Throughput: 5896 states/sec, Load: 6 runs[K -- Throughput: 5949 states/sec, Load: 10 runs[K -- Throughput: 5969 states/sec, Load: 14 runs[K -- Throughput: 5962 states/sec, Load: 18 runs[K -- Throughput: 6035 states/sec, Load: 22 runs[K -- Throughput: 6032 states/sec, Load: 26 runs[K -- Throughput: 5052 states/sec, Load: 30 runs[K -- Throughput: 5396 states/sec, Load: 33 runs[K -- Throughput: 6041 states/sec, Load: 37 runs[K -- Throughput: 5998 states/sec, Load: 41 runs[K -- Throughput: 6018 states/sec, Load: 45 runs[K -- Throughput: 6056 states/sec, Load: 49 runs[K -- Throughput: 6054 states/sec, Load: 53 runs[K -- Throughput: 5961 states/sec, Load: 57 runs[K -- Throughput: 6058 states/sec, Load: 61 runs[K -- Throughput: 6017 states/sec, Load: 65 runs[K -- Throughput: 6020 states/sec, Load: 69 runs[K -- Throughput: 6017 states/sec, Load: 72 runs[K -- Throughput: 5928 states/sec, Load: 76 runs[K -- Throughput: 6080 states/sec, Load: 80 runs[K -- Throughput: 6065 states/sec, Load: 84 runs[K -- Throughput: 6060 states/sec, Load: 88 runs[K -- Throughput: 6008 states/sec, Load: 92 runs[K -- Throughput: 6026 states/sec, Load: 96 runs[K -- Throughput: 6000 states/sec, Load: 100 runs[K -- Throughput: 6012 states/sec, Load: 104 runs[K -- Throughput: 6122 states/sec, Load: 108 runs[K -- Throughput: 6095 states/sec, Load: 112 runs[K -- Throughput: 6047 states/sec, Load: 116 runs[K -- Throughput: 5978 states/sec, Load: 120 runs[K -- Throughput: 6020 states/sec, Load: 124 runs[K -- Throughput: 6016 states/sec, Load: 128 runs[K -- Throughput: 6092 states/sec, Load: 132 runs[K -- Throughput: 6032 states/sec, Load: 136 runs[K -- Throughput: 6002 states/sec, Load: 140 runs[K -- Throughput: 5950 states/sec, Load: 144 runs[K -- Throughput: 5985 states/sec, Load: 148 runs[K -- Throughput: 5958 states/sec, Load: 151 runs[K -- Throughput: 6002 states/sec, Load: 155 runs[K -- Throughput: 6021 states/sec, Load: 159 runs[K -- Throughput: 5983 states/sec, Load: 163 runs[K -- Throughput: 5975 states/sec, Load: 167 runs[K -- Throughput: 5993 states/sec, Load: 171 runs[K -- Throughput: 6016 states/sec, Load: 175 runs[K -- Throughput: 5990 states/sec, Load: 179 runs[K -- Throughput: 5961 states/sec, Load: 183 runs[K -- Throughput: 5953 states/sec, Load: 187 runs[K -- Throughput: 6059 states/sec, Load: 191 runs[K -- Throughput: 6006 states/sec, Load: 195 runs[K -- Throughput: 6003 states/sec, Load: 199 runs[K -- Throughput: 6474 states/sec, Load: 199 runs[K -- Throughput: 7663 states/sec, Load: 199 runs[K -- Throughput: 7641 states/sec, Load: 199 runs[K -- Throughput: 7557 states/sec, Load: 199 runs[K -- Throughput: 7643 states/sec, Load: 199 runs[K -- Throughput: 7621 states/sec, Load: 199 runs[K -- Throughput: 7598 states/sec, Load: 199 runs[K -- Throughput: 7570 states/sec, Load: 199 runs[K -- Throughput: 7750 states/sec, Load: 199 runs[K -- Throughput: 7694 states/sec, Load: 199 runs[K -- Throughput: 7846 states/sec, Load: 199 runs[K -- Throughput: 7643 states/sec, Load: 199 runs[K -- Throughput: 7662 states/sec, Load: 199 runs[K -- Throughput: 7590 states/sec, Load: 199 runs[K -- Throughput: 7685 states/sec, Load: 199 runs[K -- Throughput: 7672 states/sec, Load: 199 runs[K -- Throughput: 7690 states/sec, Load: 199 runs[K -- Throughput: 7691 states/sec, Load: 199 runs[K -- Throughput: 7770 states/sec, Load: 199 runs[K -- Throughput: 7681 states/sec, Load: 199 runs[K -- Throughput: 6601 states/sec, Load: 4 runs[K -- Throughput: 5942 states/sec, Load: 8 runs[K -- Throughput: 6080 states/sec, Load: 12 runs[K -- Throughput: 5961 states/sec, Load: 16 runs[K -- Throughput: 6088 states/sec, Load: 20 runs[K -- Throughput: 5999 states/sec, Load: 24 runs[K -- Throughput: 6022 states/sec, Load: 28 runs[K -- Throughput: 5928 states/sec, Load: 32 runs[K -- Throughput: 5923 states/sec, Load: 35 runs[K -- Throughput: 6034 states/sec, Load: 39 runs[K -- Throughput: 6056 states/sec, Load: 43 runs[K -- Throughput: 6034 states/sec, Load: 47 runs[K -- Throughput: 6017 states/sec, Load: 51 runs[K -- Throughput: 6057 states/sec, Load: 55 runs[K -- Throughput: 6021 states/sec, Load: 59 runs[K -- Throughput: 6039 states/sec, Load: 63 runs[K -- Throughput: 5942 states/sec, Load: 67 runs[K -- Throughput: 5996 states/sec, Load: 71 runs[K -- Throughput: 6065 states/sec, Load: 75 runs[K -- Throughput: 6034 states/sec, Load: 79 runs[K -- Throughput: 6032 states/sec, Load: 83 runs[K -- Throughput: 5999 states/sec, Load: 87 runs[K -- Throughput: 6006 states/sec, Load: 91 runs[K -- Throughput: 6085 states/sec, Load: 95 runs[K -- Throughput: 5998 states/sec, Load: 99 runs[K -- Throughput: 6030 states/sec, Load: 103 runs[K -- Throughput: 6081 states/sec, Load: 107 runs[K -- Throughput: 6004 states/sec, Load: 111 runs[K -- Throughput: 6059 states/sec, Load: 115 runs[K -- Throughput: 6018 states/sec, Load: 119 runs[K -- Throughput: 5940 states/sec, Load: 123 runs[K -- Throughput: 5974 states/sec, Load: 127 runs[K -- Throughput: 6048 states/sec, Load: 131 runs[K -- Throughput: 5989 states/sec, Load: 135 runs[K -- Throughput: 5983 states/sec, Load: 138 runs[K -- Throughput: 5904 states/sec, Load: 142 runs[K -- Throughput: 5958 states/sec, Load: 146 runs[K -- Throughput: 6034 states/sec, Load: 150 runs[K -- Throughput: 6034 states/sec, Load: 154 runs[K -- Throughput: 6062 states/sec, Load: 158 runs[K -- Throughput: 6047 states/sec, Load: 162 runs[K -- Throughput: 6042 states/sec, Load: 166 runs[K -- Throughput: 5958 states/sec, Load: 170 runs[K -- Throughput: 6035 states/sec, Load: 174 runs[K -- Throughput: 6036 states/sec, Load: 178 runs[K -- Throughput: 5899 states/sec, Load: 181 runs[K -- Throughput: 5917 states/sec, Load: 185 runs[K -- Throughput: 6012 states/sec, Load: 189 runs[K -- Throughput: 6085 states/sec, Load: 193 runs[K -- Throughput: 6032 states/sec, Load: 197 runs[K -- Throughput: 5924 states/sec, Load: 199 runs[K -- Throughput: 7817 states/sec, Load: 199 runs[K -- Throughput: 7616 states/sec, Load: 199 runs[K -- Throughput: 7714 states/sec, Load: 199 runs[K -- Throughput: 7634 states/sec, Load: 199 runs[K -- Throughput: 7674 states/sec, Load: 199 runs[K -- Throughput: 7772 states/sec, Load: 199 runs[K -- Throughput: 7710 states/sec, Load: 199 runs[K -- Throughput: 7817 states/sec, Load: 199 runs[K -- Throughput: 7592 states/sec, Load: 199 runs[K -- Throughput: 7794 states/sec, Load: 199 runs[K -- Throughput: 7881 states/sec, Load: 199 runs[K -- Throughput: 7617 states/sec, Load: 199 runs[K -- Throughput: 7781 states/sec, Load: 199 runs[K -- Throughput: 7822 states/sec, Load: 199 runs[K -- Throughput: 7591 states/sec, Load: 199 runs[K -- Throughput: 7782 states/sec, Load: 199 runs[K -- Throughput: 7814 states/sec, Load: 199 runs[K -- Throughput: 7702 states/sec, Load: 199 runs[K -- Throughput: 7763 states/sec, Load: 199 runs[K -- Throughput: 7534 states/sec, Load: 1 runs[K -- Throughput: 6077 states/sec, Load: 6 runs[K -- Throughput: 6071 states/sec, Load: 10 runs[K -- Throughput: 6016 states/sec, Load: 14 runs[K -- Throughput: 6038 states/sec, Load: 17 runs[K -- Throughput: 6108 states/sec, Load: 21 runs[K -- Throughput: 6133 states/sec, Load: 25 runs[K -- Throughput: 6224 states/sec, Load: 29 runs[K -- Throughput: 6024 states/sec, Load: 34 runs[K -- Throughput: 6066 states/sec, Load: 37 runs[K -- Throughput: 6008 states/sec, Load: 41 runs[K -- Throughput: 5996 states/sec, Load: 45 runs[K -- Throughput: 6024 states/sec, Load: 49 runs[K -- Throughput: 6008 states/sec, Load: 53 runs[K -- Throughput: 6034 states/sec, Load: 57 runs[K -- Throughput: 6104 states/sec, Load: 61 runs[K -- Throughput: 6035 states/sec, Load: 65 runs[K -- Throughput: 6062 states/sec, Load: 69 runs[K -- Throughput: 6001 states/sec, Load: 73 runs[K -- Throughput: 5972 states/sec, Load: 77 runs[K -- Throughput: 5990 states/sec, Load: 81 runs[K -- Throughput: 6040 states/sec, Load: 85 runs[K -- Throughput: 5980 states/sec, Load: 89 runs[K -- Throughput: 5922 states/sec, Load: 93 runs[K -- Throughput: 5907 states/sec, Load: 96 runs[K -- Throughput: 6049 states/sec, Load: 100 runs[K -- Throughput: 6076 states/sec, Load: 104 runs[K -- Throughput: 5992 states/sec, Load: 108 runs[K -- Throughput: 6070 states/sec, Load: 112 runs[K -- Throughput: 6123 states/sec, Load: 116 runs[K -- Throughput: 6000 states/sec, Load: 120 runs[K -- Throughput: 5994 states/sec, Load: 124 runs[K -- Throughput: 5994 states/sec, Load: 128 runs[K -- Throughput: 6008 states/sec, Load: 132 runs[K -- Throughput: 6121 states/sec, Load: 136 runs[K -- Throughput: 6047 states/sec, Load: 140 runs[K -- Throughput: 6110 states/sec, Load: 144 runs[K -- Throughput: 6067 states/sec, Load: 148 runs[K -- Throughput: 6143 states/sec, Load: 152 runs[K -- Throughput: 6071 states/sec, Load: 156 runs[K -- Throughput: 6136 states/sec, Load: 160 runs[K -- Throughput: 6055 states/sec, Load: 164 runs[K -- Throughput: 5998 states/sec, Load: 168 runs[K -- Throughput: 5971 states/sec, Load: 171 runs[K -- Throughput: 5949 states/sec, Load: 175 runs[K -- Throughput: 5939 states/sec, Load: 179 runs[K -- Throughput: 6053 states/sec, Load: 183 runs[K -- Throughput: 6065 states/sec, Load: 187 runs[K -- Throughput: 6055 states/sec, Load: 191 runs[K -- Throughput: 6010 states/sec, Load: 195 runs[K -- Throughput: 6053 states/sec, Load: 199 runs[K -- Throughput: 6776 states/sec, Load: 199 runs[K -- Throughput: 7724 states/sec, Load: 199 runs[K -- Throughput: 7804 states/sec, Load: 199 runs[K -- Throughput: 7795 states/sec, Load: 199 runs[K -- Throughput: 7704 states/sec, Load: 199 runs[K -- Throughput: 7801 states/sec, Load: 199 runs[K -- Throughput: 7786 states/sec, Load: 199 runs[K -- Throughput: 7703 states/sec, Load: 199 runs[K -- Throughput: 7682 states/sec, Load: 199 runs[K -- Throughput: 7706 states/sec, Load: 199 runs[K -- Throughput: 7809 states/sec, Load: 199 runs[K -- Throughput: 7711 states/sec, Load: 199 runs[K -- Throughput: 7631 states/sec, Load: 199 runs[K -- Throughput: 7783 states/sec, Load: 199 runs[K -- Throughput: 7658 states/sec, Load: 199 runs[K -- Throughput: 7682 states/sec, Load: 199 runs[K -- Throughput: 7733 states/sec, Load: 199 runs[K -- Throughput: 7719 states/sec, Load: 199 runs[K -- Throughput: 7658 states/sec, Load: 199 runs[K -- Throughput: 7629 states/sec, Load: 199 runs[K -- Throughput: 6855 states/sec, Load: 3 runs[K -- Throughput: 5937 states/sec, Load: 7 runs[K -- Throughput: 6076 states/sec, Load: 11 runs[K -- Throughput: 6037 states/sec, Load: 15 runs[K -- Throughput: 6006 states/sec, Load: 19 runs[K -- Throughput: 5950 states/sec, Load: 23 runs[K -- Throughput: 6037 states/sec, Load: 27 runs[K -- Throughput: 5994 states/sec, Load: 31 runs[K -- Throughput: 5963 states/sec, Load: 35 runs[K -- Throughput: 5966 states/sec, Load: 38 runs[K -- Throughput: 6039 states/sec, Load: 42 runs[K -- Throughput: 6026 states/sec, Load: 46 runs[K -- Throughput: 6037 states/sec, Load: 50 runs[K -- Throughput: 6023 states/sec, Load: 54 runs[K -- Throughput: 6006 states/sec, Load: 58 runs[K -- Throughput: 5977 states/sec, Load: 62 runs[K -- Throughput: 6066 states/sec, Load: 66 runs[K -- Throughput: 6007 states/sec, Load: 70 runs[K -- Throughput: 6037 states/sec, Load: 74 runs[K -- Throughput: 5949 states/sec, Load: 78 runs[K -- Throughput: 5917 states/sec, Load: 81 runs[K -- Throughput: 5970 states/sec, Load: 85 runs[K -- Throughput: 5941 states/sec, Load: 89 runs[K -- Throughput: 6015 states/sec, Load: 93 runs[K -- Throughput: 5996 states/sec, Load: 97 runs[K -- Throughput: 6022 states/sec, Load: 101 runs[K -- Throughput: 6044 states/sec, Load: 105 runs[K -- Throughput: 5988 states/sec, Load: 109 runs[K -- Throughput: 5946 states/sec, Load: 112 runs[K -- Throughput: 5970 states/sec, Load: 116 runs[K -- Throughput: 6058 states/sec, Load: 120 runs[K -- Throughput: 5990 states/sec, Load: 124 runs[K -- Throughput: 6013 states/sec, Load: 128 runs[K -- Throughput: 6042 states/sec, Load: 132 runs[K -- Throughput: 5984 states/sec, Load: 136 runs[K -- Throughput: 6019 states/sec, Load: 140 runs[K -- Throughput: 6002 states/sec, Load: 143 runs[K -- Throughput: 5980 states/sec, Load: 147 runs[K -- Throughput: 5973 states/sec, Load: 151 runs[K -- Throughput: 5973 states/sec, Load: 155 runs[K -- Throughput: 6026 states/sec, Load: 159 runs[K -- Throughput: 6051 states/sec, Load: 163 runs[K -- Throughput: 6046 states/sec, Load: 167 runs[K -- Throughput: 6110 states/sec, Load: 171 runs[K -- Throughput: 5957 states/sec, Load: 175 runs[K -- Throughput: 5989 states/sec, Load: 179 runs[K -- Throughput: 6055 states/sec, Load: 183 runs[K -- Throughput: 5971 states/sec, Load: 186 runs[K -- Throughput: 5960 states/sec, Load: 190 runs[K -- Throughput: 6020 states/sec, Load: 194 runs[K -- Throughput: 6000 states/sec, Load: 198 runs[K -- Throughput: 6652 states/sec, Load: 199 runs[K -- Throughput: 7615 states/sec, Load: 199 runs[K -- Throughput: 7691 states/sec, Load: 199 runs[K -- Throughput: 7800 states/sec, Load: 199 runs[K -- Throughput: 7807 states/sec, Load: 199 runs[K -- Throughput: 7616 states/sec, Load: 199 runs[K -- Throughput: 7765 states/sec, Load: 199 runs[K -- Throughput: 7691 states/sec, Load: 199 runs[K -- Throughput: 7719 states/sec, Load: 199 runs[K -- Throughput: 7736 states/sec, Load: 199 runs[K -- Throughput: 7754 states/sec, Load: 199 runs[K -- Throughput: 7757 states/sec, Load: 199 runs[K -- Throughput: 7621 states/sec, Load: 199 runs[K -- Throughput: 7716 states/sec, Load: 199 runs[K -- Throughput: 7662 states/sec, Load: 199 runs[K -- Throughput: 7576 states/sec, Load: 199 runs[K -- Throughput: 7764 states/sec, Load: 199 runs[K -- Throughput: 7655 states/sec, Load: 199 runs[K -- Throughput: 7701 states/sec, Load: 199 runs[K -- Throughput: 7643 states/sec, Load: 199 runs[K -- Throughput: 962 states/sec, Load: 1 runs[K -- Throughput: 5896 states/sec, Load: 5 runs[K -- Throughput: 5904 states/sec, Load: 9 runs[K -- Throughput: 6091 states/sec, Load: 13 runs[K -- Throughput: 6154 states/sec, Load: 17 runs[K -- Throughput: 6040 states/sec, Load: 21 runs[K -- Throughput: 6052 states/sec, Load: 25 runs[K -- Throughput: 6041 states/sec, Load: 29 runs[K -- Throughput: 6067 states/sec, Load: 33 runs[K -- Throughput: 6014 states/sec, Load: 37 runs[K -- Throughput: 6021 states/sec, Load: 40 runs[K -- Throughput: 5877 states/sec, Load: 44 runs[K -- Throughput: 6031 states/sec, Load: 48 runs[K -- Throughput: 6016 states/sec, Load: 52 runs[K -- Throughput: 6056 states/sec, Load: 56 runs[K -- Throughput: 6011 states/sec, Load: 60 runs[K -- Throughput: 6002 states/sec, Load: 64 runs[K -- Throughput: 6111 states/sec, Load: 68 runs[K -- Throughput: 6023 states/sec, Load: 72 runs[K -- Throughput: 5922 states/sec, Load: 76 runs[K -- Throughput: 5925 states/sec, Load: 79 runs[K -- Throughput: 5938 states/sec, Load: 83 runs[K -- Throughput: 6043 states/sec, Load: 87 runs[K -- Throughput: 6037 states/sec, Load: 91 runs[K -- Throughput: 6028 states/sec, Load: 95 runs[K -- Throughput: 6019 states/sec, Load: 99 runs[K -- Throughput: 5993 states/sec, Load: 103 runs[K -- Throughput: 5993 states/sec, Load: 107 runs[K -- Throughput: 5945 states/sec, Load: 110 runs[K -- Throughput: 5932 states/sec, Load: 114 runs[K -- Throughput: 6006 states/sec, Load: 118 runs[K -- Throughput: 6019 states/sec, Load: 122 runs[K -- Throughput: 6062 states/sec, Load: 126 runs[K -- Throughput: 6008 states/sec, Load: 130 runs[K -- Throughput: 6004 states/sec, Load: 134 runs[K -- Throughput: 6010 states/sec, Load: 138 runs[K -- Throughput: 5986 states/sec, Load: 142 runs[K -- Throughput: 5900 states/sec, Load: 145 runs[K -- Throughput: 5977 states/sec, Load: 149 runs[K -- Throughput: 5995 states/sec, Load: 153 runs[K -- Throughput: 6098 states/sec, Load: 157 runs[K -- Throughput: 6035 states/sec, Load: 161 runs[K -- Throughput: 6007 states/sec, Load: 165 runs[K -- Throughput: 6038 states/sec, Load: 169 runs[K -- Throughput: 6072 states/sec, Load: 173 runs[K -- Throughput: 5978 states/sec, Load: 177 runs[K -- Throughput: 5914 states/sec, Load: 180 runs[K -- Throughput: 5927 states/sec, Load: 184 runs[K -- Throughput: 5967 states/sec, Load: 188 runs[K -- Throughput: 6045 states/sec, Load: 192 runs[K -- Throughput: 6095 states/sec, Load: 196 runs[K -- Throughput: 5768 states/sec, Load: 199 runs[K -- Throughput: 7506 states/sec, Load: 199 runs[K -- Throughput: 7552 states/sec, Load: 199 runs[K -- Throughput: 7680 states/sec, Load: 199 runs[K -- Throughput: 7550 states/sec, Load: 199 runs[K -- Throughput: 7755 states/sec, Load: 199 runs[K -- Throughput: 7631 states/sec, Load: 199 runs[K -- Throughput: 7594 states/sec, Load: 199 runs[K -- Throughput: 7693 states/sec, Load: 199 runs[K -- Throughput: 7700 states/sec, Load: 199 runs[K -- Throughput: 7605 states/sec, Load: 199 runs[K -- Throughput: 7581 states/sec, Load: 199 runs[K -- Throughput: 7563 states/sec, Load: 199 runs[K -- Throughput: 7718 states/sec, Load: 199 runs[K -- Throughput: 7682 states/sec, Load: 199 runs[K -- Throughput: 7731 states/sec, Load: 199 runs[K -- Throughput: 7688 states/sec, Load: 199 runs[K -- Throughput: 7712 states/sec, Load: 199 runs[K -- Throughput: 7797 states/sec, Load: 199 runs[K -- Throughput: 7605 states/sec, Load: 199 runs[K -- Throughput: 7783 states/sec, Load: 199 runs[K -- Throughput: 6837 states/sec, Load: 3 runs[K -- Throughput: 5987 states/sec, Load: 7 runs[K -- Throughput: 6082 states/sec, Load: 11 runs[K -- Throughput: 6111 states/sec, Load: 15 runs[K -- Throughput: 6032 states/sec, Load: 19 runs[K -- Throughput: 6171 states/sec, Load: 23 runs[K -- Throughput: 6164 states/sec, Load: 27 runs[K -- Throughput: 6170 states/sec, Load: 31 runs[K -- Throughput: 6147 states/sec, Load: 35 runs[K -- Throughput: 5974 states/sec, Load: 39 runs[K -- Throughput: 6106 states/sec, Load: 43 runs[K -- Throughput: 6182 states/sec, Load: 46 runs[K -- Throughput: 6085 states/sec, Load: 50 runs[K -- Throughput: 6048 states/sec, Load: 54 runs[K -- Throughput: 6071 states/sec, Load: 58 runs[K -- Throughput: 6070 states/sec, Load: 62 runs[K -- Throughput: 6146 states/sec, Load: 66 runs[K -- Throughput: 6093 states/sec, Load: 70 runs[K -- Throughput: 6093 states/sec, Load: 74 runs[K -- Throughput: 6101 states/sec, Load: 78 runs[K -- Throughput: 6031 states/sec, Load: 82 runs[K -- Throughput: 6119 states/sec, Load: 86 runs[K -- Throughput: 6106 states/sec, Load: 90 runs[K -- Throughput: 6116 states/sec, Load: 94 runs[K -- Throughput: 6166 states/sec, Load: 98 runs[K -- Throughput: 6130 states/sec, Load: 102 runs[K -- Throughput: 6076 states/sec, Load: 106 runs[K -- Throughput: 6113 states/sec, Load: 110 runs[K -- Throughput: 6136 states/sec, Load: 114 runs[K -- Throughput: 6097 states/sec, Load: 118 runs[K -- Throughput: 6070 states/sec, Load: 122 runs[K -- Throughput: 6042 states/sec, Load: 125 runs[K -- Throughput: 6028 states/sec, Load: 129 runs[K -- Throughput: 6043 states/sec, Load: 133 runs[K -- Throughput: 6116 states/sec, Load: 137 runs[K -- Throughput: 6072 states/sec, Load: 141 runs[K -- Throughput: 6114 states/sec, Load: 145 runs[K -- Throughput: 6159 states/sec, Load: 149 runs[K -- Throughput: 6079 states/sec, Load: 153 runs[K -- Throughput: 6060 states/sec, Load: 157 runs[K -- Throughput: 6097 states/sec, Load: 161 runs[K -- Throughput: 6053 states/sec, Load: 165 runs[K -- Throughput: 6103 states/sec, Load: 169 runs[K -- Throughput: 6069 states/sec, Load: 173 runs[K -- Throughput: 5989 states/sec, Load: 177 runs[K -- Throughput: 6033 states/sec, Load: 180 runs[K -- Throughput: 6050 states/sec, Load: 184 runs[K -- Throughput: 6050 states/sec, Load: 188 runs[K -- Throughput: 6076 states/sec, Load: 192 runs[K -- Throughput: 6186 states/sec, Load: 196 runs[K -- Throughput: 5993 states/sec, Load: 199 runs[K -- Throughput: 7839 states/sec, Load: 199 runs[K -- Throughput: 7659 states/sec, Load: 199 runs[K -- Throughput: 7908 states/sec, Load: 199 runs[K -- Throughput: 7642 states/sec, Load: 199 runs[K -- Throughput: 7789 states/sec, Load: 199 runs[K -- Throughput: 7696 states/sec, Load: 199 runs[K -- Throughput: 7653 states/sec, Load: 199 runs[K -- Throughput: 7615 states/sec, Load: 199 runs[K -- Throughput: 7558 states/sec, Load: 199 runs[K -- Throughput: 7789 states/sec, Load: 199 runs[K -- Throughput: 7636 states/sec, Load: 199 runs[K -- Throughput: 7799 states/sec, Load: 199 runs[K -- Throughput: 7584 states/sec, Load: 199 runs[K -- Throughput: 7632 states/sec, Load: 199 runs[K -- Throughput: 7801 states/sec, Load: 199 runs[K -- Throughput: 7758 states/sec, Load: 199 runs[K -- Throughput: 7746 states/sec, Load: 199 runs[K -- Throughput: 7698 states/sec, Load: 199 runs[K -- Throughput: 7674 states/sec, Load: 199 runs[K -- Throughput: 7795 states/sec, Load: 199 runs[K -- Throughput: 6653 states/sec, Load: 4 runs[K -- Throughput: 6018 states/sec, Load: 8 runs[K -- Throughput: 6118 states/sec, Load: 12 runs[K -- Throughput: 6086 states/sec, Load: 16 runs[K -- Throughput: 6020 states/sec, Load: 20 runs[K -- Throughput: 6051 states/sec, Load: 24 runs[K -- Throughput: 6040 states/sec, Load: 28 runs[K -- Throughput: 5998 states/sec, Load: 32 runs[K -- Throughput: 6067 states/sec, Load: 35 runs[K -- Throughput: 5934 states/sec, Load: 39 runs[K -- Throughput: 6011 states/sec, Load: 43 runs[K -- Throughput: 6087 states/sec, Load: 47 runs[K -- Throughput: 5994 states/sec, Load: 51 runs[K -- Throughput: 6065 states/sec, Load: 55 runs[K -- Throughput: 6040 states/sec, Load: 59 runs[K -- Throughput: 6031 states/sec, Load: 63 runs[K -- Throughput: 6060 states/sec, Load: 66 runs[K -- Throughput: 5978 states/sec, Load: 70 runs[K -- Throughput: 6005 states/sec, Load: 74 runs[K -- Throughput: 6094 states/sec, Load: 78 runs[K -- Throughput: 6088 states/sec, Load: 82 runs[K -- Throughput: 6033 states/sec, Load: 86 runs[K -- Throughput: 6050 states/sec, Load: 90 runs[K -- Throughput: 6025 states/sec, Load: 94 runs[K -- Throughput: 6049 states/sec, Load: 98 runs[K -- Throughput: 5850 states/sec, Load: 101 runs[K -- Throughput: 5935 states/sec, Load: 105 runs[K -- Throughput: 6054 states/sec, Load: 109 runs[K -- Throughput: 6095 states/sec, Load: 113 runs[K -- Throughput: 6007 states/sec, Load: 117 runs[K -- Throughput: 5978 states/sec, Load: 121 runs[K -- Throughput: 6048 states/sec, Load: 125 runs[K -- Throughput: 6053 states/sec, Load: 129 runs[K -- Throughput: 6040 states/sec, Load: 133 runs[K -- Throughput: 5914 states/sec, Load: 136 runs[K -- Throughput: 5983 states/sec, Load: 140 runs[K -- Throughput: 5997 states/sec, Load: 144 runs[K -- Throughput: 5987 states/sec, Load: 148 runs[K -- Throughput: 6012 states/sec, Load: 152 runs[K -- Throughput: 6044 states/sec, Load: 156 runs[K -- Throughput: 6040 states/sec, Load: 160 runs[K -- Throughput: 6044 states/sec, Load: 163 runs[K -- Throughput: 5937 states/sec, Load: 167 runs[K -- Throughput: 6005 states/sec, Load: 171 runs[K -- Throughput: 6034 states/sec, Load: 175 runs[K -- Throughput: 6095 states/sec, Load: 179 runs[K -- Throughput: 6076 states/sec, Load: 183 runs[K -- Throughput: 5992 states/sec, Load: 187 runs[K -- Throughput: 6058 states/sec, Load: 191 runs[K -- Throughput: 6028 states/sec, Load: 195 runs[K -- Throughput: 6000 states/sec, Load: 199 runs[K -- Throughput: 6520 states/sec, Load: 199 runs[K -- Throughput: 7813 states/sec, Load: 199 runs[K -- Throughput: 7734 states/sec, Load: 199 runs[K -- Throughput: 7754 states/sec, Load: 199 runs[K -- Throughput: 7818 states/sec, Load: 199 runs[K -- Throughput: 7627 states/sec, Load: 199 runs[K -- Throughput: 7698 states/sec, Load: 199 runs[K -- Throughput: 7589 states/sec, Load: 199 runs[K -- Throughput: 7475 states/sec, Load: 199 runs[K -- Throughput: 7718 states/sec, Load: 199 runs[K -- Throughput: 7689 states/sec, Load: 199 runs[K -- Throughput: 7782 states/sec, Load: 199 runs[K -- Throughput: 7655 states/sec, Load: 199 runs[K -- Throughput: 7673 states/sec, Load: 199 runs[K -- Throughput: 7638 states/sec, Load: 199 runs[K -- Throughput: 7708 states/sec, Load: 199 runs[K -- Throughput: 7707 states/sec, Load: 199 runs[K -- Throughput: 7621 states/sec, Load: 199 runs[K -- Throughput: 7421 states/sec, Load: 199 runs[K -- Throughput: 7595 states/sec, Load: 199 runs[K -- Throughput: 7547 states/sec, Load: 1 runs[K -- Throughput: 6037 states/sec, Load: 6 runs[K -- Throughput: 6058 states/sec, Load: 10 runs[K -- Throughput: 6044 states/sec, Load: 14 runs[K -- Throughput: 6030 states/sec, Load: 18 runs[K -- Throughput: 5999 states/sec, Load: 21 runs[K -- Throughput: 5969 states/sec, Load: 25 runs[K -- Throughput: 6046 states/sec, Load: 29 runs[K -- Throughput: 6021 states/sec, Load: 33 runs[K -- Throughput: 6058 states/sec, Load: 37 runs[K -- Throughput: 6035 states/sec, Load: 41 runs[K -- Throughput: 6090 states/sec, Load: 45 runs[K -- Throughput: 6010 states/sec, Load: 49 runs[K -- Throughput: 5978 states/sec, Load: 53 runs[K -- Throughput: 6008 states/sec, Load: 56 runs[K -- Throughput: 5993 states/sec, Load: 60 runs[K -- Throughput: 6023 states/sec, Load: 64 runs[K -- Throughput: 6092 states/sec, Load: 68 runs[K -- Throughput: 6080 states/sec, Load: 72 runs[K -- Throughput: 6049 states/sec, Load: 76 runs[K -- Throughput: 6019 states/sec, Load: 80 runs[K -- Throughput: 5999 states/sec, Load: 84 runs[K -- Throughput: 6020 states/sec, Load: 88 runs[K -- Throughput: 5991 states/sec, Load: 92 runs[K -- Throughput: 5939 states/sec, Load: 95 runs[K -- Throughput: 5995 states/sec, Load: 99 runs[K -- Throughput: 6074 states/sec, Load: 103 runs[K -- Throughput: 6052 states/sec, Load: 107 runs[K -- Throughput: 6072 states/sec, Load: 111 runs[K -- Throughput: 6027 states/sec, Load: 115 runs[K -- Throughput: 6011 states/sec, Load: 119 runs[K -- Throughput: 5987 states/sec, Load: 122 runs[K -- Throughput: 5996 states/sec, Load: 126 runs[K -- Throughput: 6088 states/sec, Load: 130 runs[K -- Throughput: 5985 states/sec, Load: 134 runs[K -- Throughput: 6069 states/sec, Load: 138 runs[K -- Throughput: 6062 states/sec, Load: 142 runs[K -- Throughput: 6095 states/sec, Load: 146 runs[K -- Throughput: 6044 states/sec, Load: 150 runs[K -- Throughput: 5979 states/sec, Load: 154 runs[K -- Throughput: 5949 states/sec, Load: 157 runs[K -- Throughput: 5965 states/sec, Load: 161 runs[K -- Throughput: 5851 states/sec, Load: 165 runs[K -- Throughput: 6033 states/sec, Load: 169 runs[K -- Throughput: 6074 states/sec, Load: 173 runs[K -- Throughput: 6017 states/sec, Load: 177 runs[K -- Throughput: 6063 states/sec, Load: 181 runs[K -- Throughput: 5976 states/sec, Load: 185 runs[K -- Throughput: 5912 states/sec, Load: 188 runs[K -- Throughput: 5983 states/sec, Load: 192 runs[K -- Throughput: 5999 states/sec, Load: 196 runs[K -- Throughput: 5726 states/sec, Load: 199 runs[K -- Throughput: 7941 states/sec, Load: 199 runs[K -- Throughput: 7742 states/sec, Load: 199 runs[K -- Throughput: 7611 states/sec, Load: 199 runs[K -- Throughput: 7585 states/sec, Load: 199 runs[K -- Throughput: 7749 states/sec, Load: 199 runs[K -- Throughput: 7687 states/sec, Load: 199 runs[K -- Throughput: 7692 states/sec, Load: 199 runs[K -- Throughput: 7625 states/sec, Load: 199 runs[K -- Throughput: 7803 states/sec, Load: 199 runs[K -- Throughput: 7751 states/sec, Load: 199 runs[K -- Throughput: 7669 states/sec, Load: 199 runs[K -- Throughput: 7680 states/sec, Load: 199 runs[K -- Throughput: 7932 states/sec, Load: 199 runs[K -- Throughput: 7634 states/sec, Load: 199 runs[K -- Throughput: 7766 states/sec, Load: 199 runs[K -- Throughput: 7716 states/sec, Load: 199 runs[K -- Throughput: 7746 states/sec, Load: 199 runs[K -- Throughput: 7633 states/sec, Load: 199 runs[K -- Throughput: 7508 states/sec, Load: 199 runs[K -- Throughput: 7735 states/sec, Load: 199 runs[K -- Throughput: 6711 states/sec, Load: 3 runs[K -- Throughput: 6115 states/sec, Load: 7 runs[K -- Throughput: 6035 states/sec, Load: 11 runs[K -- Throughput: 5982 states/sec, Load: 15 runs[K -- Throughput: 6005 states/sec, Load: 19 runs[K -- Throughput: 6047 states/sec, Load: 23 runs[K -- Throughput: 6009 states/sec, Load: 27 runs[K -- Throughput: 6032 states/sec, Load: 31 runs[K -- Throughput: 6091 states/sec, Load: 35 runs[K -- Throughput: 6041 states/sec, Load: 39 runs[K -- Throughput: 6004 states/sec, Load: 43 runs[K -- Throughput: 5998 states/sec, Load: 46 runs[K -- Throughput: 5951 states/sec, Load: 50 runs[K -- Throughput: 6039 states/sec, Load: 54 runs[K -- Throughput: 6091 states/sec, Load: 58 runs[K -- Throughput: 6096 states/sec, Load: 62 runs[K -- Throughput: 5908 states/sec, Load: 66 runs[K -- Throughput: 6106 states/sec, Load: 70 runs[K -- Throughput: 6073 states/sec, Load: 74 runs[K -- Throughput: 6026 states/sec, Load: 78 runs[K -- Throughput: 6020 states/sec, Load: 82 runs[K -- Throughput: 6008 states/sec, Load: 86 runs[K -- Throughput: 5898 states/sec, Load: 89 runs[K -- Throughput: 5955 states/sec, Load: 93 runs[K -- Throughput: 5987 states/sec, Load: 97 runs[K -- Throughput: 6203 states/sec, Load: 101 runs[K -- Throughput: 6230 states/sec, Load: 105 runs[K -- Throughput: 6276 states/sec, Load: 109 runs[K -- Throughput: 6327 states/sec, Load: 113 runs[K -- Throughput: 6333 states/sec, Load: 117 runs[K -- Throughput: 6356 states/sec, Load: 121 runs[K -- Throughput: 6316 states/sec, Load: 125 runs[K -- Throughput: 6317 states/sec, Load: 129 runs[K -- Throughput: 6329 states/sec, Load: 133 runs[K -- Throughput: 6384 states/sec, Load: 138 runs[K -- Throughput: 6367 states/sec, Load: 142 runs[K -- Throughput: 6342 states/sec, Load: 146 runs[K -- Throughput: 6290 states/sec, Load: 150 runs[K -- Throughput: 6346 states/sec, Load: 154 runs[K -- Throughput: 6375 states/sec, Load: 158 runs[K -- Throughput: 6323 states/sec, Load: 162 runs[K -- Throughput: 6359 states/sec, Load: 166 runs[K -- Throughput: 6347 states/sec, Load: 170 runs[K -- Throughput: 6400 states/sec, Load: 174 runs[K -- Throughput: 6372 states/sec, Load: 178 runs[K -- Throughput: 6351 states/sec, Load: 183 runs[K -- Throughput: 6269 states/sec, Load: 187 runs[K -- Throughput: 6400 states/sec, Load: 191 runs[K -- Throughput: 6278 states/sec, Load: 195 runs[K -- Throughput: 6273 states/sec, Load: 199 runs[K -- Throughput: 7271 states/sec, Load: 199 runs[K -- Throughput: 8155 states/sec, Load: 199 runs[K -- Throughput: 8178 states/sec, Load: 199 runs[K -- Throughput: 7987 states/sec, Load: 199 runs[K -- Throughput: 8205 states/sec, Load: 199 runs[K -- Throughput: 8005 states/sec, Load: 199 runs[K -- Throughput: 7961 states/sec, Load: 199 runs[K -- Throughput: 7939 states/sec, Load: 199 runs[K -- Throughput: 8023 states/sec, Load: 199 runs[K -- Throughput: 8178 states/sec, Load: 199 runs[K -- Throughput: 8314 states/sec, Load: 199 runs[K -- Throughput: 7993 states/sec, Load: 199 runs[K -- Throughput: 7836 states/sec, Load: 199 runs[K -- Throughput: 8187 states/sec, Load: 199 runs[K -- Throughput: 7972 states/sec, Load: 199 runs[K -- Throughput: 8199 states/sec, Load: 199 runs[K -- Throughput: 8216 states/sec, Load: 199 runs[K -- Throughput: 8098 states/sec, Load: 199 runs[K -- Throughput: 8045 states/sec, Load: 199 runs[K -- Throughput: 763 states/sec, Load: 1 runs[K -- Throughput: 6332 states/sec, Load: 9 runs[K -- Throughput: 6410 states/sec, Load: 13 runs[K -- Throughput: 6334 states/sec, Load: 17 runs[K -- Throughput: 6276 states/sec, Load: 21 runs[K -- Throughput: 6372 states/sec, Load: 25 runs[K -- Throughput: 6275 states/sec, Load: 29 runs[K -- Throughput: 6159 states/sec, Load: 33 runs[K -- Throughput: 6170 states/sec, Load: 37 runs[K -- Throughput: 6224 states/sec, Load: 41 runs[K -- Throughput: 6191 states/sec, Load: 45 runs[K -- Throughput: 6293 states/sec, Load: 49 runs[K -- Throughput: 6149 states/sec, Load: 53 runs[K -- Throughput: 6164 states/sec, Load: 57 runs[K -- Throughput: 6252 states/sec, Load: 61 runs[K -- Throughput: 6113 states/sec, Load: 65 runs[K -- Throughput: 6044 states/sec, Load: 69 runs[K -- Throughput: 6114 states/sec, Load: 73 runs[K -- Throughput: 6035 states/sec, Load: 77 runs[K -- Throughput: 6079 states/sec, Load: 81 runs[K -- Throughput: 6092 states/sec, Load: 85 runs[K -- Throughput: 6051 states/sec, Load: 88 runs[K -- Throughput: 5983 states/sec, Load: 92 runs[K -- Throughput: 5962 states/sec, Load: 96 runs[K -- Throughput: 6120 states/sec, Load: 100 runs[K -- Throughput: 6039 states/sec, Load: 104 runs[K -- Throughput: 6077 states/sec, Load: 108 runs[K -- Throughput: 6117 states/sec, Load: 112 runs[K -- Throughput: 6073 states/sec, Load: 116 runs[K -- Throughput: 6072 states/sec, Load: 120 runs[K -- Throughput: 6070 states/sec, Load: 124 runs[K -- Throughput: 6002 states/sec, Load: 127 runs[K -- Throughput: 6025 states/sec, Load: 131 runs[K -- Throughput: 6110 states/sec, Load: 135 runs[K -- Throughput: 6091 states/sec, Load: 139 runs[K -- Throughput: 6087 states/sec, Load: 143 runs[K -- Throughput: 6066 states/sec, Load: 147 runs[K -- Throughput: 6183 states/sec, Load: 151 runs[K -- Throughput: 6086 states/sec, Load: 155 runs[K -- Throughput: 5988 states/sec, Load: 159 runs[K -- Throughput: 6050 states/sec, Load: 163 runs[K -- Throughput: 6055 states/sec, Load: 167 runs[K -- Throughput: 5999 states/sec, Load: 170 runs[K -- Throughput: 6001 states/sec, Load: 174 runs[K -- Throughput: 6067 states/sec, Load: 178 runs[K -- Throughput: 6160 states/sec, Load: 182 runs[K -- Throughput: 6141 states/sec, Load: 186 runs[K -- Throughput: 6117 states/sec, Load: 190 runs[K -- Throughput: 6124 states/sec, Load: 194 runs[K -- Throughput: 6085 states/sec, Load: 198 runs[K -- Throughput: 6737 states/sec, Load: 199 runs[K -- Throughput: 7749 states/sec, Load: 199 runs[K -- Throughput: 7768 states/sec, Load: 199 runs[K -- Throughput: 7836 states/sec, Load: 199 runs[K -- Throughput: 7817 states/sec, Load: 199 runs[K -- Throughput: 7662 states/sec, Load: 199 runs[K -- Throughput: 7875 states/sec, Load: 199 runs[K -- Throughput: 7869 states/sec, Load: 199 runs[K -- Throughput: 7734 states/sec, Load: 199 runs[K -- Throughput: 7826 states/sec, Load: 199 runs[K -- Throughput: 7752 states/sec, Load: 199 runs[K -- Throughput: 7732 states/sec, Load: 199 runs[K -- Throughput: 7628 states/sec, Load: 199 runs[K -- Throughput: 7761 states/sec, Load: 199 runs[K -- Throughput: 7776 states/sec, Load: 199 runs[K -- Throughput: 7758 states/sec, Load: 199 runs[K -- Throughput: 7744 states/sec, Load: 199 runs[K -- Throughput: 7773 states/sec, Load: 199 runs[K -- Throughput: 7874 states/sec, Load: 199 runs[K -- Throughput: 7739 states/sec, Load: 199 runs[K -- Throughput: 7630 states/sec, Load: 1 runs[K -- Throughput: 6094 states/sec, Load: 6 runs[K -- Throughput: 6111 states/sec, Load: 10 runs[K -- Throughput: 6109 states/sec, Load: 14 runs[K -- Throughput: 6124 states/sec, Load: 18 runs[K -- Throughput: 6102 states/sec, Load: 22 runs[K -- Throughput: 6084 states/sec, Load: 26 runs[K -- Throughput: 6051 states/sec, Load: 30 runs[K -- Throughput: 6029 states/sec, Load: 34 runs[K -- Throughput: 6012 states/sec, Load: 37 runs[K -- Throughput: 6062 states/sec, Load: 41 runs[K -- Throughput: 6094 states/sec, Load: 45 runs[K -- Throughput: 6083 states/sec, Load: 49 runs[K -- Throughput: 6120 states/sec, Load: 53 runs[K -- Throughput: 6068 states/sec, Load: 57 runs[K -- Throughput: 6191 states/sec, Load: 61 runs[K -- Throughput: 6175 states/sec, Load: 65 runs[K -- Throughput: 6121 states/sec, Load: 69 runs[K -- Throughput: 6104 states/sec, Load: 73 runs[K -- Throughput: 6081 states/sec, Load: 77 runs[K -- Throughput: 6018 states/sec, Load: 80 runs[K -- Throughput: 6007 states/sec, Load: 84 runs[K -- Throughput: 6035 states/sec, Load: 88 runs[K -- Throughput: 6088 states/sec, Load: 92 runs[K -- Throughput: 5958 states/sec, Load: 96 runs[K -- Throughput: 6116 states/sec, Load: 100 runs[K -- Throughput: 6014 states/sec, Load: 104 runs[K -- Throughput: 6118 states/sec, Load: 108 runs[K -- Throughput: 6077 states/sec, Load: 111 runs[K -- Throughput: 5940 states/sec, Load: 115 runs[K -- Throughput: 6070 states/sec, Load: 119 runs[K -- Throughput: 6084 states/sec, Load: 123 runs[K -- Throughput: 6049 states/sec, Load: 127 runs[K -- Throughput: 6105 states/sec, Load: 131 runs[K -- Throughput: 6064 states/sec, Load: 135 runs[K -- Throughput: 6084 states/sec, Load: 139 runs[K -- Throughput: 5919 states/sec, Load: 142 runs[K -- Throughput: 5962 states/sec, Load: 146 runs[K -- Throughput: 6148 states/sec, Load: 150 runs[K -- Throughput: 6041 states/sec, Load: 154 runs[K -- Throughput: 6129 states/sec, Load: 158 runs[K -- Throughput: 6023 states/sec, Load: 162 runs[K -- Throughput: 6102 states/sec, Load: 166 runs[K -- Throughput: 6118 states/sec, Load: 170 runs[K -- Throughput: 6075 states/sec, Load: 173 runs[K -- Throughput: 6046 states/sec, Load: 177 runs[K -- Throughput: 5995 states/sec, Load: 181 runs[K -- Throughput: 6093 states/sec, Load: 185 runs[K -- Throughput: 6131 states/sec, Load: 189 runs[K -- Throughput: 6082 states/sec, Load: 193 runs[K -- Throughput: 6076 states/sec, Load: 197 runs[K -- Throughput: 6071 states/sec, Load: 199 runs[K -- Throughput: 7734 states/sec, Load: 199 runs[K -- Throughput: 7706 states/sec, Load: 199 runs[K -- Throughput: 7717 states/sec, Load: 199 runs[K -- Throughput: 7651 states/sec, Load: 199 runs[K -- Throughput: 7772 states/sec, Load: 199 runs[K -- Throughput: 7808 states/sec, Load: 199 runs[K -- Throughput: 7748 states/sec, Load: 199 runs[K -- Throughput: 7739 states/sec, Load: 199 runs[K -- Throughput: 7733 states/sec, Load: 199 runs[K -- Throughput: 7921 states/sec, Load: 199 runs[K -- Throughput: 7785 states/sec, Load: 199 runs[K -- Throughput: 7964 states/sec, Load: 199 runs[K -- Throughput: 7719 states/sec, Load: 199 runs[K -- Throughput: 7707 states/sec, Load: 199 runs[K -- Throughput: 7777 states/sec, Load: 199 runs[K -- Throughput: 7419 states/sec, Load: 199 runs[K -- Throughput: 7830 states/sec, Load: 199 runs[K -- Throughput: 7804 states/sec, Load: 199 runs[K -- Throughput: 7831 states/sec, Load: 199 runs[K -- Throughput: 7860 states/sec, Load: 199 runs[K -- Throughput: 6496 states/sec, Load: 4 runs[K -- Throughput: 6092 states/sec, Load: 8 runs[K -- Throughput: 6099 states/sec, Load: 12 runs[K -- Throughput: 6159 states/sec, Load: 16 runs[K -- Throughput: 6064 states/sec, Load: 20 runs[K -- Throughput: 6145 states/sec, Load: 24 runs[K -- Throughput: 6168 states/sec, Load: 28 runs[K -- Throughput: 6092 states/sec, Load: 32 runs[K -- Throughput: 6119 states/sec, Load: 36 runs[K -- Throughput: 6143 states/sec, Load: 40 runs[K -- Throughput: 2105 states/sec, Load: 44 runs[K -- Throughput: 6164 states/sec, Load: 48 runs[K -- Throughput: 6032 states/sec, Load: 52 runs[K -- Throughput: 6034 states/sec, Load: 55 runs[K -- Throughput: 5982 states/sec, Load: 59 runs[K -- Throughput: 6021 states/sec, Load: 63 runs[K -- Throughput: 6107 states/sec, Load: 67 runs[K -- Throughput: 6175 states/sec, Load: 71 runs[K -- Throughput: 6097 states/sec, Load: 75 runs[K -- Throughput: 6121 states/sec, Load: 79 runs[K -- Throughput: 6087 states/sec, Load: 83 runs[K -- Throughput: 6084 states/sec, Load: 87 runs[K -- Throughput: 6049 states/sec, Load: 91 runs[K -- Throughput: 6062 states/sec, Load: 95 runs[K -- Throughput: 5974 states/sec, Load: 98 runs[K -- Throughput: 5971 states/sec, Load: 102 runs[K -- Throughput: 6084 states/sec, Load: 106 runs[K -- Throughput: 6077 states/sec, Load: 110 runs[K -- Throughput: 6113 states/sec, Load: 114 runs[K -- Throughput: 6063 states/sec, Load: 118 runs[K -- Throughput: 6052 states/sec, Load: 122 runs[K -- Throughput: 5990 states/sec, Load: 125 runs[K -- Throughput: 5995 states/sec, Load: 129 runs[K -- Throughput: 6045 states/sec, Load: 133 runs[K -- Throughput: 6129 states/sec, Load: 137 runs[K -- Throughput: 6042 states/sec, Load: 141 runs[K -- Throughput: 5953 states/sec, Load: 145 runs[K -- Throughput: 6071 states/sec, Load: 149 runs[K -- Throughput: 5966 states/sec, Load: 152 runs[K -- Throughput: 6095 states/sec, Load: 156 runs[K -- Throughput: 6111 states/sec, Load: 160 runs[K -- Throughput: 6056 states/sec, Load: 164 runs[K -- Throughput: 6065 states/sec, Load: 168 runs[K -- Throughput: 6030 states/sec, Load: 172 runs[K -- Throughput: 6094 states/sec, Load: 176 runs[K -- Throughput: 6095 states/sec, Load: 180 runs[K -- Throughput: 5999 states/sec, Load: 183 runs[K -- Throughput: 5945 states/sec, Load: 187 runs[K -- Throughput: 6070 states/sec, Load: 191 runs[K -- Throughput: 6103 states/sec, Load: 195 runs[K -- Throughput: 6083 states/sec, Load: 199 runs[K -- Throughput: 6915 states/sec, Load: 199 runs[K -- Throughput: 7513 states/sec, Load: 199 runs[K -- Throughput: 7825 states/sec, Load: 199 runs[K -- Throughput: 7786 states/sec, Load: 199 runs[K -- Throughput: 7954 states/sec, Load: 199 runs[K -- Throughput: 7767 states/sec, Load: 199 runs[K -- Throughput: 7914 states/sec, Load: 199 runs[K -- Throughput: 7686 states/sec, Load: 199 runs[K -- Throughput: 7732 states/sec, Load: 199 runs[K -- Throughput: 7833 states/sec, Load: 199 runs[K -- Throughput: 7677 states/sec, Load: 199 runs[K -- Throughput: 7679 states/sec, Load: 199 runs[K -- Throughput: 7873 states/sec, Load: 199 runs[K -- Throughput: 7815 states/sec, Load: 199 runs[K -- Throughput: 7768 states/sec, Load: 199 runs[K -- Throughput: 7716 states/sec, Load: 199 runs[K -- Throughput: 7841 states/sec, Load: 199 runs[K -- Throughput: 7947 states/sec, Load: 199 runs[K -- Throughput: 7716 states/sec, Load: 199 runs[K -- Throughput: 7850 states/sec, Load: 199 runs[K[2K -- Formula is satisfied.
+(9000 runs)
+Learning statistics for best strategy: 
+	Number of resets: 1
+	Number of iterations in last reset: 16
+	Number of iterations in total: 27
+
+ -- States explored : 13727306 states
+ -- CPU user time used : 2096330 ms
+ -- Virtual memory used : 22084272 KiB
+ -- Resident memory used : 22034544 KiB
+[2K
+Verifying formula 2 at ../queries/SP_100_116_8.q:2
+ -- Throughput: 0 states/sec, Load: 2000 runs[K[2K -- Formula is satisfied.
+Composer.Done:
+[0]: (0,0) (148.0643019552035,1)
+[1]: (150.8608174483848,1)
+[2]: (148.0941588349308,1)
+[3]: (146.384462932487,1)
+[4]: (149.2761882911841,1)
+[5]: (158.2438889558027,1)
+[6]: (147.1803445693521,1)
+[7]: (150.3885524182396,1)
+[8]: (150.2526589296563,1)
+[9]: (149.1345290392233,1)
+[10]: (153.0637271376879,1)
+[11]: (151.0346618699315,1)
+[12]: (146.4724031002889,1)
+[13]: (150.6006507636397,1)
+[14]: (151.0897934711671,1)
+[15]: (150.2163540631208,1)
+[16]: (152.6757082108957,1)
+[17]: (154.2468909045561,1)
+[18]: (149.3390208190539,1)
+[19]: (147.4600818659956,1)
+[20]: (149.3501454983601,1)
+[21]: (154.1305333070444,1)
+[22]: (149.1707714976476,1)
+[23]: (154.0858857196272,1)
+[24]: (151.0628056733108,1)
+[25]: (148.2247120545941,1)
+[26]: (152.2324729105841,1)
+[27]: (150.2020789038813,1)
+[28]: (149.4727782093415,1)
+[29]: (149.4599497972702,1)
+[30]: (159.081945632842,1)
+[31]: (149.3045571641271,1)
+[32]: (148.424741119396,1)
+[33]: (149.378822186783,1)
+[34]: (145.1026447872183,1)
+[35]: (147.3017147747038,1)
+[36]: (149.0035547807231,1)
+[37]: (149.4167718539734,1)
+[38]: (153.0194649880845,1)
+[39]: (152.375664507556,1)
+[40]: (150.3363393237247,1)
+[41]: (157.1834511095517,1)
+[42]: (152.7707232675646,1)
+[43]: (150.0122941436213,1)
+[44]: (151.1514758638544,1)
+[45]: (150.5110984998508,1)
+[46]: (145.2715304805131,1)
+[47]: (155.8339048578452,1)
+[48]: (148.1079428367863,1)
+[49]: (154.5671908584197,1)
+[50]: (154.1822014039888,1)
+[51]: (151.6931182425565,1)
+[52]: (152.0952993977694,1)
+[53]: (154.4562810134204,1)
+[54]: (151.2244904697052,1)
+[55]: (153.3664658766951,1)
+[56]: (151.0691537844233,1)
+[57]: (149.2228194295576,1)
+[58]: (153.0170269076498,1)
+[59]: (151.1347186322071,1)
+[60]: (150.616141776035,1)
+[61]: (151.7452062337887,1)
+[62]: (150.1728468742672,1)
+[63]: (152.2031081199667,1)
+[64]: (152.3706976738725,1)
+[65]: (151.5642342060169,1)
+[66]: (148.1876586540779,1)
+[67]: (149.0864925352398,1)
+[68]: (149.4119492656529,1)
+[69]: (147.3590267071185,1)
+[70]: (147.1764612446107,1)
+[71]: (154.2658674517375,1)
+[72]: (151.6603331993263,1)
+[73]: (149.4776087808829,1)
+[74]: (148.6489243775285,1)
+[75]: (151.8053367350012,1)
+[76]: (153.4329325133116,1)
+[77]: (151.3233823705212,1)
+[78]: (149.9387494683463,1)
+[79]: (158.959282285952,1)
+[80]: (152.1818181781952,1)
+[81]: (151.0673216863856,1)
+[82]: (150.1439627531864,1)
+[83]: (152.2228359377076,1)
+[84]: (150.0662961103943,1)
+[85]: (150.2901105188887,1)
+[86]: (152.0622711898163,1)
+[87]: (154.0713360693308,1)
+[88]: (149.0068941072472,1)
+[89]: (148.5239478130099,1)
+[90]: (147.034109995281,1)
+[91]: (148.1405676893316,1)
+[92]: (156.2121420100474,1)
+[93]: (148.5876739138509,1)
+[94]: (147.151302621909,1)
+[95]: (148.4436374290057,1)
+[96]: (146.2567386641858,1)
+[97]: (156.5893185580452,1)
+[98]: (152.1678801120333,1)
+[99]: (149.4459114948324,1)
+[100]: (150.2253986147335,1)
+[101]: (152.3405875847459,1)
+[102]: (151.3630437799898,1)
+[103]: (156.3115313738258,1)
+[104]: (151.3995737027779,1)
+[105]: (148.1868852088454,1)
+[106]: (149.0027920183839,1)
+[107]: (151.3808547674247,1)
+[108]: (149.9640597058385,1)
+[109]: (157.316035967134,1)
+[110]: (149.5087276487042,1)
+[111]: (152.1715184816358,1)
+[112]: (146.141083352601,1)
+[113]: (149.1188399772287,1)
+[114]: (148.4294122421385,1)
+[115]: (147.0014570944555,1)
+[116]: (147.3018369038252,1)
+[117]: (151.0083916239441,1)
+[118]: (152.0912015015107,1)
+[119]: (149.0187177059815,1)
+[120]: (152.5978040497296,1)
+[121]: (153.2074809240168,1)
+[122]: (149.0850054454149,1)
+[123]: (156.3434416450648,1)
+[124]: (147.0798048442902,1)
+[125]: (148.4955469003404,1)
+[126]: (151.1979030904381,1)
+[127]: (146.1855267383142,1)
+[128]: (157.3604648154749,1)
+[129]: (154.9701652344378,1)
+[130]: (153.1117905231719,1)
+[131]: (149.6461211071964,1)
+[132]: (152.084371775587,1)
+[133]: (152.1021735897351,1)
+[134]: (151.1802344734167,1)
+[135]: (150.5963548423881,1)
+[136]: (149.4328575492235,1)
+[137]: (150.0434384438229,1)
+[138]: (149.8391060780936,1)
+[139]: (148.8191002995907,1)
+[140]: (149.5537907444138,1)
+[141]: (152.1770569052863,1)
+[142]: (150.6961148118285,1)
+[143]: (150.2066198616148,1)
+[144]: (149.8096105881049,1)
+[145]: (147.1064155089115,1)
+[146]: (150.2916431213509,1)
+[147]: (149.00999911014,1)
+[148]: (152.3858242129199,1)
+[149]: (150.0589764622704,1)
+[150]: (160.0269469869425,1)
+[151]: (149.5515356217237,1)
+[152]: (148.1465494021986,1)
+[153]: (147.5438556325072,1)
+[154]: (148.3093999175534,1)
+[155]: (148.3117244534294,1)
+[156]: (158.0479675580639,1)
+[157]: (148.001949353559,1)
+[158]: (155.3862871462353,1)
+[159]: (149.1396049642109,1)
+[160]: (157.0123578763426,1)
+[161]: (147.4207458649327,1)
+[162]: (151.0582929988377,1)
+[163]: (148.1878021753293,1)
+[164]: (148.1423231961078,1)
+[165]: (150.3743109166599,1)
+[166]: (151.0449251984883,1)
+[167]: (149.0375285365413,1)
+[168]: (155.4591086615613,1)
+[169]: (150.2940849584191,1)
+[170]: (147.1160237659067,1)
+[171]: (148.3324303478509,1)
+[172]: (149.4861646703138,1)
+[173]: (149.3963636400924,1)
+[174]: (154.3136426136413,1)
+[175]: (148.2989576591329,1)
+[176]: (152.3283142129844,1)
+[177]: (150.1674896317932,1)
+[178]: (150.2879873365329,1)
+[179]: (152.3325938958172,1)
+[180]: (152.7613644637542,1)
+[181]: (154.0365604707208,1)
+[182]: (149.7207799798383,1)
+[183]: (150.0654388871727,1)
+[184]: (150.0782549313351,1)
+[185]: (148.264737345142,1)
+[186]: (156.445427878427,1)
+[187]: (147.0764085620042,1)
+[188]: (153.1600845667769,1)
+[189]: (152.0740035605771,1)
+[190]: (150.3989599742541,1)
+[191]: (155.7310772891511,1)
+[192]: (149.4347563320038,1)
+[193]: (152.0061489081406,1)
+[194]: (148.1740944397513,1)
+[195]: (150.4238432621601,1)
+[196]: (149.5189285340832,1)
+[197]: (160.562326077048,1)
+[198]: (148.6903180899341,1)
+[199]: (152.1194073932919,1)
+[200]: (149.1299243199744,1)
+[201]: (151.5989698825638,1)
+[202]: (154.2434344483512,1)
+[203]: (152.0448851972521,1)
+[204]: (154.087106912634,1)
+[205]: (148.4062063115057,1)
+[206]: (153.1187226027269,1)
+[207]: (153.2973750166464,1)
+[208]: (151.02048937238,1)
+[209]: (154.074255692196,1)
+[210]: (160.3162117625787,1)
+[211]: (148.0245268532614,1)
+[212]: (152.2180866132601,1)
+[213]: (149.5086443485924,1)
+[214]: (154.1547523747081,1)
+[215]: (150.1430000711204,1)
+[216]: (148.3773026415191,1)
+[217]: (152.1814339207681,1)
+[218]: (153.3603507787413,1)
+[219]: (151.162821908799,1)
+[220]: (148.581873543559,1)
+[221]: (147.6352316969324,1)
+[222]: (150.0633659251533,1)
+[223]: (147.4667646967339,1)
+[224]: (149.6006347326118,1)
+[225]: (151.0573200177917,1)
+[226]: (153.0580509630229,1)
+[227]: (150.8387190050993,1)
+[228]: (153.1275369621169,1)
+[229]: (151.0327810445969,1)
+[230]: (151.2267370764102,1)
+[231]: (152.9221719593474,1)
+[232]: (149.3048997034596,1)
+[233]: (151.4947236034658,1)
+[234]: (147.4140728987913,1)
+[235]: (149.1904680235725,1)
+[236]: (149.0008871438231,1)
+[237]: (149.0655592684048,1)
+[238]: (155.1102491078306,1)
+[239]: (147.2543300124483,1)
+[240]: (149.150231630423,1)
+[241]: (151.1561833141266,1)
+[242]: (152.0106445921712,1)
+[243]: (152.4311946735257,1)
+[244]: (152.3449249761685,1)
+[245]: (155.3975220219047,1)
+[246]: (150.2313240277255,1)
+[247]: (152.9222636769626,1)
+[248]: (150.060718889354,1)
+[249]: (151.0320922767377,1)
+[250]: (148.4679185662958,1)
+[251]: (153.4420723969924,1)
+[252]: (149.0467707873729,1)
+[253]: (155.5836040911381,1)
+[254]: (150.0859574810599,1)
+[255]: (151.30552183654,1)
+[256]: (147.1064977073187,1)
+[257]: (153.1787116384444,1)
+[258]: (152.239407698359,1)
+[259]: (156.6456112399733,1)
+[260]: (147.3597783587487,1)
+[261]: (148.1366471517233,1)
+[262]: (156.4486021687517,1)
+[263]: (152.2155063450228,1)
+[264]: (148.4192110360969,1)
+[265]: (151.2010964293453,1)
+[266]: (148.5356943547054,1)
+[267]: (158.1023424314859,1)
+[268]: (151.3230998970886,1)
+[269]: (148.5272182462665,1)
+[270]: (150.4307529667105,1)
+[271]: (150.1924665661665,1)
+[272]: (148.4897623139292,1)
+[273]: (152.1752042751095,1)
+[274]: (151.0282408037708,1)
+[275]: (148.3703689971341,1)
+[276]: (150.1976594430774,1)
+[277]: (152.4046682466036,1)
+[278]: (151.4978150114908,1)
+[279]: (153.6737305251626,1)
+[280]: (147.4588623557619,1)
+[281]: (151.4162154103992,1)
+[282]: (151.1137001757332,1)
+[283]: (149.2539883256999,1)
+[284]: (150.0842301138605,1)
+[285]: (151.1898551851887,1)
+[286]: (149.1463172068095,1)
+[287]: (155.5074784670585,1)
+[288]: (153.0439721882869,1)
+[289]: (147.4176407443981,1)
+[290]: (150.0016982608969,1)
+[291]: (145.7114147930795,1)
+[292]: (152.0458529190411,1)
+[293]: (152.1544520804981,1)
+[294]: (156.1757301172233,1)
+[295]: (150.0948228040622,1)
+[296]: (152.6492985183524,1)
+[297]: (152.0579231932469,1)
+[298]: (150.3871246785035,1)
+[299]: (149.1988612633664,1)
+[300]: (149.465153540336,1)
+[301]: (149.1575616769574,1)
+[302]: (149.148256351896,1)
+[303]: (152.2082142724915,1)
+[304]: (148.4308754080162,1)
+[305]: (148.8953970050385,1)
+[306]: (151.6703770350063,1)
+[307]: (155.396805690087,1)
+[308]: (151.4224490806859,1)
+[309]: (151.6725178672848,1)
+[310]: (152.0711820994246,1)
+[311]: (150.3421754440926,1)
+[312]: (153.2853912567443,1)
+[313]: (151.3677524326208,1)
+[314]: (151.4975297842095,1)
+[315]: (153.4325943145688,1)
+[316]: (147.0710002715521,1)
+[317]: (150.0095731888397,1)
+[318]: (149.3524382908626,1)
+[319]: (150.9128143928719,1)
+[320]: (147.4283890437404,1)
+[321]: (149.1959098257268,1)
+[322]: (152.4692606310072,1)
+[323]: (152.6704557301142,1)
+[324]: (150.3068540644214,1)
+[325]: (148.2563494715866,1)
+[326]: (150.0322375731346,1)
+[327]: (153.1094332386351,1)
+[328]: (151.2796501282287,1)
+[329]: (149.3903062674604,1)
+[330]: (151.0912329954318,1)
+[331]: (153.4267955643809,1)
+[332]: (149.3073971758993,1)
+[333]: (152.0041435039263,1)
+[334]: (150.1281186445701,1)
+[335]: (149.1764053262573,1)
+[336]: (147.5069048445956,1)
+[337]: (148.3340154232365,1)
+[338]: (152.2875779095866,1)
+[339]: (153.0097709764809,1)
+[340]: (148.1855545700709,1)
+[341]: (152.3082289403125,1)
+[342]: (152.0963983239159,1)
+[343]: (150.5456017061155,1)
+[344]: (153.2937656472976,1)
+[345]: (151.1796543137963,1)
+[346]: (150.7451224299068,1)
+[347]: (150.0377067794865,1)
+[348]: (161.169568190837,1)
+[349]: (151.1957090069815,1)
+[350]: (149.1999463931316,1)
+[351]: (149.0241627648297,1)
+[352]: (157.0503155972602,1)
+[353]: (152.2845829869979,1)
+[354]: (152.0954380905717,1)
+[355]: (151.2108210095236,1)
+[356]: (154.0419028406611,1)
+[357]: (150.2085576683849,1)
+[358]: (148.861083835927,1)
+[359]: (149.2648638650014,1)
+[360]: (151.0510061411048,1)
+[361]: (151.285031255869,1)
+[362]: (157.1311352611278,1)
+[363]: (149.2577959854392,1)
+[364]: (155.1402237250845,1)
+[365]: (145.1279807664728,1)
+[366]: (154.1145370858368,1)
+[367]: (153.4225629495627,1)
+[368]: (152.0472048814926,1)
+[369]: (147.1427407570874,1)
+[370]: (152.037407971716,1)
+[371]: (146.1433335645712,1)
+[372]: (152.0020908810731,1)
+[373]: (152.4268699661388,1)
+[374]: (158.0721751483077,1)
+[375]: (154.6369348189393,1)
+[376]: (149.4681315798978,1)
+[377]: (152.9547096952479,1)
+[378]: (148.3827593930427,1)
+[379]: (151.1324076915441,1)
+[380]: (151.0330696529466,1)
+[381]: (150.4426714941207,1)
+[382]: (149.2244718481119,1)
+[383]: (151.4421396344418,1)
+[384]: (150.4100829951848,1)
+[385]: (153.1737586211544,1)
+[386]: (152.6410394587908,1)
+[387]: (148.0681945940611,1)
+[388]: (151.7961407897615,1)
+[389]: (151.0103464585779,1)
+[390]: (149.5581515989482,1)
+[391]: (157.4173917244433,1)
+[392]: (148.1010879139943,1)
+[393]: (150.6760358585986,1)
+[394]: (147.0217941767153,1)
+[395]: (150.6521124369515,1)
+[396]: (154.4873744959833,1)
+[397]: (153.3208935001973,1)
+[398]: (150.131415650175,1)
+[399]: (150.40106337224,1)
+[400]: (147.167108966032,1)
+[401]: (153.1684446735367,1)
+[402]: (149.2124983601411,1)
+[403]: (152.7183898412937,1)
+[404]: (149.7461083768711,1)
+[405]: (148.037378668595,1)
+[406]: (155.5234787154166,1)
+[407]: (149.2954229973415,1)
+[408]: (151.4232685010417,1)
+[409]: (148.2057720957863,1)
+[410]: (155.3303396478848,1)
+[411]: (155.4658036895761,1)
+[412]: (159.6073179563514,1)
+[413]: (151.171438186551,1)
+[414]: (151.6417452006529,1)
+[415]: (151.1139288655754,1)
+[416]: (152.0498719455372,1)
+[417]: (153.1207851263438,1)
+[418]: (154.9295553307518,1)
+[419]: (153.2754521480955,1)
+[420]: (151.127726216835,1)
+[421]: (152.2340829070388,1)
+[422]: (155.1745845972949,1)
+[423]: (149.05377686463,1)
+[424]: (150.2882994799823,1)
+[425]: (152.1621745869089,1)
+[426]: (150.2439365446664,1)
+[427]: (152.2965219972415,1)
+[428]: (154.0919323259654,1)
+[429]: (153.6448425351738,1)
+[430]: (155.2567531493207,1)
+[431]: (157.1814438640426,1)
+[432]: (153.1193489484145,1)
+[433]: (153.0796565224385,1)
+[434]: (150.4096772782274,1)
+[435]: (149.3741927179449,1)
+[436]: (153.1097336619662,1)
+[437]: (152.3795936683211,1)
+[438]: (147.6380078040135,1)
+[439]: (149.2053630142566,1)
+[440]: (148.1134023534965,1)
+[441]: (152.1604010747775,1)
+[442]: (150.5706711909128,1)
+[443]: (149.1259343063413,1)
+[444]: (147.2726781524843,1)
+[445]: (152.1202232312433,1)
+[446]: (152.1574445385629,1)
+[447]: (149.6556238529209,1)
+[448]: (149.1983626411172,1)
+[449]: (150.0718021444438,1)
+[450]: (150.0361792777009,1)
+[451]: (154.8617214344468,1)
+[452]: (150.3218377142792,1)
+[453]: (151.1248923637724,1)
+[454]: (150.0272091040608,1)
+[455]: (151.3696324765629,1)
+[456]: (153.8412963667861,1)
+[457]: (149.388559027588,1)
+[458]: (151.3066913337853,1)
+[459]: (151.0400212299174,1)
+[460]: (149.102616334588,1)
+[461]: (152.3470293095373,1)
+[462]: (151.9043750369682,1)
+[463]: (151.0566563952511,1)
+[464]: (147.0757061542912,1)
+[465]: (155.5123786250445,1)
+[466]: (148.3845756448735,1)
+[467]: (149.3338873637672,1)
+[468]: (150.1373343607414,1)
+[469]: (153.8173170581967,1)
+[470]: (148.0171248886943,1)
+[471]: (147.17542029454,1)
+[472]: (150.4208427839425,1)
+[473]: (150.3826135077673,1)
+[474]: (150.1793707266091,1)
+[475]: (149.0173413402319,1)
+[476]: (150.183519552641,1)
+[477]: (154.1739843793739,1)
+[478]: (157.0622644179497,1)
+[479]: (152.3677029793679,1)
+[480]: (151.0747579862104,1)
+[481]: (149.3643118597876,1)
+[482]: (153.3593069395295,1)
+[483]: (150.7592609458989,1)
+[484]: (154.6488795665917,1)
+[485]: (153.4964864424452,1)
+[486]: (152.1636410674008,1)
+[487]: (152.3144106063129,1)
+[488]: (151.1027094642153,1)
+[489]: (152.0406260470831,1)
+[490]: (151.1720573923526,1)
+[491]: (152.0057008820226,1)
+[492]: (148.341833768412,1)
+[493]: (147.6871838473307,1)
+[494]: (152.3467764458611,1)
+[495]: (154.1795317066006,1)
+[496]: (149.0537346088742,1)
+[497]: (152.1208436508939,1)
+[498]: (151.4006080220929,1)
+[499]: (153.0265082211287,1)
+[500]: (148.0982911523903,1)
+[501]: (151.1446615552654,1)
+[502]: (152.1196722583865,1)
+[503]: (151.1024956211414,1)
+[504]: (162.2006266668242,1)
+[505]: (151.7440096626826,1)
+[506]: (152.0274153280339,1)
+[507]: (151.4863856340391,1)
+[508]: (149.5565932441707,1)
+[509]: (152.1763236245827,1)
+[510]: (147.0747560720757,1)
+[511]: (148.2637651562965,1)
+[512]: (151.2262520707867,1)
+[513]: (153.130744079903,1)
+[514]: (150.1127149833317,1)
+[515]: (151.0546010094154,1)
+[516]: (147.5890836236755,1)
+[517]: (157.2713177062986,1)
+[518]: (149.6456076886302,1)
+[519]: (147.0069443039737,1)
+[520]: (150.3168981785756,1)
+[521]: (150.2767300198777,1)
+[522]: (153.1046704909355,1)
+[523]: (149.191509659049,1)
+[524]: (150.3070383312881,1)
+[525]: (149.6528031226195,1)
+[526]: (152.5480507108426,1)
+[527]: (152.8356777997653,1)
+[528]: (151.1318369060888,1)
+[529]: (149.5094917564923,1)
+[530]: (148.5145053752815,1)
+[531]: (149.1821216426862,1)
+[532]: (151.3611515722075,1)
+[533]: (152.1945188048121,1)
+[534]: (151.0134534650323,1)
+[535]: (154.591068038463,1)
+[536]: (154.0173169658476,1)
+[537]: (153.0180696097675,1)
+[538]: (150.2548843186661,1)
+[539]: (156.5263700625582,1)
+[540]: (152.7451886248579,1)
+[541]: (150.0636760604237,1)
+[542]: (148.4300934263653,1)
+[543]: (149.0083273758538,1)
+[544]: (157.0585347691074,1)
+[545]: (150.6636603538643,1)
+[546]: (154.5476606470143,1)
+[547]: (154.1924140033312,1)
+[548]: (155.4694673883212,1)
+[549]: (150.2662521528313,1)
+[550]: (155.6390835548772,1)
+[551]: (148.1173240068928,1)
+[552]: (152.4052344676586,1)
+[553]: (152.1183916598472,1)
+[554]: (152.0426732394069,1)
+[555]: (150.0319452388501,1)
+[556]: (148.1172265372965,1)
+[557]: (149.3476380702157,1)
+[558]: (153.3892489954048,1)
+[559]: (156.7538421858177,1)
+[560]: (153.2103835097173,1)
+[561]: (148.244590433432,1)
+[562]: (148.3221649100963,1)
+[563]: (149.1828775913558,1)
+[564]: (148.4278005740487,1)
+[565]: (150.7972397985127,1)
+[566]: (151.8348339046056,1)
+[567]: (152.0108229139272,1)
+[568]: (148.3799622382524,1)
+[569]: (151.3485855755991,1)
+[570]: (149.6279791292628,1)
+[571]: (154.3904999115691,1)
+[572]: (155.6782569912714,1)
+[573]: (152.13886536514,1)
+[574]: (153.0726401446515,1)
+[575]: (153.7970478439986,1)
+[576]: (149.4262940901791,1)
+[577]: (153.0606541605462,1)
+[578]: (155.0714975237289,1)
+[579]: (151.4486598407615,1)
+[580]: (151.2838698764084,1)
+[581]: (155.6365883924209,1)
+[582]: (151.1069995949317,1)
+[583]: (157.3529015056551,1)
+[584]: (153.0566181034684,1)
+[585]: (152.4451847339329,1)
+[586]: (148.3070638696878,1)
+[587]: (148.6604383530446,1)
+[588]: (157.0526847075053,1)
+[589]: (146.0025110254613,1)
+[590]: (149.8580679534422,1)
+[591]: (149.0355947299313,1)
+[592]: (155.0561762704979,1)
+[593]: (149.3970357883427,1)
+[594]: (150.8782676002658,1)
+[595]: (151.5100010144923,1)
+[596]: (152.3358420688964,1)
+[597]: (155.0404823559968,1)
+[598]: (152.5227221837628,1)
+[599]: (151.0051211381421,1)
+[600]: (154.4807986047285,1)
+[601]: (148.5331986299325,1)
+[602]: (152.5463168495533,1)
+[603]: (152.0848146017389,1)
+[604]: (153.0302279581491,1)
+[605]: (154.0008728855239,1)
+[606]: (154.1756407375925,1)
+[607]: (150.067945919826,1)
+[608]: (152.0572526994998,1)
+[609]: (153.1258492402038,1)
+[610]: (152.1923367246137,1)
+[611]: (153.8918616535773,1)
+[612]: (149.5883190857384,1)
+[613]: (150.278118647641,1)
+[614]: (152.1418507879872,1)
+[615]: (150.5414048778615,1)
+[616]: (153.6309141739229,1)
+[617]: (152.6187388514474,1)
+[618]: (147.7687914122674,1)
+[619]: (149.0405566173411,1)
+[620]: (153.4845276857685,1)
+[621]: (156.3387253046512,1)
+[622]: (150.0725330343651,1)
+[623]: (147.1827632063085,1)
+[624]: (151.2923385843077,1)
+[625]: (154.3138246446385,1)
+[626]: (147.2652917148994,1)
+[627]: (150.3325326888896,1)
+[628]: (148.047502123516,1)
+[629]: (152.3433438167141,1)
+[630]: (152.913894460247,1)
+[631]: (151.2162195297666,1)
+[632]: (149.5316962000087,1)
+[633]: (150.5722063195495,1)
+[634]: (152.0925906291591,1)
+[635]: (154.3109472559586,1)
+[636]: (149.188589550101,1)
+[637]: (154.1919822215135,1)
+[638]: (150.0755783276574,1)
+[639]: (153.3371967342439,1)
+[640]: (154.0107201553793,1)
+[641]: (151.3353992322584,1)
+[642]: (151.2185907676279,1)
+[643]: (150.0427626189007,1)
+[644]: (150.1343716782492,1)
+[645]: (155.2157704737979,1)
+[646]: (153.0127387213585,1)
+[647]: (152.0006168551911,1)
+[648]: (149.2501292578451,1)
+[649]: (151.1039195269752,1)
+[650]: (152.1186550991342,1)
+[651]: (151.6465895644818,1)
+[652]: (153.4663889499032,1)
+[653]: (153.1368613420266,1)
+[654]: (151.0216688025425,1)
+[655]: (147.2440944999427,1)
+[656]: (154.0273913284393,1)
+[657]: (162.1451451920936,1)
+[658]: (148.5044788406303,1)
+[659]: (148.3659700621495,1)
+[660]: (149.0549247192046,1)
+[661]: (150.1239786351492,1)
+[662]: (150.4028469358108,1)
+[663]: (148.729181826625,1)
+[664]: (150.4831281233775,1)
+[665]: (151.3337732740394,1)
+[666]: (153.2658311236092,1)
+[667]: (150.4893901544954,1)
+[668]: (154.6477499497136,1)
+[669]: (149.5308638066233,1)
+[670]: (158.1769471890153,1)
+[671]: (153.3292867489506,1)
+[672]: (152.5192802203826,1)
+[673]: (149.2121726174224,1)
+[674]: (150.4046413370161,1)
+[675]: (150.383634349764,1)
+[676]: (153.0307815377969,1)
+[677]: (147.451544384999,1)
+[678]: (150.3309197997921,1)
+[679]: (154.088799724751,1)
+[680]: (155.1091058970115,1)
+[681]: (148.1757645042242,1)
+[682]: (147.5568286824704,1)
+[683]: (149.2349866183762,1)
+[684]: (148.4810623633808,1)
+[685]: (148.4477670506861,1)
+[686]: (150.0905649937421,1)
+[687]: (151.4117121075498,1)
+[688]: (151.4573382183104,1)
+[689]: (151.2005552884433,1)
+[690]: (157.1649290681858,1)
+[691]: (157.4858463955338,1)
+[692]: (153.2197532232649,1)
+[693]: (149.3239092421654,1)
+[694]: (149.3385834324433,1)
+[695]: (151.2329468303414,1)
+[696]: (150.2683010877166,1)
+[697]: (150.2448323645636,1)
+[698]: (148.0347234045399,1)
+[699]: (150.4685718396649,1)
+[700]: (149.5231507886963,1)
+[701]: (150.5401182327956,1)
+[702]: (151.1375171165782,1)
+[703]: (151.2151753508188,1)
+[704]: (147.2346137611489,1)
+[705]: (154.0958395790478,1)
+[706]: (150.0257315878771,1)
+[707]: (149.5712280520303,1)
+[708]: (148.5620551154583,1)
+[709]: (156.1158547255367,1)
+[710]: (151.1551166038649,1)
+[711]: (152.4980287026033,1)
+[712]: (151.3017933338824,1)
+[713]: (153.5743283502198,1)
+[714]: (150.60377036182,1)
+[715]: (150.0289200636818,1)
+[716]: (152.560679319203,1)
+[717]: (153.0194482586211,1)
+[718]: (150.451129783073,1)
+[719]: (149.1772547734993,1)
+[720]: (152.0651813726191,1)
+[721]: (149.4514602341723,1)
+[722]: (147.0095175008366,1)
+[723]: (150.6211793508532,1)
+[724]: (155.0455465404009,1)
+[725]: (151.2233858089082,1)
+[726]: (149.2972023896205,1)
+[727]: (153.2082118527653,1)
+[728]: (150.0773906708877,1)
+[729]: (152.1568770919399,1)
+[730]: (148.1097300594725,1)
+[731]: (152.1892255298567,1)
+[732]: (151.1782099747902,1)
+[733]: (152.0100935251982,1)
+[734]: (150.650948576748,1)
+[735]: (150.2746069779026,1)
+[736]: (149.0545520463854,1)
+[737]: (150.3993864209702,1)
+[738]: (149.1670991305488,1)
+[739]: (147.1569945057116,1)
+[740]: (152.0706552525872,1)
+[741]: (150.0608763895375,1)
+[742]: (154.2786651628496,1)
+[743]: (152.0371990072326,1)
+[744]: (148.7816310071788,1)
+[745]: (153.2927296134571,1)
+[746]: (150.2858329551759,1)
+[747]: (150.3462773630121,1)
+[748]: (150.0799162840923,1)
+[749]: (154.434471131618,1)
+[750]: (153.0543306825956,1)
+[751]: (150.4757257072062,1)
+[752]: (151.0885978247068,1)
+[753]: (151.068066642664,1)
+[754]: (150.9643643879042,1)
+[755]: (146.9362849278145,1)
+[756]: (153.3469725857906,1)
+[757]: (152.2337055909321,1)
+[758]: (149.8685154480243,1)
+[759]: (154.1536528972783,1)
+[760]: (154.4667855193088,1)
+[761]: (154.6320997667208,1)
+[762]: (152.3790384038427,1)
+[763]: (149.1236429744682,1)
+[764]: (150.7868218209335,1)
+[765]: (147.0251643947026,1)
+[766]: (157.5949067817614,1)
+[767]: (148.3962635736549,1)
+[768]: (150.6952913085455,1)
+[769]: (151.4128642251214,1)
+[770]: (147.1210331849969,1)
+[771]: (148.2640025780277,1)
+[772]: (150.3260465509179,1)
+[773]: (150.5850306088184,1)
+[774]: (148.2424816141772,1)
+[775]: (153.0681789185504,1)
+[776]: (149.3440997310929,1)
+[777]: (153.3885918010598,1)
+[778]: (152.5519179889699,1)
+[779]: (147.0211552911202,1)
+[780]: (153.9611714060552,1)
+[781]: (152.0779491029881,1)
+[782]: (150.1370683097512,1)
+[783]: (147.3174978896637,1)
+[784]: (150.7738689385186,1)
+[785]: (146.0412985198077,1)
+[786]: (153.1806044954376,1)
+[787]: (151.1710238677035,1)
+[788]: (149.0705611610131,1)
+[789]: (152.1715212532986,1)
+[790]: (157.1766125090479,1)
+[791]: (150.6956680084796,1)
+[792]: (151.8590188491364,1)
+[793]: (149.4845997706735,1)
+[794]: (151.5933289526764,1)
+[795]: (150.3047639980734,1)
+[796]: (149.395279794447,1)
+[797]: (155.0295811668672,1)
+[798]: (146.1218835688915,1)
+[799]: (150.1515233001778,1)
+[800]: (152.572110153945,1)
+[801]: (148.2824248474088,1)
+[802]: (145.348997788653,1)
+[803]: (153.0448023226718,1)
+[804]: (148.0298551845501,1)
+[805]: (149.076339046741,1)
+[806]: (155.1467581348552,1)
+[807]: (151.0557172166895,1)
+[808]: (153.0463361917976,1)
+[809]: (153.0733221196984,1)
+[810]: (150.0494442575344,1)
+[811]: (151.1748814033548,1)
+[812]: (149.8620241387074,1)
+[813]: (153.1022156537592,1)
+[814]: (149.7907360377179,1)
+[815]: (155.9607995398122,1)
+[816]: (152.0104727953137,1)
+[817]: (147.5134605350877,1)
+[818]: (150.951840804986,1)
+[819]: (152.5005698553132,1)
+[820]: (153.1304278569009,1)
+[821]: (148.1361636591951,1)
+[822]: (153.0846801525243,1)
+[823]: (150.7025050466464,1)
+[824]: (150.051423142107,1)
+[825]: (151.2559914227809,1)
+[826]: (152.2108765956158,1)
+[827]: (152.2283169276224,1)
+[828]: (151.9183315915696,1)
+[829]: (154.1962272145719,1)
+[830]: (150.2597955770434,1)
+[831]: (152.4159487224518,1)
+[832]: (150.3159489557745,1)
+[833]: (154.0105494913229,1)
+[834]: (153.1444906854751,1)
+[835]: (149.3359359607203,1)
+[836]: (149.3025846902847,1)
+[837]: (149.9980441530967,1)
+[838]: (149.193567495082,1)
+[839]: (149.1054285099033,1)
+[840]: (152.3864514427674,1)
+[841]: (147.4554643237048,1)
+[842]: (156.4610884288337,1)
+[843]: (151.1891482449852,1)
+[844]: (150.0837623479949,1)
+[845]: (155.10613133077,1)
+[846]: (155.2627458785411,1)
+[847]: (153.077098808441,1)
+[848]: (151.1682268385975,1)
+[849]: (154.1314053732181,1)
+[850]: (151.4852500740718,1)
+[851]: (154.0133151333489,1)
+[852]: (155.3501888234956,1)
+[853]: (148.8632432082404,1)
+[854]: (148.479450891829,1)
+[855]: (148.0240011113941,1)
+[856]: (150.5900863876028,1)
+[857]: (152.136447932237,1)
+[858]: (151.5788471373577,1)
+[859]: (155.155660738581,1)
+[860]: (148.986712937102,1)
+[861]: (152.6873936566949,1)
+[862]: (147.5020772194612,1)
+[863]: (148.0678820028579,1)
+[864]: (151.4959281944338,1)
+[865]: (155.6374710927835,1)
+[866]: (153.3116575576021,1)
+[867]: (149.1220721528252,1)
+[868]: (150.026081245248,1)
+[869]: (151.4846409279983,1)
+[870]: (152.2163020441003,1)
+[871]: (155.0623300462199,1)
+[872]: (157.3991261051028,1)
+[873]: (147.8061742621854,1)
+[874]: (150.6169681744591,1)
+[875]: (149.2902746473003,1)
+[876]: (156.0730529194318,1)
+[877]: (148.4193562187207,1)
+[878]: (149.4684782402292,1)
+[879]: (147.106648185062,1)
+[880]: (151.514755313109,1)
+[881]: (152.1123066938662,1)
+[882]: (149.127659140848,1)
+[883]: (149.0421735278935,1)
+[884]: (150.0592280853602,1)
+[885]: (147.2157730616943,1)
+[886]: (149.3124749284466,1)
+[887]: (151.0749458796383,1)
+[888]: (150.8963650128107,1)
+[889]: (151.0172497382221,1)
+[890]: (156.1195063423891,1)
+[891]: (150.5368188363139,1)
+[892]: (151.052600352329,1)
+[893]: (153.4776731765037,1)
+[894]: (153.1239958519421,1)
+[895]: (152.1742815399436,1)
+[896]: (152.8525481369632,1)
+[897]: (151.3526757211631,1)
+[898]: (151.0875976060295,1)
+[899]: (152.2357206479492,1)
+[900]: (147.447492039357,1)
+[901]: (151.1722832782543,1)
+[902]: (150.2809280054901,1)
+[903]: (154.0192303978294,1)
+[904]: (150.1843962126208,1)
+[905]: (155.055631623113,1)
+[906]: (154.0964543295892,1)
+[907]: (152.2675634999068,1)
+[908]: (152.6789630736347,1)
+[909]: (151.3527069635072,1)
+[910]: (154.062051900844,1)
+[911]: (152.0390502637896,1)
+[912]: (151.255456261556,1)
+[913]: (152.6091497053251,1)
+[914]: (151.0810684163984,1)
+[915]: (152.2910363081319,1)
+[916]: (154.4725591299454,1)
+[917]: (149.3745730897782,1)
+[918]: (154.0223257932668,1)
+[919]: (148.1703314049562,1)
+[920]: (152.672705494041,1)
+[921]: (150.3623497716651,1)
+[922]: (152.6641508975107,1)
+[923]: (158.0445837690201,1)
+[924]: (150.2296538426783,1)
+[925]: (152.5136780172452,1)
+[926]: (151.9452661374573,1)
+[927]: (153.0379358547186,1)
+[928]: (153.7278406502654,1)
+[929]: (149.681986502206,1)
+[930]: (147.1072760694023,1)
+[931]: (152.2856581204535,1)
+[932]: (154.4270486746698,1)
+[933]: (158.886520540734,1)
+[934]: (151.2403998079521,1)
+[935]: (153.2962965029136,1)
+[936]: (151.1123364908401,1)
+[937]: (150.1843266815156,1)
+[938]: (150.7901349091312,1)
+[939]: (152.8436180211749,1)
+[940]: (152.3268438830359,1)
+[941]: (152.2929735748319,1)
+[942]: (154.9298761698744,1)
+[943]: (150.0060451466661,1)
+[944]: (153.4233771449483,1)
+[945]: (148.0866058291751,1)
+[946]: (152.2488256256236,1)
+[947]: (155.5402584886884,1)
+[948]: (154.516680337881,1)
+[949]: (149.4314834877443,1)
+[950]: (150.6737133388332,1)
+[951]: (156.2489756857705,1)
+[952]: (149.0685648953976,1)
+[953]: (149.0368149663122,1)
+[954]: (155.2182763482678,1)
+[955]: (152.1126955802306,1)
+[956]: (152.0646050486078,1)
+[957]: (152.6877234840456,1)
+[958]: (150.3650806825172,1)
+[959]: (153.9381106628581,1)
+[960]: (146.4948641691189,1)
+[961]: (155.0326128857514,1)
+[962]: (154.5148104881373,1)
+[963]: (149.6537419419976,1)
+[964]: (149.0247002672682,1)
+[965]: (151.0714407629787,1)
+[966]: (151.3873774206027,1)
+[967]: (150.2661852729985,1)
+[968]: (153.6927678816831,1)
+[969]: (151.5836806140164,1)
+[970]: (152.1478924548688,1)
+[971]: (150.0026008876868,1)
+[972]: (152.1104245099248,1)
+[973]: (155.044742337075,1)
+[974]: (150.2489758185359,1)
+[975]: (149.428797653553,1)
+[976]: (158.5517186860635,1)
+[977]: (148.3681747068023,1)
+[978]: (150.1822934040707,1)
+[979]: (149.4331698442845,1)
+[980]: (153.9519068997434,1)
+[981]: (151.1512152798979,1)
+[982]: (150.0503812216497,1)
+[983]: (152.1710562620192,1)
+[984]: (156.5050312092748,1)
+[985]: (155.1664369902078,1)
+[986]: (152.0307994072163,1)
+[987]: (151.1211816598191,1)
+[988]: (156.0673996726284,1)
+[989]: (150.259708539203,1)
+[990]: (150.1014194700095,1)
+[991]: (149.6012280032843,1)
+[992]: (151.0061559754556,1)
+[993]: (150.0952930268274,1)
+[994]: (153.1064192962496,1)
+[995]: (146.4304748870583,1)
+[996]: (150.0010631695883,1)
+[997]: (149.1385413729232,1)
+[998]: (149.130036909305,1)
+[999]: (151.1613065033452,1)
+[1000]: (151.063008838673,1)
+[1001]: (152.1672040983666,1)
+[1002]: (153.5092641927022,1)
+[1003]: (151.6721069992385,1)
+[1004]: (156.3396601154223,1)
+[1005]: (153.2028059788523,1)
+[1006]: (151.3859105293797,1)
+[1007]: (149.0070133854717,1)
+[1008]: (150.4475974351835,1)
+[1009]: (147.1573625345527,1)
+[1010]: (153.141917875971,1)
+[1011]: (151.4329902595443,1)
+[1012]: (150.4988876942252,1)
+[1013]: (146.9534712980801,1)
+[1014]: (151.0326744416866,1)
+[1015]: (148.5006534361088,1)
+[1016]: (150.8959238686796,1)
+[1017]: (156.268521107128,1)
+[1018]: (156.4297845852208,1)
+[1019]: (147.019420724844,1)
+[1020]: (148.3663353982351,1)
+[1021]: (155.1901912730195,1)
+[1022]: (152.1569893262031,1)
+[1023]: (150.0011763769978,1)
+[1024]: (148.483556622077,1)
+[1025]: (158.5588546758269,1)
+[1026]: (152.5126528802278,1)
+[1027]: (148.3449460896791,1)
+[1028]: (157.1339395089154,1)
+[1029]: (148.3932332295098,1)
+[1030]: (152.2368210467278,1)
+[1031]: (155.1834410876864,1)
+[1032]: (149.2247785955787,1)
+[1033]: (149.4502035043718,1)
+[1034]: (153.1138574672887,1)
+[1035]: (154.3478032982925,1)
+[1036]: (154.1066244586696,1)
+[1037]: (157.0367166396771,1)
+[1038]: (148.1169276993036,1)
+[1039]: (151.1447922625984,1)
+[1040]: (151.3640577359725,1)
+[1041]: (152.2800954955535,1)
+[1042]: (151.4820961161912,1)
+[1043]: (152.0020319011044,1)
+[1044]: (148.5081876183668,1)
+[1045]: (153.1679513719259,1)
+[1046]: (150.3165795575225,1)
+[1047]: (147.0548346420348,1)
+[1048]: (149.0082346613686,1)
+[1049]: (150.4373653225915,1)
+[1050]: (151.154950898986,1)
+[1051]: (148.1398851598265,1)
+[1052]: (153.4497638049466,1)
+[1053]: (147.1035699575784,1)
+[1054]: (151.1648708564307,1)
+[1055]: (155.2740066503773,1)
+[1056]: (151.1357509378622,1)
+[1057]: (155.5398253083027,1)
+[1058]: (153.1090346785939,1)
+[1059]: (154.3951682185057,1)
+[1060]: (150.1939593617647,1)
+[1061]: (147.1647694623269,1)
+[1062]: (146.0032200977881,1)
+[1063]: (157.3861890009838,1)
+[1064]: (154.0269754069394,1)
+[1065]: (148.3791822970913,1)
+[1066]: (154.161097535539,1)
+[1067]: (153.4350297476549,1)
+[1068]: (149.8752681755306,1)
+[1069]: (149.2273815237537,1)
+[1070]: (153.0774151578513,1)
+[1071]: (150.2058044060365,1)
+[1072]: (154.0296358584105,1)
+[1073]: (151.521083348834,1)
+[1074]: (150.3564822827395,1)
+[1075]: (147.4246399907314,1)
+[1076]: (149.2845337990953,1)
+[1077]: (147.0499943722874,1)
+[1078]: (145.0851864963354,1)
+[1079]: (153.3745879886463,1)
+[1080]: (147.0487436887115,1)
+[1081]: (147.3349641189102,1)
+[1082]: (150.8947882848378,1)
+[1083]: (153.0119867357648,1)
+[1084]: (152.1952358676641,1)
+[1085]: (150.7082184073012,1)
+[1086]: (150.353463582584,1)
+[1087]: (151.4318263505987,1)
+[1088]: (154.3150311925837,1)
+[1089]: (151.4152966144673,1)
+[1090]: (147.515770999383,1)
+[1091]: (151.4344259452334,1)
+[1092]: (152.2300972439735,1)
+[1093]: (153.0408659514416,1)
+[1094]: (146.1700289181258,1)
+[1095]: (150.0257206738593,1)
+[1096]: (148.1317902510026,1)
+[1097]: (149.4681653606065,1)
+[1098]: (154.6654706812932,1)
+[1099]: (152.2283838553233,1)
+[1100]: (157.5768644323018,1)
+[1101]: (147.1887272034391,1)
+[1102]: (146.3950536031701,1)
+[1103]: (153.550088100565,1)
+[1104]: (152.1038139190558,1)
+[1105]: (151.4285912100291,1)
+[1106]: (152.2994223191604,1)
+[1107]: (153.2299228283117,1)
+[1108]: (148.408219016902,1)
+[1109]: (151.2234013393673,1)
+[1110]: (156.35192242367,1)
+[1111]: (151.2736053671765,1)
+[1112]: (152.1687881306295,1)
+[1113]: (152.0656686864455,1)
+[1114]: (155.4148007666141,1)
+[1115]: (152.1555089982038,1)
+[1116]: (153.2661945548572,1)
+[1117]: (149.8586959486031,1)
+[1118]: (150.1072100436054,1)
+[1119]: (152.3918258222135,1)
+[1120]: (147.2752071149082,1)
+[1121]: (146.0000187850939,1)
+[1122]: (150.0846230151865,1)
+[1123]: (148.3288506856348,1)
+[1124]: (149.458088348069,1)
+[1125]: (154.2930239343994,1)
+[1126]: (150.1143011669,1)
+[1127]: (155.819897385814,1)
+[1128]: (151.4447443867267,1)
+[1129]: (152.0797349876207,1)
+[1130]: (153.0991700779983,1)
+[1131]: (155.5017815020017,1)
+[1132]: (155.1913521942827,1)
+[1133]: (150.0761123969067,1)
+[1134]: (149.0958694032589,1)
+[1135]: (152.0095607810731,1)
+[1136]: (148.2063579906981,1)
+[1137]: (152.2203541283143,1)
+[1138]: (150.3627771485176,1)
+[1139]: (151.1369190581194,1)
+[1140]: (152.0696002668659,1)
+[1141]: (151.9074621047022,1)
+[1142]: (146.4276324113509,1)
+[1143]: (151.0904387256585,1)
+[1144]: (148.6103327550643,1)
+[1145]: (155.0259877596908,1)
+[1146]: (150.1823639924399,1)
+[1147]: (147.1996189026489,1)
+[1148]: (150.0194752350106,1)
+[1149]: (149.0246162280651,1)
+[1150]: (151.5336620591269,1)
+[1151]: (150.1624487652743,1)
+[1152]: (151.0200774165892,1)
+[1153]: (147.9886789864323,1)
+[1154]: (154.2603575319214,1)
+[1155]: (152.2155677411359,1)
+[1156]: (158.4120097295188,1)
+[1157]: (151.5117276458604,1)
+[1158]: (153.0199523773377,1)
+[1159]: (148.2459153423929,1)
+[1160]: (152.4092521144777,1)
+[1161]: (154.312803959595,1)
+[1162]: (150.6085088767913,1)
+[1163]: (152.3007720263779,1)
+[1164]: (150.0944183098499,1)
+[1165]: (155.3599886536013,1)
+[1166]: (152.3771196247039,1)
+[1167]: (154.5618057308879,1)
+[1168]: (153.267196539424,1)
+[1169]: (155.4256800153807,1)
+[1170]: (149.1020849373317,1)
+[1171]: (151.1689930432663,1)
+[1172]: (153.9039738571582,1)
+[1173]: (153.0142851695294,1)
+[1174]: (152.3133254864107,1)
+[1175]: (153.229032739666,1)
+[1176]: (149.3310156576263,1)
+[1177]: (149.0339426857439,1)
+[1178]: (148.4407370116394,1)
+[1179]: (152.4277333805783,1)
+[1180]: (149.2255210386382,1)
+[1181]: (152.146436036498,1)
+[1182]: (149.57475876173,1)
+[1183]: (150.2064251511322,1)
+[1184]: (151.1007441106648,1)
+[1185]: (151.6411658802139,1)
+[1186]: (151.2558309607698,1)
+[1187]: (150.3736030548158,1)
+[1188]: (146.2142330936166,1)
+[1189]: (150.2223867674568,1)
+[1190]: (154.2754266312156,1)
+[1191]: (152.9223559700083,1)
+[1192]: (152.4474623100573,1)
+[1193]: (150.5748132944835,1)
+[1194]: (147.8869840120272,1)
+[1195]: (152.192173831654,1)
+[1196]: (162.2915730869559,1)
+[1197]: (153.209670389994,1)
+[1198]: (147.3626795729796,1)
+[1199]: (150.1948068576904,1)
+[1200]: (150.7171849264815,1)
+[1201]: (152.2763322482796,1)
+[1202]: (152.8353359399792,1)
+[1203]: (150.4757463107278,1)
+[1204]: (151.8673249847401,1)
+[1205]: (150.4113327266667,1)
+[1206]: (155.705556248895,1)
+[1207]: (153.386558764948,1)
+[1208]: (149.47951563703,1)
+[1209]: (147.1921248255873,1)
+[1210]: (148.1796029479843,1)
+[1211]: (145.3368135180973,1)
+[1212]: (151.3702991169187,1)
+[1213]: (151.0032172463499,1)
+[1214]: (151.1931271265091,1)
+[1215]: (156.7335481909889,1)
+[1216]: (153.3674788461436,1)
+[1217]: (150.3033615475663,1)
+[1218]: (147.7012040545626,1)
+[1219]: (151.3449729714867,1)
+[1220]: (150.50410065423,1)
+[1221]: (151.1170411894254,1)
+[1222]: (154.1128510137972,1)
+[1223]: (149.1450366742088,1)
+[1224]: (151.9729971329981,1)
+[1225]: (154.5351517927871,1)
+[1226]: (148.3571542289253,1)
+[1227]: (149.2455460342886,1)
+[1228]: (152.5830853395005,1)
+[1229]: (151.3654764301969,1)
+[1230]: (148.1057893343036,1)
+[1231]: (150.5652628911048,1)
+[1232]: (151.8380346295056,1)
+[1233]: (147.3143813038814,1)
+[1234]: (151.1808967816967,1)
+[1235]: (150.0265570848394,1)
+[1236]: (150.1539383734948,1)
+[1237]: (155.0065134463258,1)
+[1238]: (152.5643105482766,1)
+[1239]: (150.7200090935316,1)
+[1240]: (157.2110039301392,1)
+[1241]: (152.2446545083118,1)
+[1242]: (151.0679427012203,1)
+[1243]: (150.074928721811,1)
+[1244]: (149.4636667243171,1)
+[1245]: (150.2670723507954,1)
+[1246]: (152.5721480098973,1)
+[1247]: (148.1294616749038,1)
+[1248]: (148.3663049683608,1)
+[1249]: (151.5822318898467,1)
+[1250]: (152.929643975344,1)
+[1251]: (151.0215967612382,1)
+[1252]: (151.107771412569,1)
+[1253]: (149.1426498210259,1)
+[1254]: (150.3126804405314,1)
+[1255]: (151.6383180578091,1)
+[1256]: (150.6119381573795,1)
+[1257]: (154.5996479365768,1)
+[1258]: (147.0725143270474,1)
+[1259]: (149.085174786848,1)
+[1260]: (149.5710878742178,1)
+[1261]: (151.3090315776102,1)
+[1262]: (149.3080051540942,1)
+[1263]: (153.246964400523,1)
+[1264]: (156.1548311582185,1)
+[1265]: (151.6096620205127,1)
+[1266]: (151.2382924447363,1)
+[1267]: (156.6218249630931,1)
+[1268]: (154.6319219537852,1)
+[1269]: (152.0347658310902,1)
+[1270]: (151.0309737847891,1)
+[1271]: (148.2638102778005,1)
+[1272]: (147.0304306519918,1)
+[1273]: (151.4761169877229,1)
+[1274]: (150.0713463263546,1)
+[1275]: (155.4357915836075,1)
+[1276]: (151.0495314949943,1)
+[1277]: (146.2530400078851,1)
+[1278]: (152.0685083374263,1)
+[1279]: (152.536572907051,1)
+[1280]: (155.3050181857858,1)
+[1281]: (152.1751022060679,1)
+[1282]: (151.219108644267,1)
+[1283]: (155.2432170526522,1)
+[1284]: (151.6209290642545,1)
+[1285]: (150.1558724233915,1)
+[1286]: (150.1121064465241,1)
+[1287]: (147.2847623993079,1)
+[1288]: (150.6125214317987,1)
+[1289]: (153.046310165053,1)
+[1290]: (150.2943784836357,1)
+[1291]: (152.1155186182532,1)
+[1292]: (154.8846444617824,1)
+[1293]: (152.1935194214097,1)
+[1294]: (155.6076414857203,1)
+[1295]: (148.2483900563403,1)
+[1296]: (154.2560371150943,1)
+[1297]: (153.4442006776391,1)
+[1298]: (148.1509240902258,1)
+[1299]: (149.013491758215,1)
+[1300]: (150.444383105781,1)
+[1301]: (158.6460217758809,1)
+[1302]: (150.0553675499081,1)
+[1303]: (150.1556180700938,1)
+[1304]: (152.2765647828192,1)
+[1305]: (148.5215640139669,1)
+[1306]: (155.1006738997285,1)
+[1307]: (148.1681824092193,1)
+[1308]: (151.3243727583012,1)
+[1309]: (157.3039037774558,1)
+[1310]: (154.1954020423414,1)
+[1311]: (153.1491312520694,1)
+[1312]: (151.1653654688308,1)
+[1313]: (159.0089583892048,1)
+[1314]: (152.4972509370488,1)
+[1315]: (148.053546896446,1)
+[1316]: (152.4352208466733,1)
+[1317]: (150.1338724359049,1)
+[1318]: (148.1606809500717,1)
+[1319]: (150.2647301378266,1)
+[1320]: (148.3040179038141,1)
+[1321]: (152.6680570908831,1)
+[1322]: (148.7738494061303,1)
+[1323]: (153.7120164671747,1)
+[1324]: (150.0661761217374,1)
+[1325]: (150.482828306558,1)
+[1326]: (150.3043457610915,1)
+[1327]: (151.8608875328007,1)
+[1328]: (152.4322882369903,1)
+[1329]: (151.5684501357385,1)
+[1330]: (149.2826606169315,1)
+[1331]: (151.0088519546575,1)
+[1332]: (151.7256553100081,1)
+[1333]: (153.2290383523415,1)
+[1334]: (153.096313928512,1)
+[1335]: (152.9645780909419,1)
+[1336]: (155.2681789091396,1)
+[1337]: (156.7691520109671,1)
+[1338]: (151.0060055600465,1)
+[1339]: (150.2408141158886,1)
+[1340]: (155.5823532719228,1)
+[1341]: (150.0892433702338,1)
+[1342]: (148.5225770246742,1)
+[1343]: (151.4088560526093,1)
+[1344]: (158.7380994130706,1)
+[1345]: (150.4755189458788,1)
+[1346]: (152.6736102728621,1)
+[1347]: (146.2863224980996,1)
+[1348]: (153.230223671013,1)
+[1349]: (150.0551333132792,1)
+[1350]: (150.0050235012811,1)
+[1351]: (156.1290888311286,1)
+[1352]: (147.4160510978883,1)
+[1353]: (156.2786428806768,1)
+[1354]: (148.0237636318585,1)
+[1355]: (147.496816843195,1)
+[1356]: (154.0330972797107,1)
+[1357]: (154.0805670740111,1)
+[1358]: (151.5532290070952,1)
+[1359]: (151.2728193839893,1)
+[1360]: (158.5591844112686,1)
+[1361]: (153.9744006011789,1)
+[1362]: (152.1164599595918,1)
+[1363]: (148.1363133526849,1)
+[1364]: (150.0626107754782,1)
+[1365]: (151.6153722025272,1)
+[1366]: (153.5385797090117,1)
+[1367]: (149.2854315052812,1)
+[1368]: (154.9947507180797,1)
+[1369]: (150.1518125093768,1)
+[1370]: (149.5064705960644,1)
+[1371]: (152.0235428426929,1)
+[1372]: (152.1375063839796,1)
+[1373]: (152.0060015306709,1)
+[1374]: (149.5481078810737,1)
+[1375]: (152.0456780426233,1)
+[1376]: (150.2752839310485,1)
+[1377]: (149.4138030149644,1)
+[1378]: (153.2832650276443,1)
+[1379]: (153.4389047291303,1)
+[1380]: (160.4441392306177,1)
+[1381]: (147.4523822688176,1)
+[1382]: (152.0021999645355,1)
+[1383]: (154.2544418118948,1)
+[1384]: (153.1581385487125,1)
+[1385]: (155.5453439987854,1)
+[1386]: (152.5319333572427,1)
+[1387]: (152.5745953764037,1)
+[1388]: (154.4624807176126,1)
+[1389]: (153.4664077950008,1)
+[1390]: (146.1647982093866,1)
+[1391]: (153.2225893883425,1)
+[1392]: (149.0949936070972,1)
+[1393]: (150.089589827413,1)
+[1394]: (147.6203372141646,1)
+[1395]: (158.452776602275,1)
+[1396]: (149.4876039922999,1)
+[1397]: (151.6530696330952,1)
+[1398]: (156.1066396471205,1)
+[1399]: (150.315616214839,1)
+[1400]: (152.0410819498584,1)
+[1401]: (147.3961844982207,1)
+[1402]: (150.3153134376217,1)
+[1403]: (148.1711046551517,1)
+[1404]: (152.0416800893626,1)
+[1405]: (151.8368713620683,1)
+[1406]: (150.4357467599221,1)
+[1407]: (155.3370388561182,1)
+[1408]: (153.0681607671632,1)
+[1409]: (147.2401130068845,1)
+[1410]: (149.765487250672,1)
+[1411]: (154.0867719854344,1)
+[1412]: (153.0899499443744,1)
+[1413]: (156.2420019415513,1)
+[1414]: (150.0874399947454,1)
+[1415]: (149.12932345427,1)
+[1416]: (155.1676716124582,1)
+[1417]: (151.6861351248074,1)
+[1418]: (148.2730710415309,1)
+[1419]: (149.4998264558531,1)
+[1420]: (148.6974619711292,1)
+[1421]: (152.6019027878857,1)
+[1422]: (156.0101877772419,1)
+[1423]: (153.0664432615289,1)
+[1424]: (150.2246394480688,1)
+[1425]: (149.0130984212061,1)
+[1426]: (152.0810123929335,1)
+[1427]: (148.1020463363724,1)
+[1428]: (148.1820751443156,1)
+[1429]: (153.4769514168453,1)
+[1430]: (150.1752617185827,1)
+[1431]: (150.4826187343489,1)
+[1432]: (153.2839075955474,1)
+[1433]: (155.0163803768976,1)
+[1434]: (151.8234566048688,1)
+[1435]: (150.1719730087613,1)
+[1436]: (150.790479028072,1)
+[1437]: (153.9378814691101,1)
+[1438]: (152.1651197394605,1)
+[1439]: (152.4008257778381,1)
+[1440]: (152.0640877437711,1)
+[1441]: (151.7111303626654,1)
+[1442]: (151.285971194039,1)
+[1443]: (147.2988337552358,1)
+[1444]: (149.5871737246245,1)
+[1445]: (149.7039882623511,1)
+[1446]: (149.3591313506275,1)
+[1447]: (146.0807021967746,1)
+[1448]: (148.5403669605095,1)
+[1449]: (151.9653963399707,1)
+[1450]: (148.2686559679448,1)
+[1451]: (150.2885328804238,1)
+[1452]: (155.1940078989661,1)
+[1453]: (149.449788659864,1)
+[1454]: (150.1783430886046,1)
+[1455]: (152.0998242835685,1)
+[1456]: (151.3893152983234,1)
+[1457]: (149.1277504872585,1)
+[1458]: (151.6149610672351,1)
+[1459]: (152.5051537331137,1)
+[1460]: (151.4017992780321,1)
+[1461]: (151.120449707903,1)
+[1462]: (149.0089760254902,1)
+[1463]: (151.1973895948799,1)
+[1464]: (148.5053012440648,1)
+[1465]: (146.3487443581254,1)
+[1466]: (151.1148449023212,1)
+[1467]: (155.6583085572217,1)
+[1468]: (151.0217882511354,1)
+[1469]: (150.687304121684,1)
+[1470]: (151.4509844106403,1)
+[1471]: (152.0216670817577,1)
+[1472]: (148.4742674301149,1)
+[1473]: (150.5086729292998,1)
+[1474]: (149.5331355649275,1)
+[1475]: (149.0963103048491,1)
+[1476]: (152.3066602221827,1)
+[1477]: (151.3218574254607,1)
+[1478]: (155.1870801749943,1)
+[1479]: (152.2811375436107,1)
+[1480]: (151.0084238873955,1)
+[1481]: (148.9348019567927,1)
+[1482]: (151.3646106161484,1)
+[1483]: (149.0193192881414,1)
+[1484]: (151.0391590600842,1)
+[1485]: (150.4186255205593,1)
+[1486]: (151.0331760302525,1)
+[1487]: (151.6547462755974,1)
+[1488]: (150.0324154734316,1)
+[1489]: (150.0262483206121,1)
+[1490]: (148.2442838782236,1)
+[1491]: (150.0292188243471,1)
+[1492]: (153.2440950564932,1)
+[1493]: (154.0155121541313,1)
+[1494]: (146.0273969552709,1)
+[1495]: (152.5202956358209,1)
+[1496]: (150.747541327269,1)
+[1497]: (153.2279112550778,1)
+[1498]: (153.4850614901044,1)
+[1499]: (147.2817702029997,1)
+[1500]: (148.0826377956049,1)
+[1501]: (151.0580958852419,1)
+[1502]: (152.0738742934114,1)
+[1503]: (153.1061992654625,1)
+[1504]: (151.6851599056888,1)
+[1505]: (149.3013626749562,1)
+[1506]: (152.2469664767219,1)
+[1507]: (149.0811020332189,1)
+[1508]: (153.7874723800988,1)
+[1509]: (150.1526425923846,1)
+[1510]: (151.6114958827304,1)
+[1511]: (154.0337177579839,1)
+[1512]: (152.1034398552894,1)
+[1513]: (150.484100318161,1)
+[1514]: (152.6058141114931,1)
+[1515]: (149.064309156081,1)
+[1516]: (150.4899746443409,1)
+[1517]: (151.0857735646643,1)
+[1518]: (150.4464194744924,1)
+[1519]: (148.5608087883668,1)
+[1520]: (150.0578398124721,1)
+[1521]: (151.0884170968661,1)
+[1522]: (159.1850252933758,1)
+[1523]: (152.3797209692769,1)
+[1524]: (155.1240538257106,1)
+[1525]: (151.3992507081076,1)
+[1526]: (151.1282194222574,1)
+[1527]: (149.0499990392064,1)
+[1528]: (156.1115520479315,1)
+[1529]: (158.2102355796178,1)
+[1530]: (154.0981224087485,1)
+[1531]: (151.1842481188759,1)
+[1532]: (151.0903120570877,1)
+[1533]: (152.0594653527662,1)
+[1534]: (149.7814080518814,1)
+[1535]: (155.0015011538624,1)
+[1536]: (148.0329825038058,1)
+[1537]: (149.5999654385169,1)
+[1538]: (150.0120570901694,1)
+[1539]: (146.0596617451371,1)
+[1540]: (151.1897370856795,1)
+[1541]: (149.6259154903142,1)
+[1542]: (151.3511889324731,1)
+[1543]: (152.053212541818,1)
+[1544]: (148.0618710968902,1)
+[1545]: (155.1385638854555,1)
+[1546]: (155.9218062160912,1)
+[1547]: (153.0383606792657,1)
+[1548]: (151.1234639655129,1)
+[1549]: (150.0501478854632,1)
+[1550]: (152.4241463077664,1)
+[1551]: (154.1694730398427,1)
+[1552]: (153.1879187752689,1)
+[1553]: (148.1776657864378,1)
+[1554]: (149.4287998662574,1)
+[1555]: (150.2259459478037,1)
+[1556]: (150.3219960285961,1)
+[1557]: (149.2420277745052,1)
+[1558]: (150.214106274398,1)
+[1559]: (149.1955322190478,1)
+[1560]: (151.0609859440902,1)
+[1561]: (150.2303988512074,1)
+[1562]: (152.2083231749928,1)
+[1563]: (157.010831521086,1)
+[1564]: (146.443782588829,1)
+[1565]: (147.2113411384099,1)
+[1566]: (149.4339067258062,1)
+[1567]: (151.1417643396684,1)
+[1568]: (151.2799700040709,1)
+[1569]: (155.7091703713021,1)
+[1570]: (151.1224344834177,1)
+[1571]: (148.0883291237106,1)
+[1572]: (152.5473440232574,1)
+[1573]: (156.6252964534773,1)
+[1574]: (156.2879867794022,1)
+[1575]: (150.4194255791418,1)
+[1576]: (151.2142545781972,1)
+[1577]: (149.2429106096162,1)
+[1578]: (147.0391044263599,1)
+[1579]: (153.2975282986404,1)
+[1580]: (152.3629838669693,1)
+[1581]: (152.1708997938415,1)
+[1582]: (151.5375580241534,1)
+[1583]: (150.1438174491465,1)
+[1584]: (149.9452305163281,1)
+[1585]: (153.0540179982455,1)
+[1586]: (149.3139044361561,1)
+[1587]: (152.0395909134963,1)
+[1588]: (152.6130358056501,1)
+[1589]: (153.0630956459482,1)
+[1590]: (150.2747760359415,1)
+[1591]: (150.2041306650546,1)
+[1592]: (149.393587065852,1)
+[1593]: (152.5229755879261,1)
+[1594]: (152.1434503719143,1)
+[1595]: (145.2365699512521,1)
+[1596]: (150.6127507143492,1)
+[1597]: (148.9189746871262,1)
+[1598]: (148.7391535571678,1)
+[1599]: (149.0653179022755,1)
+[1600]: (154.058890200122,1)
+[1601]: (152.2645829775352,1)
+[1602]: (150.2577237144371,1)
+[1603]: (154.4044659497192,1)
+[1604]: (153.0037738771097,1)
+[1605]: (152.4042294405863,1)
+[1606]: (152.3033052184545,1)
+[1607]: (150.0336103980903,1)
+[1608]: (149.4701433165091,1)
+[1609]: (147.0083637415331,1)
+[1610]: (151.0769227682325,1)
+[1611]: (151.0091880098519,1)
+[1612]: (150.2154055250516,1)
+[1613]: (151.3560771508969,1)
+[1614]: (150.3145038534428,1)
+[1615]: (151.1882238781626,1)
+[1616]: (147.3168248569901,1)
+[1617]: (149.5326289664762,1)
+[1618]: (151.7077609642027,1)
+[1619]: (158.0881882394468,1)
+[1620]: (154.9203028041045,1)
+[1621]: (153.678436179582,1)
+[1622]: (147.4780755584091,1)
+[1623]: (149.2040174220808,1)
+[1624]: (149.4462320089011,1)
+[1625]: (155.1275750088946,1)
+[1626]: (155.0437947259638,1)
+[1627]: (150.5073058793726,1)
+[1628]: (156.2823117854892,1)
+[1629]: (151.0718102185227,1)
+[1630]: (154.1046254910387,1)
+[1631]: (150.2734605178955,1)
+[1632]: (153.0889132041594,1)
+[1633]: (157.3037815261869,1)
+[1634]: (153.2823218970971,1)
+[1635]: (150.2023583402284,1)
+[1636]: (148.1030527884535,1)
+[1637]: (154.2897191472596,1)
+[1638]: (149.6904554162533,1)
+[1639]: (153.7012134590408,1)
+[1640]: (150.0310271253057,1)
+[1641]: (150.2964006191819,1)
+[1642]: (148.2804490263506,1)
+[1643]: (156.1698989125065,1)
+[1644]: (146.3967353789679,1)
+[1645]: (155.1697586105115,1)
+[1646]: (155.1150640023507,1)
+[1647]: (151.2489081980839,1)
+[1648]: (153.0350830713044,1)
+[1649]: (149.2841229784741,1)
+[1650]: (151.0375552021686,1)
+[1651]: (156.3298155293573,1)
+[1652]: (156.0765908110763,1)
+[1653]: (151.2948389382614,1)
+[1654]: (151.2028758424309,1)
+[1655]: (151.3137381346942,1)
+[1656]: (151.000197995716,1)
+[1657]: (155.8544735817433,1)
+[1658]: (149.1064688333361,1)
+[1659]: (147.8641658070205,1)
+[1660]: (148.0514931862434,1)
+[1661]: (149.0763446455056,1)
+[1662]: (150.602558550868,1)
+[1663]: (157.2287020347963,1)
+[1664]: (151.2437563147471,1)
+[1665]: (150.080736813728,1)
+[1666]: (148.8853218142731,1)
+[1667]: (155.1709887160123,1)
+[1668]: (147.3821826811687,1)
+[1669]: (154.0951572008973,1)
+[1670]: (151.4292378613521,1)
+[1671]: (149.3948662378625,1)
+[1672]: (151.6078783257762,1)
+[1673]: (150.2943916073154,1)
+[1674]: (150.0412575640548,1)
+[1675]: (150.5015236808136,1)
+[1676]: (148.6145145098972,1)
+[1677]: (153.4786563016092,1)
+[1678]: (151.2602478138828,1)
+[1679]: (148.5598510458635,1)
+[1680]: (149.1109104591737,1)
+[1681]: (147.005920020514,1)
+[1682]: (151.4042097989003,1)
+[1683]: (154.4053763468342,1)
+[1684]: (148.0760941373526,1)
+[1685]: (151.1441189429034,1)
+[1686]: (150.2237234396966,1)
+[1687]: (150.4181889101168,1)
+[1688]: (152.2818634012185,1)
+[1689]: (149.7858969352228,1)
+[1690]: (151.1091011089269,1)
+[1691]: (152.4933080972191,1)
+[1692]: (152.3315627038369,1)
+[1693]: (147.0929156288438,1)
+[1694]: (149.0071323276585,1)
+[1695]: (151.6774901498991,1)
+[1696]: (155.9177101673901,1)
+[1697]: (150.0704206141048,1)
+[1698]: (153.0057710654091,1)
+[1699]: (154.4978496912738,1)
+[1700]: (161.0369923861494,1)
+[1701]: (151.0736787981254,1)
+[1702]: (151.441379832855,1)
+[1703]: (149.0832029836565,1)
+[1704]: (150.323602570698,1)
+[1705]: (152.1886281718272,1)
+[1706]: (154.3868741532865,1)
+[1707]: (154.3214440494592,1)
+[1708]: (147.5613423588759,1)
+[1709]: (150.0653355420556,1)
+[1710]: (150.2918166842449,1)
+[1711]: (149.5303344768794,1)
+[1712]: (150.4427542585059,1)
+[1713]: (151.3228797340369,1)
+[1714]: (151.0116185337117,1)
+[1715]: (148.064188814742,1)
+[1716]: (151.0923004970798,1)
+[1717]: (149.2734088385999,1)
+[1718]: (154.1494671567087,1)
+[1719]: (152.2682003108291,1)
+[1720]: (149.046351479791,1)
+[1721]: (150.3580512003898,1)
+[1722]: (154.0015896034245,1)
+[1723]: (151.0806353887257,1)
+[1724]: (154.3044772839488,1)
+[1725]: (150.4649813070119,1)
+[1726]: (155.6275131734922,1)
+[1727]: (154.3039627954186,1)
+[1728]: (148.3177442391928,1)
+[1729]: (153.0477816896678,1)
+[1730]: (149.5982626922817,1)
+[1731]: (151.0567061589991,1)
+[1732]: (151.0800689133719,1)
+[1733]: (150.0048090174598,1)
+[1734]: (150.5311652895417,1)
+[1735]: (152.6447273608766,1)
+[1736]: (151.1380309580627,1)
+[1737]: (152.1129914598044,1)
+[1738]: (149.0334452579104,1)
+[1739]: (151.995956627635,1)
+[1740]: (151.0531210856333,1)
+[1741]: (150.8353665193055,1)
+[1742]: (150.3682199789322,1)
+[1743]: (149.8365669040739,1)
+[1744]: (149.528770605424,1)
+[1745]: (147.3018631215201,1)
+[1746]: (150.0630176282554,1)
+[1747]: (151.0908542729198,1)
+[1748]: (154.174174129017,1)
+[1749]: (151.0122375557144,1)
+[1750]: (149.1802990094608,1)
+[1751]: (150.0479934963985,1)
+[1752]: (152.9247056347097,1)
+[1753]: (154.1625773912118,1)
+[1754]: (147.8677040783643,1)
+[1755]: (152.8093578236067,1)
+[1756]: (148.3009037114989,1)
+[1757]: (153.236136958343,1)
+[1758]: (148.2596242989724,1)
+[1759]: (150.1990775836413,1)
+[1760]: (149.0583049532214,1)
+[1761]: (152.894256159757,1)
+[1762]: (150.1096336680726,1)
+[1763]: (155.1770493074678,1)
+[1764]: (155.0838407550762,1)
+[1765]: (149.2475405447902,1)
+[1766]: (154.0586361331626,1)
+[1767]: (150.0132199181416,1)
+[1768]: (149.1580548439055,1)
+[1769]: (150.1797931517753,1)
+[1770]: (149.1691307507527,1)
+[1771]: (149.0297246300172,1)
+[1772]: (148.4943758114186,1)
+[1773]: (149.6648614605168,1)
+[1774]: (150.3005886131316,1)
+[1775]: (157.2269193928232,1)
+[1776]: (152.3923751714528,1)
+[1777]: (152.3583998100644,1)
+[1778]: (154.3550726062325,1)
+[1779]: (150.1230401973528,1)
+[1780]: (151.2854270796205,1)
+[1781]: (148.3694858868685,1)
+[1782]: (155.0306033575499,1)
+[1783]: (148.0683434758353,1)
+[1784]: (152.5610916097068,1)
+[1785]: (155.1015845551796,1)
+[1786]: (150.3776818603391,1)
+[1787]: (154.4871103268181,1)
+[1788]: (151.1517455309658,1)
+[1789]: (145.0758900563941,1)
+[1790]: (146.0307324587784,1)
+[1791]: (155.0915134388638,1)
+[1792]: (149.9476539215786,1)
+[1793]: (150.36009407077,1)
+[1794]: (149.1047312494563,1)
+[1795]: (145.9262770534027,1)
+[1796]: (153.5644994359174,1)
+[1797]: (149.2021440316831,1)
+[1798]: (152.0381340856754,1)
+[1799]: (153.0860497415311,1)
+[1800]: (155.0593515164983,1)
+[1801]: (149.2174706774975,1)
+[1802]: (154.2760912948379,1)
+[1803]: (149.1092643532511,1)
+[1804]: (150.0654001207592,1)
+[1805]: (148.1647931685617,1)
+[1806]: (150.9572315766093,1)
+[1807]: (152.2122062926054,1)
+[1808]: (150.8548582583867,1)
+[1809]: (153.9617304422933,1)
+[1810]: (150.2111951753255,1)
+[1811]: (153.1479066487115,1)
+[1812]: (159.0495828457476,1)
+[1813]: (147.4935463922057,1)
+[1814]: (148.7949270499582,1)
+[1815]: (151.2680265758353,1)
+[1816]: (147.9155747827368,1)
+[1817]: (152.8768705722564,1)
+[1818]: (148.08999896468,1)
+[1819]: (155.3134470186708,1)
+[1820]: (152.0763422854097,1)
+[1821]: (149.7868997710449,1)
+[1822]: (154.6598459746463,1)
+[1823]: (151.0206340028224,1)
+[1824]: (150.3051275223465,1)
+[1825]: (150.1428251786565,1)
+[1826]: (152.3174907559389,1)
+[1827]: (152.4529957037782,1)
+[1828]: (149.4049116241667,1)
+[1829]: (151.0949844790675,1)
+[1830]: (148.0966689649391,1)
+[1831]: (151.334452833357,1)
+[1832]: (150.4447202295846,1)
+[1833]: (150.6786897837894,1)
+[1834]: (151.1430070020747,1)
+[1835]: (155.1740853381548,1)
+[1836]: (151.0733181998259,1)
+[1837]: (155.436644133621,1)
+[1838]: (146.0097768828596,1)
+[1839]: (152.416106088181,1)
+[1840]: (152.3339797351565,1)
+[1841]: (150.4355777231785,1)
+[1842]: (149.5203963701476,1)
+[1843]: (151.0355280564877,1)
+[1844]: (151.6735324568689,1)
+[1845]: (150.0907941472309,1)
+[1846]: (146.1205097755116,1)
+[1847]: (154.5493958292533,1)
+[1848]: (152.0975403303858,1)
+[1849]: (153.1303442747245,1)
+[1850]: (151.0162762277802,1)
+[1851]: (156.0993320202285,1)
+[1852]: (152.856770679729,1)
+[1853]: (151.1679420993134,1)
+[1854]: (149.0155878166341,1)
+[1855]: (154.1839660922401,1)
+[1856]: (148.3462165923874,1)
+[1857]: (148.3734627581574,1)
+[1858]: (150.0322484016104,1)
+[1859]: (149.2928589238393,1)
+[1860]: (151.562223733176,1)
+[1861]: (147.2791829252387,1)
+[1862]: (153.4879416686759,1)
+[1863]: (150.0971888222996,1)
+[1864]: (151.117041109424,1)
+[1865]: (153.1580211749484,1)
+[1866]: (149.3909320474743,1)
+[1867]: (151.5396388233849,1)
+[1868]: (151.7123792990224,1)
+[1869]: (156.4648456678704,1)
+[1870]: (150.220238022264,1)
+[1871]: (151.5185979990324,1)
+[1872]: (148.2744499148368,1)
+[1873]: (151.4916340261169,1)
+[1874]: (145.0659382228989,1)
+[1875]: (156.4225174191126,1)
+[1876]: (152.9700445732748,1)
+[1877]: (153.225468319041,1)
+[1878]: (155.5169318571881,1)
+[1879]: (150.0011659858558,1)
+[1880]: (154.0657787107089,1)
+[1881]: (153.1237698969349,1)
+[1882]: (153.1950633593996,1)
+[1883]: (156.4229107170128,1)
+[1884]: (156.0303025021394,1)
+[1885]: (147.5171260967428,1)
+[1886]: (152.5160702365278,1)
+[1887]: (150.3651437862127,1)
+[1888]: (150.198138643401,1)
+[1889]: (150.7972531413208,1)
+[1890]: (151.4047338308127,1)
+[1891]: (148.5400923053467,1)
+[1892]: (150.5406676830015,1)
+[1893]: (151.4387480475411,1)
+[1894]: (151.24317273084,1)
+[1895]: (147.1022584552937,1)
+[1896]: (148.4013896789486,1)
+[1897]: (151.2384526974135,1)
+[1898]: (147.8272010526759,1)
+[1899]: (152.626847725795,1)
+[1900]: (150.0494111414185,1)
+[1901]: (153.1707361910905,1)
+[1902]: (156.8391652791178,1)
+[1903]: (151.350342687915,1)
+[1904]: (152.0186093773274,1)
+[1905]: (153.1489760828059,1)
+[1906]: (150.2823477489441,1)
+[1907]: (150.1467697538878,1)
+[1908]: (154.0037355091647,1)
+[1909]: (154.024236448549,1)
+[1910]: (150.0518779978729,1)
+[1911]: (151.6768303452472,1)
+[1912]: (152.0742131842124,1)
+[1913]: (155.1773975203608,1)
+[1914]: (150.0550206920102,1)
+[1915]: (149.0332455523586,1)
+[1916]: (152.0817869286994,1)
+[1917]: (153.0066151382717,1)
+[1918]: (158.01349266045,1)
+[1919]: (149.1475622582273,1)
+[1920]: (155.1728103980596,1)
+[1921]: (153.6994046056928,1)
+[1922]: (155.1941350542844,1)
+[1923]: (156.3086676691113,1)
+[1924]: (153.4346163710467,1)
+[1925]: (150.2891793747416,1)
+[1926]: (156.090145835431,1)
+[1927]: (155.1530722228658,1)
+[1928]: (156.4546016671716,1)
+[1929]: (151.1670375163716,1)
+[1930]: (150.1557934315699,1)
+[1931]: (152.0984584508566,1)
+[1932]: (146.556259742595,1)
+[1933]: (153.1979251343325,1)
+[1934]: (150.0971658495166,1)
+[1935]: (158.0261324054481,1)
+[1936]: (152.5238817989804,1)
+[1937]: (153.3483408883788,1)
+[1938]: (149.2563923147498,1)
+[1939]: (149.0492262065766,1)
+[1940]: (153.0590511507987,1)
+[1941]: (155.2869887335373,1)
+[1942]: (152.6991365135962,1)
+[1943]: (153.459199577099,1)
+[1944]: (152.1338062010374,1)
+[1945]: (151.3781624876148,1)
+[1946]: (152.2903241826073,1)
+[1947]: (151.2567586455919,1)
+[1948]: (150.1656194834035,1)
+[1949]: (152.3810711219919,1)
+[1950]: (151.1006588728929,1)
+[1951]: (150.2833178806219,1)
+[1952]: (150.0671751558898,1)
+[1953]: (149.0402198400644,1)
+[1954]: (153.4691735378322,1)
+[1955]: (148.2900995820721,1)
+[1956]: (154.3396900487274,1)
+[1957]: (151.3289844607031,1)
+[1958]: (150.1896549432378,1)
+[1959]: (148.0734584989272,1)
+[1960]: (150.0206528917598,1)
+[1961]: (155.9744718668595,1)
+[1962]: (150.3026389875835,1)
+[1963]: (151.1986120717793,1)
+[1964]: (151.3864755466307,1)
+[1965]: (155.4363497739702,1)
+[1966]: (148.2550086086709,1)
+[1967]: (156.1028769824767,1)
+[1968]: (151.260322261459,1)
+[1969]: (148.4214080101906,1)
+[1970]: (150.4059307141943,1)
+[1971]: (152.0791236349576,1)
+[1972]: (148.116565136673,1)
+[1973]: (147.1968091082267,1)
+[1974]: (147.4917747207415,1)
+[1975]: (151.141514004055,1)
+[1976]: (150.2156215575326,1)
+[1977]: (152.6847530045301,1)
+[1978]: (158.2057163563087,1)
+[1979]: (147.1273915275062,1)
+[1980]: (150.1342904708042,1)
+[1981]: (154.259653338654,1)
+[1982]: (148.2718847004623,1)
+[1983]: (147.3317461049007,1)
+[1984]: (153.0318268352767,1)
+[1985]: (149.3541778397181,1)
+[1986]: (151.1282611849959,1)
+[1987]: (152.4782766721375,1)
+[1988]: (155.1078622603448,1)
+[1989]: (153.2890819686026,1)
+[1990]: (147.3982643279041,1)
+[1991]: (151.2582047406773,1)
+[1992]: (148.9127777568061,1)
+[1993]: (148.2395239681232,1)
+[1994]: (150.2258940554358,1)
+[1995]: (151.0882161894788,1)
+[1996]: (151.167629671833,1)
+[1997]: (150.015456133195,1)
+[1998]: (147.0724363545859,1)
+[1999]: (153.0803241138183,1)
+ -- States explored : 3133962 states
+ -- CPU user time used : 407200 ms
+ -- Virtual memory used : 21940504 KiB
+ -- Resident memory used : 21901728 KiB
+executionTime: 2542

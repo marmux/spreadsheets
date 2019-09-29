@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/researchgroup/darts/uppaal/flat-1_2.dtd'>
+<nta>
+<declaration>//Variables
+const int numberOfChains = 40;
+const int numberOfTasks = 100;
+const int numberOfMachines = 4;
+const int maxDependencies = 10;
+const int longestChain = 6;
+const int globalChainSize[numberOfChains] = {6,5,2,4,2,5,3,3,2,4,3,4,3,2,2,3,3,4,3,1,3,4,2,4,2,1,1,1,1,2,2,3,1,3,1,1,1,1,1,1};
+const int globalChains[numberOfChains][longestChain] = {
+{0,23,33,43,82,90},
+{1,28,66,78,84,-1},
+{2,29,-1,-1,-1,-1},
+{3,50,77,87,-1,-1},
+{4,91,-1,-1,-1,-1},
+{5,37,60,63,94,-1},
+{6,69,98,-1,-1,-1},
+{7,51,96,-1,-1,-1},
+{8,95,-1,-1,-1,-1},
+{9,25,52,89,-1,-1},
+{10,54,92,-1,-1,-1},
+{11,19,57,73,-1,-1},
+{12,47,97,-1,-1,-1},
+{13,72,-1,-1,-1,-1},
+{14,64,-1,-1,-1,-1},
+{15,74,93,-1,-1,-1},
+{16,26,30,-1,-1,-1},
+{17,41,86,99,-1,-1},
+{18,61,71,-1,-1,-1},
+{20,-1,-1,-1,-1,-1},
+{21,56,88,-1,-1,-1},
+{22,44,75,83,-1,-1},
+{24,67,-1,-1,-1,-1},
+{27,59,79,81,-1,-1},
+{31,70,-1,-1,-1,-1},
+{32,-1,-1,-1,-1,-1},
+{34,-1,-1,-1,-1,-1},
+{35,-1,-1,-1,-1,-1},
+{36,-1,-1,-1,-1,-1},
+{38,85,-1,-1,-1,-1},
+{39,49,-1,-1,-1,-1},
+{40,48,80,-1,-1,-1},
+{42,-1,-1,-1,-1,-1},
+{45,58,65,-1,-1,-1},
+{46,-1,-1,-1,-1,-1},
+{53,-1,-1,-1,-1,-1},
+{55,-1,-1,-1,-1,-1},
+{62,-1,-1,-1,-1,-1},
+{68,-1,-1,-1,-1,-1},
+{76,-1,-1,-1,-1,-1}};
+int chainDuration[numberOfChains] = {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};
+int durations[numberOfTasks] = {6,5,5,6,6,5,4,6,5,6,7,3,4,4,6,6,5,5,5,6,5,5,4,6,5,4,4,4,6,5,7,5,6,7,7,7,5,6,5,6,5,4,6,6,5,5,5,6,7,6,5,5,5,7,5,4,6,6,7,7,5,7,6,6,6,5,4,6,6,6,6,4,5,5,5,5,7,6,7,4,6,5,6,5,7,4,5,4,5,6,4,6,6,6,4,7,5,5,5,6};
+const int dependencies[numberOfTasks][maxDependencies] = {
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{7,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{6,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{8,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{7,10,-1,-1,-1,-1,-1,-1,-1,-1},
+{7,11,-1,-1,-1,-1,-1,-1,-1,-1},
+{5,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{8,11,-1,-1,-1,-1,-1,-1,-1,-1},
+{4,10,-1,-1,-1,-1,-1,-1,-1,-1},
+{0,2,17,-1,-1,-1,-1,-1,-1,-1},
+{1,14,-1,-1,-1,-1,-1,-1,-1,-1},
+{3,9,-1,-1,-1,-1,-1,-1,-1,-1},
+{0,8,16,-1,-1,-1,-1,-1,-1,-1},
+{14,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{0,1,22,-1,-1,-1,-1,-1,-1,-1},
+{0,2,15,27,-1,-1,-1,-1,-1,-1},
+{9,12,26,27,-1,-1,-1,-1,-1,-1},
+{11,16,-1,-1,-1,-1,-1,-1,-1,-1},
+{7,26,-1,-1,-1,-1,-1,-1,-1,-1},
+{6,23,-1,-1,-1,-1,-1,-1,-1,-1},
+{7,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{25,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{3,5,8,12,14,22,-1,-1,-1,-1},
+{19,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{12,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{6,18,22,-1,-1,-1,-1,-1,-1,-1},
+{3,14,17,-1,-1,-1,-1,-1,-1,-1},
+{10,25,-1,-1,-1,-1,-1,-1,-1,-1},
+{8,15,33,38,40,-1,-1,-1,-1,-1},
+{4,13,16,22,24,36,-1,-1,-1,-1},
+{-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{6,17,41,-1,-1,-1,-1,-1,-1,-1},
+{1,9,12,-1,-1,-1,-1,-1,-1,-1},
+{7,40,-1,-1,-1,-1,-1,-1,-1,-1},
+{14,22,25,39,-1,-1,-1,-1,-1,-1},
+{3,16,17,23,48,-1,-1,-1,-1,-1},
+{5,7,26,28,49,-1,-1,-1,-1,-1},
+{8,25,-1,-1,-1,-1,-1,-1,-1,-1},
+{45,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+{1,3,10,13,16,34,-1,-1,-1,-1},
+{33,39,-1,-1,-1,-1,-1,-1,-1,-1},
+{10,21,36,45,48,49,-1,-1,-1,-1},
+{8,12,19,-1,-1,-1,-1,-1,-1,-1},
+{1,7,45,-1,-1,-1,-1,-1,-1,-1},
+{11,14,27,40,44,-1,-1,-1,-1,-1},
+{12,24,37,48,-1,-1,-1,-1,-1,-1},
+{7,10,12,18,-1,-1,-1,-1,-1,-1},
+{0,10,44,-1,-1,-1,-1,-1,-1,-1},
+{5,24,39,60,-1,-1,-1,-1,-1,-1},
+{7,8,14,21,22,39,40,-1,-1,-1},
+{10,13,14,55,58,-1,-1,-1,-1,-1},
+{28,41,43,45,57,-1,-1,-1,-1,-1},
+{6,14,24,59,-1,-1,-1,-1,-1,-1},
+{19,51,-1,-1,-1,-1,-1,-1,-1,-1},
+{1,6,14,21,34,51,56,-1,-1,-1},
+{2,14,22,31,34,53,-1,-1,-1,-1},
+{10,27,53,61,-1,-1,-1,-1,-1,-1},
+{13,14,42,50,60,61,-1,-1,-1,-1},
+{12,39,53,56,57,-1,-1,-1,-1,-1},
+{14,15,44,48,53,56,61,-1,-1,-1},
+{4,7,22,31,35,44,60,62,-1,-1},
+{14,41,51,56,-1,-1,-1,-1,-1,-1},
+{2,27,35,45,50,-1,-1,-1,-1,-1},
+{7,18,25,29,30,55,63,66,72,-1},
+{14,36,38,48,56,59,-1,-1,-1,-1},
+{5,12,28,48,65,-1,-1,-1,-1,-1},
+{12,22,38,43,60,79,-1,-1,-1,-1},
+{7,23,43,67,-1,-1,-1,-1,-1,-1},
+{22,27,53,56,66,75,-1,-1,-1,-1},
+{3,9,32,44,68,78,-1,-1,-1,-1},
+{15,26,31,38,42,75,-1,-1,-1,-1},
+{13,26,27,35,41,53,63,-1,-1,-1},
+{15,28,50,70,74,77,-1,-1,-1,-1},
+{10,17,18,22,28,32,40,55,56,-1},
+{4,25,30,38,46,52,58,62,67,-1},
+{8,47,64,70,77,82,-1,-1,-1,-1},
+{4,22,26,27,35,53,54,66,88,-1},
+{3,17,27,39,40,44,54,73,75,85},
+{11,15,41,48,71,74,-1,-1,-1,-1},
+{19,25,27,34,43,44,51,63,75,-1},
+{8,28,32,38,39,82,-1,-1,-1,-1},
+{14,30,33,38,49,51,63,65,80,-1},
+{38,41,46,47,52,58,76,-1,-1,-1},
+{13,16,30,69,70,73,81,-1,-1,-1},
+{8,10,16,45,85,86,-1,-1,-1,-1}};
+
+
+int availableMachines = numberOfMachines;
+
+// Typedefs
+typedef int[0, numberOfChains - 1] chainId_t;
+
+// Ints and Arrays
+int numberOfChainsDone = 0;
+int tasksDone[numberOfTasks];
+bool runnableChains[numberOfChains];
+bool assignmentChoice[numberOfChains];
+
+// Channels
+broadcast chan startMachines;
+broadcast chan chainMachineChan[numberOfChains];
+broadcast chan activateChains;</declaration>
+	<template>
+		<name x="5" y="5">Composer</name>
+		<declaration>// Place local declarations here.
+clock time;</declaration>
+		<location id="id0" x="-102" y="-255">
+			<name x="-112" y="-289">Init</name>
+			<label kind="invariant" x="-246" y="-238">numberOfChainsDone &lt;= numberOfChains
+            &amp;&amp; cost' == 1</label>
+		</location>
+		<location id="id1" x="331" y="-255">
+			<name x="321" y="-289">Done</name>
+		</location>
+		<init ref="id0"/>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id1"/>
+			<label kind="guard" x="-17" y="-289">numberOfChainsDone &gt;= numberOfChains</label>
+		</transition>
+	</template>
+	<template>
+		<name>Chain</name>
+		<parameter>const chainId_t cid</parameter>
+		<declaration>clock x;
+const int chainSize = globalChainSize[cid];
+int index = 0;
+
+bool AllDependenciesDone()
+{
+    bool dependenciesDone = 1;
+    int i;
+    for (i = 0; i &lt; maxDependencies; i++)
+    {
+        int value = dependencies[globalChains[cid][index]][i];
+        if (value == -1)
+            return dependenciesDone;
+
+        dependenciesDone &amp;= tasksDone[value];
+    }
+    return dependenciesDone;
+}</declaration>
+		<location id="id2" x="-68" y="-238">
+			<name x="-78" y="-272">Idle</name>
+		</location>
+		<location id="id3" x="-76" y="51">
+			<name x="-102" y="68">Running</name>
+			<label kind="invariant" x="-178" y="85">x &lt;= durations[globalChains[cid][index]]</label>
+		</location>
+		<location id="id4" x="-450" y="-238">
+			<name x="-460" y="-272">Done</name>
+		</location>
+		<init ref="id2"/>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id4"/>
+			<label kind="guard" x="-399" y="-280">index &gt;= chainSize &amp;&amp;
+x &gt;= durations[globalChains[cid][index - 1]]</label>
+			<label kind="assignment" x="-399" y="-238">numberOfChainsDone++</label>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id2"/>
+			<label kind="guard" x="-450" y="-127">x &gt;= durations[globalChains[cid][index]]</label>
+			<label kind="assignment" x="-450" y="-110">availableMachines++,
+tasksDone[globalChains[cid][index]] = 1,
+index++</label>
+			<nail x="-161" y="-85"/>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id3"/>
+			<label kind="guard" x="34" y="-127">index &lt; chainSize &amp;&amp;
+availableMachines &gt; 0 &amp;&amp; AllDependenciesDone()</label>
+			<label kind="assignment" x="34" y="-85">availableMachines--,
+x = 0</label>
+			<nail x="17" y="-85"/>
+		</transition>
+	</template>
+	<system>// Place template instantiations here.
+
+// List one or more processes to be composed into a system.
+system Composer, Chain;
+    </system>
+	<queries>
+		<query>
+			<formula>strategy TimeSchedule = minE (Composer.time) [&lt;=57] : &lt;&gt;Composer.Done</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>inf{Composer.Done} : Composer.time</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>A&lt;&gt; Composer.Done</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>E&lt;&gt; Composer.Done</formula>
+			<comment></comment>
+		</query>
+	</queries>
+</nta>
